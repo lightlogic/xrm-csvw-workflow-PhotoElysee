@@ -2,8 +2,8 @@
 	"@context": "http://www.w3.org/ns/csvw",
 	"url": "../input/Synthetic-Testuser-Address.csv",
 	"dialect": {
-		"delimiter": ","
-		,"quoteChar": "\""
+		"delimiter": ",",
+		"quoteChar": "\""
 	},
 	"tableSchema": {
 		"aboutUrl": "http://example.com/User/{customerID}#address",
@@ -12,8 +12,7 @@
 				"virtual": true,
 				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
 				"valueUrl": "http://schema.org/PostalAddress"
-			}
-			,
+			},
 			{
 				"propertyUrl": "http://schema.org/addressLocality",
 				"titles": "City"
@@ -30,8 +29,7 @@
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
 				"titles": "WikidataID",
 				"valueUrl": "http://www.wikidata.org/entity/{WikidataID}"
-			}
-			,
+			},
 			{
 				"suppressOutput": true,
 				"titles": "customerID"
@@ -40,6 +38,6 @@
 				"suppressOutput": true,
 				"titles": "WikidataID"
 			}
-		] 
+		]
 	}
 }

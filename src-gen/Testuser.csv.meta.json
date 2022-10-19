@@ -2,8 +2,8 @@
 	"@context": "http://www.w3.org/ns/csvw",
 	"url": "../input/Synthetic-Testuser.csv",
 	"dialect": {
-		"delimiter": ","
-		,"quoteChar": "\""
+		"delimiter": ",",
+		"quoteChar": "\""
 	},
 	"tableSchema": {
 		"aboutUrl": "http://example.com/User/{customerID}",
@@ -12,8 +12,7 @@
 				"virtual": true,
 				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
 				"valueUrl": "http://schema.org/Person"
-			}
-			,
+			},
 			{
 				"propertyUrl": "http://schema.org/identifier",
 				"titles": "customerID"
@@ -70,8 +69,7 @@
 			{
 				"propertyUrl": "http://schema.org/email",
 				"titles": "E-Mail"
-			}
-			,
+			},
 			{
 				"suppressOutput": true,
 				"titles": "Salutation"
@@ -100,6 +98,6 @@
 				"suppressOutput": true,
 				"titles": "Newsletter"
 			}
-		] 
+		]
 	}
 }
