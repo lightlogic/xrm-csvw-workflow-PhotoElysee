@@ -1,5 +1,10 @@
+// used for classes and properties we do not know where to map yet
 vocabulary ex {
-    prefix "ex" "http://example.com/"
+    prefix "ex" "http://www.example.com/"
+	classes
+		Image_Orientation
+	properties
+		is_oriented
 }
 
 vocabulary vocab {
@@ -17,21 +22,38 @@ vocabulary vocab {
 vocabulary schema {
     prefix "schema" "http://schema.org/"
 
-    classes
-        PostalAddress
+        classes
+        Name
+        Organization
         Person
-
+        PostalAddress
+        QuantitativeValue
+    
     properties
         address
-        identifier
         givenName
         familyName
         birthDate
-        streetAddress
-        postalCode
-        addressLocality
         telephone
         email
+        identifier
+        legalName
+        addressLocality
+        addressCountry
+        contactPoint
+        employee
+        hasOccupation
+        location
+        name
+        description
+        postalCode
+        sameAs
+        streetAddress
+        unitCode
+        value
+        depth
+        height
+        width
 }
 
 vocabulary rdfs {
@@ -39,4 +61,45 @@ vocabulary rdfs {
 
     properties
         seeAlso
+        sameAs
+        label
+
+}
+
+vocabulary crm {
+
+	prefix "crm" "http://www.cidoc-crm.org/cidoc-crm/"
+
+	classes
+        E3_condition_state
+		E14_Condition_Assessment
+        E21_Person
+        E22_Human_Made_Object
+        E35_Title
+        E36_Visual_Item
+        E41_Appellation
+        E42_Identifier
+        E54_Dimension
+        E55_Type
+        E57_Material
+    
+    properties
+        P1_is_identified_by
+        P2_has_type
+        P102_has_title
+        P34_concerned
+        P35_has_identified
+        P43_has_dimension
+        P45_consists_of
+        P46_is_composed_of
+        P55_has_current_location
+        P65_shows_visual_item
+        P94_has_created
+        P190_has_symbolic_content
+        P138_represents
+}
+
+language-tags {
+	en
+	fr
 }
