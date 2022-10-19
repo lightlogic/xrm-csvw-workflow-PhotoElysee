@@ -1,0 +1,15 @@
+output csvw
+
+template org_PrimeNameIri "https://pe.plateforme10.ch/Organization/{0}/PrimaryName"
+
+map orgPrimaryName from Organizations {
+	subject template org_PrimeNameIri with institution_identifier;
+
+	types
+		crm.E41_Appellation
+
+	properties
+		rdfs.label constant "PrimaryName";	// type label for documentation purpose
+		crm.P190_has_symbolic_content from primaryName_fr with language-tag fr;
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300404670"; // [type] preferred terms
+}

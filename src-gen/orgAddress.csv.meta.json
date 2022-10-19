@@ -1,0 +1,68 @@
+{
+	"@context": "http://www.w3.org/ns/csvw",
+	"url": "../input/organizations.csv",
+	"dialect": {
+		"delimiter": ",",
+		"doubleQuote": true,
+		"encoding": "utf-8",
+		"header": true,
+		"headerRowCount": "1",
+		"lineTerminators": "\r\n",
+		"quoteChar": "\"",
+		"trim": false
+	},
+	"tableSchema": {
+		"aboutUrl": "https://pe.plateforme10.ch/Organization/{institution_identifier}/address",
+		"columns": [
+			{
+				"virtual": true,
+				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+				"valueUrl": "http://schema.org/PostalAddress"
+			},
+			{
+				"propertyUrl": "http://schema.org/streetAddress",
+				"titles": "addrStreet"
+			},
+			{
+				"propertyUrl": "http://schema.org/postalCode",
+				"titles": "addrZIP"
+			},
+			{
+				"propertyUrl": "http://schema.org/addressLocality",
+				"titles": "addrZIP"
+			},
+			{
+				"propertyUrl": "http://schema.org/addressCountry",
+				"titles": "addrCountry"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "institution_identifier"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "Institution"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "WikidataID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "WikipediaName"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "primaryName_fr"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "institutionName_fr"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "addrCity"
+			}
+		]
+	}
+}

@@ -3,6 +3,17 @@ dialect Comma {
     quoteChar '\\"'
 }
 
+dialect CommaPE {
+    delimiter ","
+    doubleQuote true
+    encoding "utf-8"
+    header true
+	headerRowCount 1
+	lineTerminators "\\r\\n"
+	quoteChar '\\"'
+	trim false
+}
+
 logical-source Testuser {
     type csv
     source "../input/Synthetic-Testuser.csv"
@@ -42,4 +53,21 @@ logical-source Testuser_address {
         postalCode "Postal Code"
         City
         WikidataID
+}
+
+logical-source Organizations {
+    type csv
+    source "../input/organizations.csv"
+    dialect CommaPE
+
+    referenceables
+        institution_identifier Institution
+        WikidataID
+        WikipediaName
+        primaryName_fr
+        institutionName_fr
+        addrStreet
+        addrZIP
+        addrCity
+        addrCountry
 }
