@@ -31,6 +31,15 @@
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+				"titles": "arkID",
+				"valueUrl": "http://mel.decalog.net/flora_mel/ark:/{arkID}"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+				"titles": "arkID"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
 				"titles": "numInv"
 			},
 			{
@@ -40,16 +49,22 @@
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300133025"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
 				"titles": "art_typeAAT",
 				"valueUrl": "http://vocab.getty.edu/aat/{art_typeAAT}"
 			},
 			{
-				"suppressOutput": true,
-				"titles": "art_UK"
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Title#{titreType_string}"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "arkID"
+				"titles": "art_UK"
 			},
 			{
 				"suppressOutput": true,

@@ -15,10 +15,13 @@ map Artwork from Artworks {
 	properties
 		rdfs.label constant "Artwork";	// intended as an internal documentation
 		crm.P1_is_identified_by template artIdentifierIri with arkID ;
-		crm.P1_is_identified_by from numInv;
+        crm.P1_is_identified_by template "http://mel.decalog.net/flora_mel/ark:/{0}" with arkID;
+		crm.P1_is_identified_by from arkID;
+        crm.P1_is_identified_by from numInv;
 		crm.P1_is_identified_by template art_PrimeNameIri with arkID;
+        crm.P2_has_type constant "http://vocab.getty.edu/aat/300133025";
 		crm.P2_has_type template gettyArtArchThesIri with art_typeAAT;
-		// crm.P2_has_type template gettyArtArchThesIri with object_type_AAT;
+        crm.P190_has_symbolic_content template art_TitleIri with arkID titreType_string;
 }
 
 // map Art_identifier from Artworks {
