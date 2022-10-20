@@ -1,0 +1,13 @@
+output csvw
+
+template art_PrimeNameIri "https://pe.plateforme10.ch/Artwork/{0}/PrimaryName"
+
+map PrimaryName from Artworks {
+	subject template art_PrimeNameIri with arkID;
+
+	types
+		crm.E41_Appellation
+
+	properties
+		crm.P190_has_symbolic_content from primaryName with language-tag fr;
+}

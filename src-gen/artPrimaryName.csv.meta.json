@@ -1,0 +1,57 @@
+{
+	"@context": "http://www.w3.org/ns/csvw",
+	"url": "../input/artworks.csv",
+	"dialect": {
+		"delimiter": ",",
+		"doubleQuote": true,
+		"encoding": "utf-8",
+		"header": true,
+		"headerRowCount": "1",
+		"lineTerminators": "\r\n",
+		"quoteChar": "\"",
+		"trim": false
+	},
+	"tableSchema": {
+		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/PrimaryName",
+		"columns": [
+			{
+				"virtual": true,
+				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+				"lang": "fr",
+				"titles": "primaryName"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "art_UK"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "arkID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "numInv"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "art_typeAAT"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "titre"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "titreType_string"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "titreType_typeAAT"
+			}
+		]
+	}
+}
