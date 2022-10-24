@@ -1,0 +1,61 @@
+{
+	"@context": "http://www.w3.org/ns/csvw",
+	"url": "../input/creators.csv",
+	"dialect": {
+		"delimiter": ",",
+		"doubleQuote": true,
+		"encoding": "utf-8",
+		"header": true,
+		"headerRowCount": "1",
+		"lineTerminators": "\r\n",
+		"quoteChar": "\"",
+		"trim": false
+	},
+	"tableSchema": {
+		"aboutUrl": "https://www.wikidata.org/wiki/{creatorQ}",
+		"columns": [
+			{
+				"virtual": true,
+				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E21_Person"
+			},
+			{
+				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
+				"virtual": true,
+				"valueUrl": "Person"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+				"titles": "creatorQ"
+			},
+			{
+				"propertyUrl": "http://schema.org/givenName",
+				"titles": "givenName"
+			},
+			{
+				"propertyUrl": "http://schema.org/familyName",
+				"titles": "LastName"
+			},
+			{
+				"propertyUrl": "http://schema.org/birthDate",
+				"titles": "birthDate"
+			},
+			{
+				"propertyUrl": "http://schema.org/deathDate",
+				"titles": "deathDate"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "creator_UK"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "primaryName_fr"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "birthName"
+			}
+		]
+	}
+}
