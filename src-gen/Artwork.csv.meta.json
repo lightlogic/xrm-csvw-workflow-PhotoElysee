@@ -48,6 +48,11 @@
 				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/PrimaryName"
 			},
 			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/AccessionNumber"
+			},
+			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
 				"virtual": true,
 				"valueUrl": "http://vocab.getty.edu/aat/300133025"
