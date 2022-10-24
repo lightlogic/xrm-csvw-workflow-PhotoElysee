@@ -1,3 +1,7 @@
+// ** Organization Primary Name ** //
+  // following Linked Art guidelines
+  // BASELINE PATTERNS, NAMES: https://linked.art/model/base/#names
+
 output csvw
 
 template org_PrimeNameIri "https://pe.plateforme10.ch/Organization/{0}/PrimaryName"

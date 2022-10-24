@@ -1,8 +1,3 @@
-dialect Comma {
-    delimiter ","
-    quoteChar '\\"'
-}
-
 dialect CommaPE {
     delimiter ","
     doubleQuote true
@@ -13,47 +8,6 @@ dialect CommaPE {
 	quoteChar '\\"'
 	trim false
 }
-
-// logical-source Testuser {
-//     type csv
-//     source "../input/Synthetic-Testuser.csv"
-//     dialect Comma
-    
-//     referenceables
-//         name "Nr."
-//         customerID
-//         influenceScore
-//         networkScore
-//         NPSScore
-//         customerLTV
-//         sentimentScore
-//         propensityScore
-//         Salutation
-//         thumbnail
-//         Title
-//         Name
-//         Fullname
-//         lastname "Last name"
-//         dob
-//         TelephoneNumber
-//         CellphoneNumber
-//         Telefax
-//         email "E-Mail"
-//         Newsletter
-// }
-
-// logical-source Testuser_address {
-//     type csv
-//     source "../input/Synthetic-Testuser-Address.csv"
-//     dialect Comma
-    
-//     referenceables
-//         customerID
-//         Street
-//         postalCode "Postal Code"
-//         City
-//         WikidataID
-// }
 
 logical-source Organizations {
     type csv

@@ -34,6 +34,11 @@
 				"titles": "institution_identifier"
 			},
 			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300312281"
+			},
+			{
 				"propertyUrl": "http://schema.org/sameAs",
 				"titles": "WikidataID",
 				"valueUrl": "http://www.wikidata.org/entity/{WikidataID}"

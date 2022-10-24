@@ -1,3 +1,7 @@
+// ** Artwork Accession Number ** //
+  // following Linked Art guidelines
+  // BASELINE PATTERNS, IDENTIFIERS: https://linked.art/model/base/#identifiers
+
 output csvw
 
 template art_AccessionNumberIri "https://pe.plateforme10.ch/Artwork/{0}/AccessionNumber"

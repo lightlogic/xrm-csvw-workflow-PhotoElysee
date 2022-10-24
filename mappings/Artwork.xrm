@@ -1,3 +1,7 @@
+// ** Artwork ** //
+  // following Linked Art guidelines
+  // BASELINE PATTERNS: https://linked.art/model/base/
+
 output csvw
 
 template artworkIri "https://pe.plateforme10.ch/Artwork/{0}"
@@ -24,16 +28,3 @@ map Artwork from Artworks {
 		crm.P2_has_type template gettyArtArchThesIri with art_typeAAT;
         crm.P190_has_symbolic_content template art_TitleIri with arkID titreType_string;
 }
-
-// map Art_identifier from Artworks {
-// 	subject template artIdentifierIri with arkID;
-
-// types
-// 		crm.E42_Identifier
-
-// 	properties
-// 		rdfs.label from num_inv_type;
-//         crm.P2_has_type from num_inv_type;
-//         crm.P190_has_symbolic_content from arkID;
-//         schema.sameAs template Flora_arkIDIri with arkID;
-// }
