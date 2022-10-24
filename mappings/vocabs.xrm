@@ -72,6 +72,7 @@ vocabulary crm {
 	prefix "crm" "http://www.cidoc-crm.org/cidoc-crm/"
 
 	classes
+        E7_Activity
         E3_condition_state
 		E14_Condition_Assessment
         E21_Person
@@ -87,6 +88,8 @@ vocabulary crm {
     properties
         P1_is_identified_by
         P2_has_type
+        P4_has_time_span
+        P14_carried_out_by
         P102_has_title
         P34_concerned
         P35_has_identified

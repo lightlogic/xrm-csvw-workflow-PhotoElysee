@@ -59,16 +59,16 @@ logical-source Creators {
         deathDate
 }
 
-logical-source Activities {
-    type csv
-    source "../input/activities.csv"
-    dialect CommaPE
+// logical-source Activities {
+//     type csv
+//     source "../input/activities.csv"
+//     dialect CommaPE
 
-    referenceables
-        activity_UK
-        act_type
-        object_URI
-        actor_URI
-        timespan_begin
-        timespan_end
-}
+//     referenceables
+//         activity_UK
+//         act_type
+//         object_URI
+//         actor_URI
+//         timespan_begin
+//         timespan_end
+// }
