@@ -1,0 +1,19 @@
+// ** Artwork Accession Number ** //
+  // following Linked Art guidelines
+  // BASELINE PATTERNS, IDENTIFIERS: https://linked.art/model/base/#identifiers
+
+output csvw
+
+template art_AccessionNumberIri "https://pe.plateforme10.ch/Artwork/{0}/AccessionNumber"
+
+map AccessionNumber from Artworks {
+	subject template art_AccessionNumberIri with arkID;
+
+	types
+		crm.E42_Identifier
+
+	properties
+		rdfs.label constant "AccessionNumber";	// intended as an internal documentation
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300312355"; // [type] accession numbers
+		crm.P190_has_symbolic_content from numInv;
+}

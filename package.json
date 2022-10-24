@@ -8,10 +8,10 @@
     "start": "dotenv ./start.sh --"
   },
   "dependencies": {
-    "@tpluscode/rdf-ns-builders": "^2.0.1",
-    "barnard59": "^1.1.2",
-    "barnard59-base": "^1.1.0",
-    "barnard59-formats": "^1.2.0",
+    "@tpluscode/rdf-ns-builders": "^0.4.0",
+    "barnard59": "^0.1.2",
+    "barnard59-base": "^0.1.1",
+    "barnard59-formats": "^0.1.1",
     "barnard59-graph-store": "^0.1.0",
     "dotenv": "^10.0.0",
     "dotenv-cli": "^4.0.0",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "mkdirp": "^1.0.4",
-    "standard": "^17.0.0"
+    "standard": "^16.0.3"
   },
   "author": "Zazuko GmbH",
   "license": "MIT"

@@ -1,0 +1,66 @@
+{
+	"@context": "http://www.w3.org/ns/csvw",
+	"url": "../input/artworks.csv",
+	"dialect": {
+		"delimiter": ",",
+		"doubleQuote": true,
+		"encoding": "utf-8",
+		"header": true,
+		"headerRowCount": "1",
+		"lineTerminators": "\r\n",
+		"quoteChar": "\"",
+		"trim": false
+	},
+	"tableSchema": {
+		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/AccessionNumber",
+		"columns": [
+			{
+				"virtual": true,
+				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+			},
+			{
+				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
+				"virtual": true,
+				"valueUrl": "AccessionNumber"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300312355"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+				"titles": "numInv"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "art_UK"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "arkID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "art_typeAAT"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "primaryName"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "titre"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "titreType_string"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "titreType_typeAAT"
+			}
+		]
+	}
+}

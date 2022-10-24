@@ -1,0 +1,94 @@
+{
+	"@context": "http://www.w3.org/ns/csvw",
+	"url": "../input/organizations.csv",
+	"dialect": {
+		"delimiter": ",",
+		"doubleQuote": true,
+		"encoding": "utf-8",
+		"header": true,
+		"headerRowCount": "1",
+		"lineTerminators": "\r\n",
+		"quoteChar": "\"",
+		"trim": false
+	},
+	"tableSchema": {
+		"aboutUrl": "https://pe.plateforme10.ch/Organization/{institution_identifier}",
+		"columns": [
+			{
+				"virtual": true,
+				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+				"valueUrl": "http://schema.org/Organization"
+			},
+			{
+				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
+				"virtual": true,
+				"valueUrl": "Organization"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+				"titles": "institution_identifier",
+				"valueUrl": "https://pe.plateforme10.ch/Organization/{institution_identifier}/PrimaryName"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+				"titles": "institution_identifier"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300312281"
+			},
+			{
+				"propertyUrl": "http://schema.org/sameAs",
+				"titles": "WikidataID",
+				"valueUrl": "http://www.wikidata.org/entity/{WikidataID}"
+			},
+			{
+				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+				"titles": "WikipediaName",
+				"valueUrl": "https://fr.wikipedia.org/wiki/{WikipediaName}"
+			},
+			{
+				"propertyUrl": "http://schema.org/address",
+				"titles": "institution_identifier",
+				"valueUrl": "https://pe.plateforme10.ch/Organization/{institution_identifier}/address"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "Institution"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "WikidataID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "WikipediaName"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "primaryName_fr"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "institutionName_fr"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "addrStreet"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "addrZIP"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "addrCity"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "addrCountry"
+			}
+		]
+	}
+}

@@ -1,0 +1,18 @@
+// ** Organization Address ** //
+
+output csvw
+
+template org_AddressIri "https://pe.plateforme10.ch/Organization/{0}/address"
+
+map OrgAddress from Organizations {
+	subject template org_AddressIri with institution_identifier;
+
+types
+		schema.PostalAddress
+
+	properties
+		schema.streetAddress from addrStreet;
+		schema.postalCode from addrZIP;
+		schema.addressLocality from addrZIP;
+		schema.addressCountry from addrCountry;
+}

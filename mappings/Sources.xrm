@@ -1,45 +1,44 @@
-dialect Comma {
+dialect CommaPE {
     delimiter ","
-    quoteChar '\\"'
+    doubleQuote true
+    encoding "utf-8"
+    header true
+	headerRowCount 1
+	lineTerminators "\\r\\n"
+	quoteChar '\\"'
+	trim false
 }
 
-logical-source Testuser {
+logical-source Organizations {
     type csv
-    source "../input/Synthetic-Testuser.csv"
-    dialect Comma
-    
-    referenceables
-        name "Nr."
-        customerID
-        influenceScore
-        networkScore
-        NPSScore
-        customerLTV
-        sentimentScore
-        propensityScore
-        Salutation
-        thumbnail
-        Title
-        Name
-        Fullname
-        lastname "Last name"
-        dob
-        TelephoneNumber
-        CellphoneNumber
-        Telefax
-        email "E-Mail"
-        Newsletter
-}
+    source "../input/organizations.csv"
+    dialect CommaPE
 
-logical-source Testuser_address {
-    type csv
-    source "../input/Synthetic-Testuser-Address.csv"
-    dialect Comma
-    
     referenceables
-        customerID
-        Street
-        postalCode "Postal Code"
-        City
+        institution_identifier Institution
         WikidataID
+        WikipediaName
+        primaryName_fr
+        institutionName_fr
+        addrStreet
+        addrZIP
+        addrCity
+        addrCountry
+}
+
+
+logical-source Artworks {
+    type csv
+    source "../input/artworks.csv"
+    dialect CommaPE
+
+    referenceables
+        art_UK
+        arkID
+        numInv
+        art_typeAAT
+        primaryName
+        titre
+        titreType_string
+        titreType_typeAAT
 }

@@ -1,6 +1,0 @@
-Nr.,customerID,networkScore,influenceScore,NPSScore,customerLTV,sentimentScore,propensityScore,Salutation,thumbnail,Title,Name,Fullname,Last name,dob,TelephoneNumber,CellphoneNumber,Telefax,E-Mail,Newsletter
-1,501,4,40,3,3128,4,0,Herr,15,Dr.,Miguel,Miguel  Hörmann,Hörmann,1979-07-15,06772 / 70237336,0172 / 6715323,06772 / 38419641,miguel.hoermann@mail.xyz,yes
-2,502,4,99,2,9525,5,31,Herr,7,Prof.,Justus,Justus  Tucker,Tucker,1928-04-02,06261 / 40359894,0153 / 5703189,06261 / 84979810,j.tucker@mail.xyz,yes
-3,503,4,46,10,2706,4,27,Herr,13,Dr.,Silas,Silas  Höhne,Höhne,1997-01-23,0851 / 56095915,0165 / 3577691,0851 / 71704200,s.hoehne@mail.xyz,yes
-4,504,4,90,1,8904,1,12,Herr,18,Prof.,Muhammed,Muhammed  Winter,Winter,1993-09-13,08205 / 79205050,0172 / 7675467,08205 / 52679692,m.winter@mail.xyz,yes
-5,505,5,79,9,7531,1,39,Herr,3,Dr.,Frank,Frank  Schramm,Schramm,1958-01-27,08571 / 83252734,0159 / 8454347,08571 / 87032910,frank.schramm@mail.xyz,yes
