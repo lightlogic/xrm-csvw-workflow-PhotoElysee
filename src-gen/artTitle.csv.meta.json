@@ -63,6 +63,10 @@
 			},
 			{
 				"suppressOutput": true,
+				"titles": "creator"
+			},
+			{
+				"suppressOutput": true,
 				"titles": "event_prod_text"
 			},
 			{

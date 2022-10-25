@@ -58,6 +58,7 @@ logical-source Artworks {
     titre
     titreType_string
     titreType_typeAAT
+    creator
     event_prod_text
     event_prod_start
     event_prod_end

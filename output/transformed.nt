@@ -6,6 +6,14 @@
 <https://pe.plateforme10.ch/Artwork/12345%2F002386976/AccessionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "009999" .
 <https://pe.plateforme10.ch/Artwork/12345%2F002386976/AccessionNumber> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
 <https://pe.plateforme10.ch/Artwork/12345%2F002386976/AccessionNumber> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "009999" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/AccessionNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/AccessionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "009999" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/AccessionNumber> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/AccessionNumber> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "009999" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/AccessionNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/AccessionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "009999" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/AccessionNumber> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/AccessionNumber> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "009999" .
 <https://pe.plateforme10.ch/Artwork/12345%2F002381254/AccessionNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
 <https://pe.plateforme10.ch/Artwork/12345%2F002381254/AccessionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "009982" .
 <https://pe.plateforme10.ch/Artwork/12345%2F002381254/AccessionNumber> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
@@ -22,6 +30,14 @@
 <https://pe.plateforme10.ch/Artwork/12345%2F002389315/AccessionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "RB047061" .
 <https://pe.plateforme10.ch/Artwork/12345%2F002389315/AccessionNumber> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
 <https://pe.plateforme10.ch/Artwork/12345%2F002389315/AccessionNumber> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "RB047061" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/PrimaryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/PrimaryName> <http://www.w3.org/2000/01/rdf-schema#label> "Plaque Lippmann: Venise, place San Marco" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Plaque Lippmann: Venise, place San Marco"@fr .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/PrimaryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/PrimaryName> <http://www.w3.org/2000/01/rdf-schema#label> "Plaque Lippmann: Venise, place San Marco" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Plaque Lippmann: Venise, place San Marco"@fr .
 <https://pe.plateforme10.ch/Artwork/12345%2F002386976/PrimaryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> .
 <https://pe.plateforme10.ch/Artwork/12345%2F002386976/PrimaryName> <http://www.w3.org/2000/01/rdf-schema#label> "Plaque Lippmann: Venise, place San Marco" .
 <https://pe.plateforme10.ch/Artwork/12345%2F002386976/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
@@ -56,6 +72,16 @@
 <https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Venise, place San Marco"@fr .
 <https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "constructed" .
 <https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300417205> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E35_Title> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> <http://www.w3.org/2000/01/rdf-schema#label> "Venise" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Venise"@fr .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "original" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300417201> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E35_Title> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.w3.org/2000/01/rdf-schema#label> "Venise, place San Marco" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Venise, place San Marco"@fr .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "constructed" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300417205> .
 <https://pe.plateforme10.ch/Artwork/12345%2F002381254/Title#original> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E35_Title> .
 <https://pe.plateforme10.ch/Artwork/12345%2F002381254/Title#original> <http://www.w3.org/2000/01/rdf-schema#label> "Montreux" .
 <https://pe.plateforme10.ch/Artwork/12345%2F002381254/Title#original> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Montreux"@fr .
@@ -76,6 +102,28 @@
 <https://pe.plateforme10.ch/Artwork/12345%2F002389315/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "sans titre"@fr .
 <https://pe.plateforme10.ch/Artwork/12345%2F002389315/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "constructed" .
 <https://pe.plateforme10.ch/Artwork/12345%2F002389315/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300417205> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human_Made_Object> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.w3.org/2000/01/rdf-schema#label> "Plaque Lippmann: Venise, place San Marco" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Artwork/12345%2F002386976/identifier> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://mel.decalog.net/flora_mel/ark:/12345%2F002386976> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "12345/002386976" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "009999" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Artwork/12345%2F002386976/PrimaryName> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Artwork/12345%2F002386976/AccessionNumber> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300133025> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300133464> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> <https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human_Made_Object> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.w3.org/2000/01/rdf-schema#label> "Plaque Lippmann: Venise, place San Marco" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Artwork/12345%2F002386976/identifier> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://mel.decalog.net/flora_mel/ark:/12345%2F002386976> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "12345/002386976" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "009999" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Artwork/12345%2F002386976/PrimaryName> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Artwork/12345%2F002386976/AccessionNumber> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300133025> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300133464> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> <https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> .
 <https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human_Made_Object> .
 <https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.w3.org/2000/01/rdf-schema#label> "Plaque Lippmann: Venise, place San Marco" .
 <https://pe.plateforme10.ch/Artwork/12345%2F002386976> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Artwork/12345%2F002386976/identifier> .
@@ -149,8 +197,8 @@
 <https://pe.plateforme10.ch/Creator/Q133232> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fr.wikipedia.org/wiki/Gabriel_Lippmann> .
 <https://pe.plateforme10.ch/Creator/Q133232> <http://schema.org/givenName> "Gabriel" .
 <https://pe.plateforme10.ch/Creator/Q133232> <http://schema.org/familyName> "Lippmann" .
-<https://pe.plateforme10.ch/Creator/Q133232> <http://schema.org/birthDate> "1845-08-16" .
-<https://pe.plateforme10.ch/Creator/Q133232> <http://schema.org/deathDate> "1921-07-13" .
+<https://pe.plateforme10.ch/Creator/Q133232> <http://schema.org/birthDate> "1845-08-16T00:00:00Z" .
+<https://pe.plateforme10.ch/Creator/Q133232> <http://schema.org/deathDate> "1921-07-13T00:00:00Z" .
 <https://pe.plateforme10.ch/Creator/Q108933616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
 <https://pe.plateforme10.ch/Creator/Q108933616> <http://www.w3.org/2000/01/rdf-schema#label> "LIPPMANN (née Cherbuliez) Laurence" .
 <https://pe.plateforme10.ch/Creator/Q108933616> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Q108933616" .
@@ -158,8 +206,8 @@
 <https://pe.plateforme10.ch/Creator/Q108933616> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fr.wikipedia.org/wiki/> .
 <https://pe.plateforme10.ch/Creator/Q108933616> <http://schema.org/givenName> "Laurence" .
 <https://pe.plateforme10.ch/Creator/Q108933616> <http://schema.org/familyName> "Lippmann" .
-<https://pe.plateforme10.ch/Creator/Q108933616> <http://schema.org/birthDate> "1857-01-31" .
-<https://pe.plateforme10.ch/Creator/Q108933616> <http://schema.org/deathDate> "1934-05-00" .
+<https://pe.plateforme10.ch/Creator/Q108933616> <http://schema.org/birthDate> "1857-01-31T00:00:00Z" .
+<https://pe.plateforme10.ch/Creator/Q108933616> <http://schema.org/deathDate> "1934-05-00T00:00:00Z" .
 <https://pe.plateforme10.ch/Creator/Q671527> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
 <https://pe.plateforme10.ch/Creator/Q671527> <http://www.w3.org/2000/01/rdf-schema#label> "BURRI René" .
 <https://pe.plateforme10.ch/Creator/Q671527> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Q671527" .
@@ -167,20 +215,80 @@
 <https://pe.plateforme10.ch/Creator/Q671527> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fr.wikipedia.org/wiki/Ren%C3%A9_Burri> .
 <https://pe.plateforme10.ch/Creator/Q671527> <http://schema.org/givenName> "René" .
 <https://pe.plateforme10.ch/Creator/Q671527> <http://schema.org/familyName> "Burri" .
-<https://pe.plateforme10.ch/Creator/Q671527> <http://schema.org/birthDate> "1933-04-09" .
-<https://pe.plateforme10.ch/Creator/Q671527> <http://schema.org/deathDate> "2014-10-20" .
-<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
-<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "1903" .
-<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
-<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "1903" .
-<https://pe.plateforme10.ch/Event/12345%2F002381254-1908-04-01/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
-<https://pe.plateforme10.ch/Event/12345%2F002381254-1908-04-01/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "1908-04" .
-<https://pe.plateforme10.ch/Event/12345%2F002381254-1908-04-01/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
-<https://pe.plateforme10.ch/Event/12345%2F002381254-1908-04-01/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "1908-04" .
-<https://pe.plateforme10.ch/Event/12345%2F002389321-1956-01-01/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
-<https://pe.plateforme10.ch/Event/12345%2F002389321-1956-01-01/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "1956" .
-<https://pe.plateforme10.ch/Event/12345%2F002389315-1970-08-15/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
-<https://pe.plateforme10.ch/Event/12345%2F002389315-1970-08-15/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "1970-08-15" .
+<https://pe.plateforme10.ch/Creator/Q671527> <http://schema.org/birthDate> "1933-04-09T00:00:00Z" .
+<https://pe.plateforme10.ch/Creator/Q671527> <http://schema.org/deathDate> "2014-10-20T00:00:00Z" .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "1903" .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> "1903" .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://pe.plateforme10.ch/Creator/Q133232> .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "1903" .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> "1903" .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://pe.plateforme10.ch/Creator/Q133232> .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "1903" .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> "1903" .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://pe.plateforme10.ch/Creator/Q108933616> .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "1903" .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> "1903" .
+<https://pe.plateforme10.ch/Event/12345%2F002386976-1903-01-01T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://pe.plateforme10.ch/Creator/Q108933616> .
+<https://pe.plateforme10.ch/Event/12345%2F002381254-1908-04-01T00%3A00%3A00Z/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
+<https://pe.plateforme10.ch/Event/12345%2F002381254-1908-04-01T00%3A00%3A00Z/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "1908-04" .
+<https://pe.plateforme10.ch/Event/12345%2F002381254-1908-04-01T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> "1908-04" .
+<https://pe.plateforme10.ch/Event/12345%2F002381254-1908-04-01T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://pe.plateforme10.ch/Creator/Q133232> .
+<https://pe.plateforme10.ch/Event/12345%2F002381254-1908-04-01T00%3A00%3A00Z/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
+<https://pe.plateforme10.ch/Event/12345%2F002381254-1908-04-01T00%3A00%3A00Z/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "1908-04" .
+<https://pe.plateforme10.ch/Event/12345%2F002381254-1908-04-01T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> "1908-04" .
+<https://pe.plateforme10.ch/Event/12345%2F002381254-1908-04-01T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://pe.plateforme10.ch/Creator/Q133232> .
+<https://pe.plateforme10.ch/Event/12345%2F002389321-1956-01-01T00%3A00%3A00Z/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
+<https://pe.plateforme10.ch/Event/12345%2F002389321-1956-01-01T00%3A00%3A00Z/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "1956" .
+<https://pe.plateforme10.ch/Event/12345%2F002389321-1956-01-01T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> "1956" .
+<https://pe.plateforme10.ch/Event/12345%2F002389321-1956-01-01T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://pe.plateforme10.ch/Creator/Q671527> .
+<https://pe.plateforme10.ch/Event/12345%2F002389315-1970-08-15T00%3A00%3A00Z/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
+<https://pe.plateforme10.ch/Event/12345%2F002389315-1970-08-15T00%3A00%3A00Z/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "1970-08-15" .
+<https://pe.plateforme10.ch/Event/12345%2F002389315-1970-08-15T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> "1970-08-15" .
+<https://pe.plateforme10.ch/Event/12345%2F002389315-1970-08-15T00%3A00%3A00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://pe.plateforme10.ch/Creator/Q671527> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E35_Title> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> <http://www.w3.org/2000/01/rdf-schema#label> "Venise" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Venise"@fr .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "original" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300417201> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E35_Title> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.w3.org/2000/01/rdf-schema#label> "Venise, place San Marco" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Venise, place San Marco"@fr .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "constructed" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300417205> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E35_Title> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> <http://www.w3.org/2000/01/rdf-schema#label> "Venise" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Venise"@fr .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "original" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#original> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300417201> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E35_Title> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.w3.org/2000/01/rdf-schema#label> "Venise, place San Marco" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Venise, place San Marco"@fr .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "constructed" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002386976/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300417205> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002381254/Title#original> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E35_Title> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002381254/Title#original> <http://www.w3.org/2000/01/rdf-schema#label> "Montreux" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002381254/Title#original> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Montreux"@fr .
+<https://pe.plateforme10.ch/Artwork/12345%2F002381254/Title#original> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "original" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002381254/Title#original> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300417201> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002381254/Title#constructed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E35_Title> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002381254/Title#constructed> <http://www.w3.org/2000/01/rdf-schema#label> "Terrasse de l'Hôtel Bellevue" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002381254/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Terrasse de l'Hôtel Bellevue"@fr .
+<https://pe.plateforme10.ch/Artwork/12345%2F002381254/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "constructed" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002381254/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300417205> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002389321/Title#constructed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E35_Title> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002389321/Title#constructed> <http://www.w3.org/2000/01/rdf-schema#label> "Jerusalem, Mur des Lamentations 1956" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002389321/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Jerusalem, Mur des Lamentations 1956"@fr .
+<https://pe.plateforme10.ch/Artwork/12345%2F002389321/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "constructed" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002389321/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300417205> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002389315/Title#constructed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E35_Title> .
+<https://pe.plateforme10.ch/Artwork/12345%2F002389315/Title#constructed> <http://www.w3.org/2000/01/rdf-schema#label> "sans titre" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002389315/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "sans titre"@fr .
+<https://pe.plateforme10.ch/Artwork/12345%2F002389315/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> "constructed" .
+<https://pe.plateforme10.ch/Artwork/12345%2F002389315/Title#constructed> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300417205> .
 <https://pe.plateforme10.ch/Organization/11/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
 <https://pe.plateforme10.ch/Organization/11/address> <http://schema.org/streetAddress> "Place de la Gare 17" .
 <https://pe.plateforme10.ch/Organization/11/address> <http://schema.org/postalCode> "1003" .
