@@ -12,7 +12,7 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://www.wikidata.org/wiki/{creatorQ}",
+		"aboutUrl": "https://pe.plateforme10.ch/Creator/{creatorQ}",
 		"columns": [
 			{
 				"virtual": true,
@@ -26,6 +26,16 @@
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
 				"titles": "creatorQ"
+			},
+			{
+				"propertyUrl": "http://schema.org/sameAs",
+				"titles": "creatorQ",
+				"valueUrl": "http://www.wikidata.org/entity/{creatorQ}"
+			},
+			{
+				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+				"titles": "WikipediaName",
+				"valueUrl": "https://fr.wikipedia.org/wiki/{WikipediaName}"
 			},
 			{
 				"propertyUrl": "http://schema.org/givenName",
@@ -50,6 +60,10 @@
 			{
 				"suppressOutput": true,
 				"titles": "birthName"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "WikipediaName"
 			}
 		]
 	}

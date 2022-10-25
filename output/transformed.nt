@@ -142,27 +142,33 @@
 <https://pe.plateforme10.ch/Artwork/12345%2F002389315> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300133025> .
 <https://pe.plateforme10.ch/Artwork/12345%2F002389315> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300134530> .
 <https://pe.plateforme10.ch/Artwork/12345%2F002389315> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> <https://pe.plateforme10.ch/Artwork/12345%2F002389315/Title#constructed> .
-<https://www.wikidata.org/wiki/Q133232> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
-<https://www.wikidata.org/wiki/Q133232> <http://www.w3.org/2000/01/rdf-schema#label> "LIPPMANN Gabriel" .
-<https://www.wikidata.org/wiki/Q133232> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Q133232" .
-<https://www.wikidata.org/wiki/Q133232> <http://schema.org/givenName> "Gabriel" .
-<https://www.wikidata.org/wiki/Q133232> <http://schema.org/familyName> "Lippmann" .
-<https://www.wikidata.org/wiki/Q133232> <http://schema.org/birthDate> "1845-08-16" .
-<https://www.wikidata.org/wiki/Q133232> <http://schema.org/deathDate> "1921-07-13" .
-<https://www.wikidata.org/wiki/Q108933616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
-<https://www.wikidata.org/wiki/Q108933616> <http://www.w3.org/2000/01/rdf-schema#label> "LIPPMANN (née Cherbuliez) Laurence" .
-<https://www.wikidata.org/wiki/Q108933616> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Q108933616" .
-<https://www.wikidata.org/wiki/Q108933616> <http://schema.org/givenName> "Laurence" .
-<https://www.wikidata.org/wiki/Q108933616> <http://schema.org/familyName> "Lippmann" .
-<https://www.wikidata.org/wiki/Q108933616> <http://schema.org/birthDate> "1857-01-31" .
-<https://www.wikidata.org/wiki/Q108933616> <http://schema.org/deathDate> "1934-05-00" .
-<https://www.wikidata.org/wiki/Q671527> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
-<https://www.wikidata.org/wiki/Q671527> <http://www.w3.org/2000/01/rdf-schema#label> "BURRI René" .
-<https://www.wikidata.org/wiki/Q671527> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Q671527" .
-<https://www.wikidata.org/wiki/Q671527> <http://schema.org/givenName> "René" .
-<https://www.wikidata.org/wiki/Q671527> <http://schema.org/familyName> "Burri" .
-<https://www.wikidata.org/wiki/Q671527> <http://schema.org/birthDate> "1933-04-09" .
-<https://www.wikidata.org/wiki/Q671527> <http://schema.org/deathDate> "2014-10-20" .
+<https://pe.plateforme10.ch/Creator/Q133232> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+<https://pe.plateforme10.ch/Creator/Q133232> <http://www.w3.org/2000/01/rdf-schema#label> "LIPPMANN Gabriel" .
+<https://pe.plateforme10.ch/Creator/Q133232> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Q133232" .
+<https://pe.plateforme10.ch/Creator/Q133232> <http://schema.org/sameAs> <http://www.wikidata.org/entity/Q133232> .
+<https://pe.plateforme10.ch/Creator/Q133232> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fr.wikipedia.org/wiki/Gabriel_Lippmann> .
+<https://pe.plateforme10.ch/Creator/Q133232> <http://schema.org/givenName> "Gabriel" .
+<https://pe.plateforme10.ch/Creator/Q133232> <http://schema.org/familyName> "Lippmann" .
+<https://pe.plateforme10.ch/Creator/Q133232> <http://schema.org/birthDate> "1845-08-16" .
+<https://pe.plateforme10.ch/Creator/Q133232> <http://schema.org/deathDate> "1921-07-13" .
+<https://pe.plateforme10.ch/Creator/Q108933616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+<https://pe.plateforme10.ch/Creator/Q108933616> <http://www.w3.org/2000/01/rdf-schema#label> "LIPPMANN (née Cherbuliez) Laurence" .
+<https://pe.plateforme10.ch/Creator/Q108933616> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Q108933616" .
+<https://pe.plateforme10.ch/Creator/Q108933616> <http://schema.org/sameAs> <http://www.wikidata.org/entity/Q108933616> .
+<https://pe.plateforme10.ch/Creator/Q108933616> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fr.wikipedia.org/wiki/> .
+<https://pe.plateforme10.ch/Creator/Q108933616> <http://schema.org/givenName> "Laurence" .
+<https://pe.plateforme10.ch/Creator/Q108933616> <http://schema.org/familyName> "Lippmann" .
+<https://pe.plateforme10.ch/Creator/Q108933616> <http://schema.org/birthDate> "1857-01-31" .
+<https://pe.plateforme10.ch/Creator/Q108933616> <http://schema.org/deathDate> "1934-05-00" .
+<https://pe.plateforme10.ch/Creator/Q671527> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+<https://pe.plateforme10.ch/Creator/Q671527> <http://www.w3.org/2000/01/rdf-schema#label> "BURRI René" .
+<https://pe.plateforme10.ch/Creator/Q671527> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Q671527" .
+<https://pe.plateforme10.ch/Creator/Q671527> <http://schema.org/sameAs> <http://www.wikidata.org/entity/Q671527> .
+<https://pe.plateforme10.ch/Creator/Q671527> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fr.wikipedia.org/wiki/Ren%C3%A9_Burri> .
+<https://pe.plateforme10.ch/Creator/Q671527> <http://schema.org/givenName> "René" .
+<https://pe.plateforme10.ch/Creator/Q671527> <http://schema.org/familyName> "Burri" .
+<https://pe.plateforme10.ch/Creator/Q671527> <http://schema.org/birthDate> "1933-04-09" .
+<https://pe.plateforme10.ch/Creator/Q671527> <http://schema.org/deathDate> "2014-10-20" .
 <https://pe.plateforme10.ch/Organization/11/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
 <https://pe.plateforme10.ch/Organization/11/address> <http://schema.org/streetAddress> "Place de la Gare 17" .
 <https://pe.plateforme10.ch/Organization/11/address> <http://schema.org/postalCode> "1003" .

@@ -21,6 +21,7 @@ logical-source Creators {
         LastName
         birthName
         creatorQ
+        WikipediaName
         birthDate
         deathDate
 }
