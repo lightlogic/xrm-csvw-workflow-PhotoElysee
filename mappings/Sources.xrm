@@ -42,3 +42,33 @@ logical-source Artworks {
         titreType_string
         titreType_typeAAT
 }
+
+logical-source Creators {
+    type csv
+    source "../input/creators.csv"
+    dialect CommaPE
+
+    referenceables
+        creator_UK
+        primaryName_fr
+        givenName
+        LastName
+        birthName
+        creatorQ
+        birthDate
+        deathDate
+}
+
+// logical-source Activities {
+//     type csv
+//     source "../input/activities.csv"
+//     dialect CommaPE
+
+//     referenceables
+//         activity_UK
+//         act_type
+//         object_URI
+//         actor_URI
+//         timespan_begin
+//         timespan_end
+// }

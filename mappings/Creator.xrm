@@ -1,0 +1,19 @@
+// ** Creator ** //
+output csvw
+
+template wikidataIri "https://www.wikidata.org/wiki/{0}"
+
+map Creator from Creators {
+	subject template wikidataIri with creatorQ;
+
+	types
+		crm.E21_Person
+
+	properties
+		rdfs.label constant "Person";	// intended as an internal documentation
+		crm.P1_is_identified_by from creatorQ;
+        schema.givenName from givenName;
+        schema.familyName from LastName;
+        schema.birthDate from birthDate;
+        schema.deathDate from deathDate;
+}
