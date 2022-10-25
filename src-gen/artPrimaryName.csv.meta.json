@@ -1,6 +1,6 @@
 {
 	"@context": "http://www.w3.org/ns/csvw",
-	"url": "../input/organizations.csv",
+	"url": "../input/artworks.csv",
 	"dialect": {
 		"delimiter": ",",
 		"doubleQuote": true,
@@ -12,7 +12,7 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://pe.plateforme10.ch/Organization/{institution_identifier}/PrimaryName",
+		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/PrimaryName",
 		"columns": [
 			{
 				"virtual": true,
@@ -21,12 +21,7 @@
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"titles": "primaryName_fr"
-			},
-			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
-				"lang": "fr",
-				"titles": "primaryName_fr"
+				"titles": "primaryName"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
@@ -34,36 +29,45 @@
 				"valueUrl": "http://vocab.getty.edu/aat/300404670"
 			},
 			{
-				"suppressOutput": true,
-				"titles": "institution_identifier"
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+				"lang": "fr",
+				"titles": "primaryName"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "WikidataID"
+				"titles": "art_UK"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "WikipediaName"
+				"titles": "arkID"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "institutionName_fr"
+				"titles": "numInv"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "addrStreet"
+				"titles": "art_typeAAT"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "addrZIP"
+				"titles": "titre"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "addrCity"
+				"titles": "titreType_string"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "addrCountry"
+				"titles": "titreType_typeAAT"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "event_prod_start"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "event_prod_end"
 			}
 		]
 	}

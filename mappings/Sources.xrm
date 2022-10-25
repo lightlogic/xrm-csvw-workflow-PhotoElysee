@@ -42,3 +42,21 @@ logical-source Organizations {
         addrCity
         addrCountry
 }
+
+logical-source Artworks {
+    type csv
+    source "../input/artworks.csv"
+    dialect CommaPE
+
+    referenceables
+    art_UK
+    arkID
+    numInv
+    art_typeAAT
+    primaryName
+    titre
+    titreType_string
+    titreType_typeAAT
+    event_prod_start
+    event_prod_end
+}
