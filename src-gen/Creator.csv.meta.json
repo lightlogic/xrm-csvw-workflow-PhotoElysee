@@ -21,8 +21,7 @@
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"virtual": true,
-				"valueUrl": "Person"
+				"titles": "primaryName_fr"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
@@ -47,10 +46,6 @@
 			{
 				"suppressOutput": true,
 				"titles": "creator_UK"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "primaryName_fr"
 			},
 			{
 				"suppressOutput": true,

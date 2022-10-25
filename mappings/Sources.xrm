@@ -24,3 +24,21 @@ logical-source Creators {
         birthDate
         deathDate
 }
+
+
+logical-source Organizations {
+    type csv
+    source "../input/organizations.csv"
+    dialect CommaPE
+
+    referenceables
+        institution_identifier
+        WikidataID
+        WikipediaName
+        primaryName_fr
+        institutionName_fr
+        addrStreet
+        addrZIP
+        addrCity
+        addrCountry
+}

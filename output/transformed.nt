@@ -1,21 +1,55 @@
 <https://www.wikidata.org/wiki/Q133232> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
-<https://www.wikidata.org/wiki/Q133232> <http://www.w3.org/2000/01/rdf-schema#label> <Person> .
+<https://www.wikidata.org/wiki/Q133232> <http://www.w3.org/2000/01/rdf-schema#label> "LIPPMANN Gabriel" .
 <https://www.wikidata.org/wiki/Q133232> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Q133232" .
 <https://www.wikidata.org/wiki/Q133232> <http://schema.org/givenName> "Gabriel" .
 <https://www.wikidata.org/wiki/Q133232> <http://schema.org/familyName> "Lippmann" .
 <https://www.wikidata.org/wiki/Q133232> <http://schema.org/birthDate> "1845-08-16" .
 <https://www.wikidata.org/wiki/Q133232> <http://schema.org/deathDate> "1921-07-13" .
 <https://www.wikidata.org/wiki/Q108933616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
-<https://www.wikidata.org/wiki/Q108933616> <http://www.w3.org/2000/01/rdf-schema#label> <Person> .
+<https://www.wikidata.org/wiki/Q108933616> <http://www.w3.org/2000/01/rdf-schema#label> "LIPPMANN (née Cherbuliez) Laurence" .
 <https://www.wikidata.org/wiki/Q108933616> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Q108933616" .
 <https://www.wikidata.org/wiki/Q108933616> <http://schema.org/givenName> "Laurence" .
 <https://www.wikidata.org/wiki/Q108933616> <http://schema.org/familyName> "Lippmann" .
 <https://www.wikidata.org/wiki/Q108933616> <http://schema.org/birthDate> "1857-01-31" .
 <https://www.wikidata.org/wiki/Q108933616> <http://schema.org/deathDate> "1934-05-00" .
 <https://www.wikidata.org/wiki/Q671527> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
-<https://www.wikidata.org/wiki/Q671527> <http://www.w3.org/2000/01/rdf-schema#label> <Person> .
+<https://www.wikidata.org/wiki/Q671527> <http://www.w3.org/2000/01/rdf-schema#label> "BURRI René" .
 <https://www.wikidata.org/wiki/Q671527> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Q671527" .
 <https://www.wikidata.org/wiki/Q671527> <http://schema.org/givenName> "René" .
 <https://www.wikidata.org/wiki/Q671527> <http://schema.org/familyName> "Burri" .
 <https://www.wikidata.org/wiki/Q671527> <http://schema.org/birthDate> "1933-04-09" .
 <https://www.wikidata.org/wiki/Q671527> <http://schema.org/deathDate> "2014-10-20" .
+<https://pe.plateforme10.ch/Organization/11/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
+<https://pe.plateforme10.ch/Organization/11/address> <http://schema.org/streetAddress> "Place de la Gare 17" .
+<https://pe.plateforme10.ch/Organization/11/address> <http://schema.org/postalCode> "1003" .
+<https://pe.plateforme10.ch/Organization/11/address> <http://schema.org/addressLocality> "1003" .
+<https://pe.plateforme10.ch/Organization/11/address> <http://schema.org/addressCountry> "Suisse" .
+<https://pe.plateforme10.ch/Organization/16/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
+<https://pe.plateforme10.ch/Organization/16/address> <http://schema.org/streetAddress> "21, Rue de l'école de médecine" .
+<https://pe.plateforme10.ch/Organization/16/address> <http://schema.org/postalCode> "75006" .
+<https://pe.plateforme10.ch/Organization/16/address> <http://schema.org/addressLocality> "75006" .
+<https://pe.plateforme10.ch/Organization/16/address> <http://schema.org/addressCountry> "France" .
+<https://pe.plateforme10.ch/Organization/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://pe.plateforme10.ch/Organization/11> <http://www.w3.org/2000/01/rdf-schema#label> "Photo Elysée, Plateforme 10" .
+<https://pe.plateforme10.ch/Organization/11> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Organization/11/PrimaryName> .
+<https://pe.plateforme10.ch/Organization/11> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "11" .
+<https://pe.plateforme10.ch/Organization/11> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312281> .
+<https://pe.plateforme10.ch/Organization/11> <http://schema.org/sameAs> <http://www.wikidata.org/entity/Q675261> .
+<https://pe.plateforme10.ch/Organization/11> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fr.wikipedia.org/wiki/Photo_Elys%C3%A9e> .
+<https://pe.plateforme10.ch/Organization/11> <http://schema.org/address> <https://pe.plateforme10.ch/Organization/11/address> .
+<https://pe.plateforme10.ch/Organization/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://pe.plateforme10.ch/Organization/16> <http://www.w3.org/2000/01/rdf-schema#label> "Sorbonne Université" .
+<https://pe.plateforme10.ch/Organization/16> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Organization/16/PrimaryName> .
+<https://pe.plateforme10.ch/Organization/16> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "16" .
+<https://pe.plateforme10.ch/Organization/16> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312281> .
+<https://pe.plateforme10.ch/Organization/16> <http://schema.org/sameAs> <http://www.wikidata.org/entity/Q41497113> .
+<https://pe.plateforme10.ch/Organization/16> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fr.wikipedia.org/wiki/Sorbonne_Universit%C3%A9> .
+<https://pe.plateforme10.ch/Organization/16> <http://schema.org/address> <https://pe.plateforme10.ch/Organization/16/address> .
+<https://pe.plateforme10.ch/Organization/11/PrimaryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> .
+<https://pe.plateforme10.ch/Organization/11/PrimaryName> <http://www.w3.org/2000/01/rdf-schema#label> <PrimaryName> .
+<https://pe.plateforme10.ch/Organization/11/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Photo Elysée, Plateforme 10"@fr .
+<https://pe.plateforme10.ch/Organization/11/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
+<https://pe.plateforme10.ch/Organization/16/PrimaryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> .
+<https://pe.plateforme10.ch/Organization/16/PrimaryName> <http://www.w3.org/2000/01/rdf-schema#label> <PrimaryName> .
+<https://pe.plateforme10.ch/Organization/16/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sorbonne Université"@fr .
+<https://pe.plateforme10.ch/Organization/16/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
