@@ -1,0 +1,17 @@
+// ** Event ** //
+  // following Linked Art guidelines
+  // BASELINE PATTERNS: https://linked.art/model/base/#events-and-activities
+
+output csvw
+
+template artEventIri "https://pe.plateforme10.ch/Event/{0}-{1}/identifier"
+
+map Event from Artworks {
+	subject template artEventIri with arkID event_prod_start;
+
+	types
+		crm.E7_Activity
+
+	properties
+		rdfs.label from event_prod_text;
+}

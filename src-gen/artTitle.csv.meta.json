@@ -63,6 +63,10 @@
 			},
 			{
 				"suppressOutput": true,
+				"titles": "event_prod_text"
+			},
+			{
+				"suppressOutput": true,
 				"titles": "event_prod_start"
 			},
 			{

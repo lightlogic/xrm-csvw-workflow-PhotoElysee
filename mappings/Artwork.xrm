@@ -8,7 +8,6 @@ template artworkIri "https://pe.plateforme10.ch/Artwork/{0}"
 template artIdentifierIri "https://pe.plateforme10.ch/Artwork/{0}/identifier"
 template gettyArtArchThesIri "http://vocab.getty.edu/aat/{0}"
 
-
 map Artwork from Artworks {
 	subject template artworkIri with arkID;
 
