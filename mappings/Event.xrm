@@ -14,4 +14,6 @@ map Event from Artworks {
 
 	properties
 		rdfs.label from event_prod_text;
+		crm.P7_took_place_at from event_prod_text;
+		crm.P14_carried_out_by from 
 }

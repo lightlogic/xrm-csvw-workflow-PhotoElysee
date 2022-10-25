@@ -12,20 +12,30 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://pe.plateforme10.ch/Event/{arkID}-{event_prod_start}/identifier",
+		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Title#{titreType_string}",
 		"columns": [
 			{
 				"virtual": true,
 				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity"
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E35_Title"
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"titles": "event_prod_text"
+				"titles": "titre"
 			},
 			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
-				"titles": "event_prod_text"
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+				"lang": "fr",
+				"titles": "titre"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"titles": "titreType_string"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"titles": "titreType_typeAAT",
+				"valueUrl": "http://vocab.getty.edu/aat/{titreType_typeAAT}"
 			},
 			{
 				"suppressOutput": true,
@@ -49,15 +59,11 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "titre"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "titreType_string"
-			},
-			{
-				"suppressOutput": true,
 				"titles": "titreType_typeAAT"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "event_prod_text"
 			},
 			{
 				"suppressOutput": true,

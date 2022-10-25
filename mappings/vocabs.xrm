@@ -89,6 +89,7 @@ vocabulary crm {
         P1_is_identified_by
         P2_has_type
         P4_has_time_span
+        P7_took_place_at
         P14_carried_out_by
         P102_has_title
         P34_concerned

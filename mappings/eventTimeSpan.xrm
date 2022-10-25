@@ -1,0 +1,21 @@
+// ** Event Time-span ** //
+  // following Linked Art guidelines
+  // BASELINE PATTERNS, TYPES: https://linked.art/model/base/#time-span-details
+
+
+output csvw
+
+template event_TimeSpanIri "https://pe.plateforme10.ch/Artwork/{0}/Title#{1}" 
+
+map TimeSpan from Artworks {
+	subject template art_TitleIri with arkID titreType_string;
+
+	types
+		crm.E35_Title
+
+	properties
+		rdfs.label from titre;	// type label for documentation purpose
+		crm.P190_has_symbolic_content from titre with language-tag fr;
+		crm.P2_has_type from titreType_string;
+		crm.P2_has_type template gettyArtArchThesIri with titreType_typeAAT; // [types] 1. artist's titles 2. constructed titles
+}
