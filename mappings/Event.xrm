@@ -4,16 +4,21 @@
 
 output csvw
 
-template artEventIri "https://pe.plateforme10.ch/Event/{0}-{1}/identifier"
+template artEventIri "https://pe.plateforme10.ch/Event/Production/{0}-{1}/identifier"
 
 map Event from Artworks {
 	subject template artEventIri with arkID event_prod_start;
 
 	types
-		crm.E7_Activity
+		crm.E12_Production
 
 	properties
 		rdfs.label from event_prod_text;
 		crm.P7_took_place_at from event_prod_text;
 		crm.P14_carried_out_by template creatorIri with creator;
+		crm.P82a_begin_of_the_begin from event_prod_start;
+		crm.P81a_end_of_the_begin from event_prod_start;
+		crm.P81b_begin_of_the_end from event_prod_end;
+		crm.P82b_end_of_the_end from event_prod_end;
+
 }
