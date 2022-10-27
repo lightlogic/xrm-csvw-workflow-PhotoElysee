@@ -33,6 +33,22 @@
 				"valueUrl": "https://pe.plateforme10.ch/Creator/{creator}"
 			},
 			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+				"titles": "event_prod_start"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P81a_end_of_the_begin",
+				"titles": "event_prod_start"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P81b_begin_of_the_end",
+				"titles": "event_prod_end"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+				"titles": "event_prod_end"
+			},
+			{
 				"suppressOutput": true,
 				"titles": "art_UK"
 			},
@@ -67,14 +83,6 @@
 			{
 				"suppressOutput": true,
 				"titles": "creator"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "event_prod_start"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "event_prod_end"
 			}
 		]
 	}

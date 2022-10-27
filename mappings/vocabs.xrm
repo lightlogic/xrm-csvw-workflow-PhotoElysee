@@ -99,7 +99,12 @@ vocabulary crm {
         P46_is_composed_of
         P55_has_current_location
         P65_shows_visual_item
+        P82a_begin_of_the_begin
+        P81a_end_of_the_begin
+        P81b_begin_of_the_end
+        P82b_end_of_the_end
         P94_has_created
+        P108i_was_produced_by
         P190_has_symbolic_content
         P138_represents
 }
