@@ -7,18 +7,6 @@ vocabulary ex {
 		is_oriented
 }
 
-vocabulary vocab {
-    prefix "vocab" "http://example.com/vocab#"
-
-    properties
-        influenceScore
-        networkScore
-        npsScore
-        customerLtv
-        sentimentScore
-        propensityScore
-}
-
 vocabulary schema {
     prefix "schema" "http://schema.org/"
 
@@ -72,7 +60,7 @@ vocabulary crm {
 	prefix "crm" "http://www.cidoc-crm.org/cidoc-crm/"
 
 	classes
-        E7_Activity
+        E12_Production
         E3_condition_state
 		E14_Condition_Assessment
         E21_Person

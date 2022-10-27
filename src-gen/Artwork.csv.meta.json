@@ -69,7 +69,7 @@
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by",
 				"titles": "arkID",
-				"valueUrl": "https://pe.plateforme10.ch/Event/{arkID}-{event_prod_start}/identifier"
+				"valueUrl": "https://pe.plateforme10.ch/Event/Production/{arkID}-{event_prod_start}/identifier"
 			},
 			{
 				"suppressOutput": true,

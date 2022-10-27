@@ -12,12 +12,12 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://pe.plateforme10.ch/Event/{arkID}-{event_prod_start}/identifier",
+		"aboutUrl": "https://pe.plateforme10.ch/Event/Production/{arkID}-{event_prod_start}/identifier",
 		"columns": [
 			{
 				"virtual": true,
 				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity"
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E12_Production"
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
