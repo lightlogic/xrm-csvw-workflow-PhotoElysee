@@ -13,7 +13,7 @@ map AccessionNumber from Artworks {
 		crm.E42_Identifier
 
 	properties
-		rdfs.label constant "AccessionNumber";	// intended as an internal documentation
+		rdfs.label from numInv;	// intended as an internal documentation
 		crm.P2_has_type constant "http://vocab.getty.edu/aat/300312355"; // [type] accession numbers
 		crm.P190_has_symbolic_content from numInv;
 }

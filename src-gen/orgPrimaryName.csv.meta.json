@@ -21,8 +21,7 @@
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"virtual": true,
-				"valueUrl": "PrimaryName"
+				"titles": "primaryName_fr"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
@@ -37,10 +36,6 @@
 			{
 				"suppressOutput": true,
 				"titles": "institution_identifier"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "Institution"
 			},
 			{
 				"suppressOutput": true,

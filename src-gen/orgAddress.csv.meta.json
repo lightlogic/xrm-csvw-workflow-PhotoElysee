@@ -41,10 +41,6 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "Institution"
-			},
-			{
-				"suppressOutput": true,
 				"titles": "WikidataID"
 			},
 			{

@@ -21,8 +21,7 @@
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"virtual": true,
-				"valueUrl": "Artwork"
+				"titles": "primaryName"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
@@ -77,10 +76,6 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "primaryName"
-			},
-			{
-				"suppressOutput": true,
 				"titles": "titre"
 			},
 			{
@@ -90,6 +85,22 @@
 			{
 				"suppressOutput": true,
 				"titles": "titreType_typeAAT"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "creator"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "event_prod_text"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "event_prod_start"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "event_prod_end"
 			}
 		]
 	}

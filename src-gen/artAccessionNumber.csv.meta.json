@@ -21,8 +21,7 @@
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"virtual": true,
-				"valueUrl": "AccessionNumber"
+				"titles": "numInv"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
@@ -60,6 +59,22 @@
 			{
 				"suppressOutput": true,
 				"titles": "titreType_typeAAT"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "creator"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "event_prod_text"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "event_prod_start"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "event_prod_end"
 			}
 		]
 	}

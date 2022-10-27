@@ -11,7 +11,7 @@ map Organization from Organizations {
 		schema.Organization
 
 	properties
-		rdfs.label constant "Organization";	// type label for documentation purpose
+		rdfs.label from primaryName_fr;	// type label for documentation purpose
 		crm.P1_is_identified_by template org_PrimeNameIri with institution_identifier;
 		crm.P1_is_identified_by from institution_identifier;
         crm.P2_has_type constant "http://vocab.getty.edu/aat/300312281"; // [type] museums (institutions) 

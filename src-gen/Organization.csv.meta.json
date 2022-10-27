@@ -21,8 +21,7 @@
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"virtual": true,
-				"valueUrl": "Organization"
+				"titles": "primaryName_fr"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
@@ -55,19 +54,11 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "Institution"
-			},
-			{
-				"suppressOutput": true,
 				"titles": "WikidataID"
 			},
 			{
 				"suppressOutput": true,
 				"titles": "WikipediaName"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "primaryName_fr"
 			},
 			{
 				"suppressOutput": true,
