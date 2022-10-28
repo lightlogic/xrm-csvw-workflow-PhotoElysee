@@ -26,4 +26,5 @@ map Artwork from Artworks {
 		crm.P2_has_type template gettyArtArchThesIri with art_typeAAT;
         crm.P190_has_symbolic_content template art_TitleIri with arkID titreType_string;
 		crm.P108i_was_produced_by template artEventIri with arkID event_prod_start;
+		crm.P52_has_current_owner template organizationIri with owner_instit_identif;
 }
