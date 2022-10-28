@@ -1,0 +1,86 @@
+{
+	"@context": "http://www.w3.org/ns/csvw",
+	"url": "../input/artworks.csv",
+	"dialect": {
+		"delimiter": ",",
+		"doubleQuote": true,
+		"encoding": "utf-8",
+		"header": true,
+		"headerRowCount": "1",
+		"lineTerminators": "\r\n",
+		"quoteChar": "\"",
+		"trim": false
+	},
+	"tableSchema": {
+		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Part/Plate",
+		"columns": [
+			{
+				"virtual": true,
+				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E22_Human_Made_Object"
+			},
+			{
+				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
+				"virtual": true,
+				"valueUrl": "Glass Plate"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300010822"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "art_UK"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "arkID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "numInv"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "art_typeAAT"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "primaryName"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "titre"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "titreType_string"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "titreType_typeAAT"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "creator"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "owner_instit_identif"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "event_prod_text"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "event_prod_start"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "event_prod_end"
+			}
+		]
+	}
+}

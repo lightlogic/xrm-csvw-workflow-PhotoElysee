@@ -1,0 +1,17 @@
+// ** Artwork Part: Glass Plate ** //
+    // following Linked Art guidelines
+    // PARTS: https://linked.art/model/object/physical/#parts
+output csvw
+
+template artPrismIri "https://pe.plateforme10.ch/Artwork/{0}/Part/Prism"
+
+map Prism from Artworks {
+	subject template artPrismIri with arkID;
+
+	types
+		crm.E22_Human_Made_Object
+
+	properties
+		rdfs.label constant "Prism";
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300183230"; // [type] plate glass
+}
