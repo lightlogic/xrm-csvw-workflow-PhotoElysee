@@ -12,7 +12,7 @@ map Front from Artworks {
 		crm.E22_Human_Made_Object
 
 	properties
-		rdfs.label constant "Front of artwork";
+		rdfs.label constant "FrontOfArtwork";
 		crm.P2_has_type constant "http://vocab.getty.edu/aat/300241582"; // [Concept] components (object parts) // distinguished as a part-type and not an object-type 
 		crm.P2_has_type constant "http://vocab.getty.edu/aat/300190703"; // [type] fronts (object portions)
 }

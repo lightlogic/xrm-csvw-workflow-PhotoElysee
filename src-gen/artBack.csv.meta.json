@@ -22,7 +22,7 @@
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
 				"virtual": true,
-				"valueUrl": "Part Back of artworks"
+				"valueUrl": "BackOfArtworks"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
