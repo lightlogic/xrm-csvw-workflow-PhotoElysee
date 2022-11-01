@@ -13,5 +13,7 @@ map Prism from Artworks {
 
 	properties
 		rdfs.label constant "Prism";
-		crm.P2_has_type constant "http://vocab.getty.edu/aat/300183230"; // [type] plate glass
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300241582"; // [Concept] components (object parts) // distinguished as a part-type and not an object-type 
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300010879"; // [Concept] prismatic glass
+		crm.P45_consists_of constant "http://vocab.getty.edu/aat/300010797"; // [Concept] glass (material)
 }

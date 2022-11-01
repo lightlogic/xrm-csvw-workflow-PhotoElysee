@@ -12,7 +12,7 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Part/Prism",
+		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Portion/Front",
 		"columns": [
 			{
 				"virtual": true,
@@ -22,7 +22,7 @@
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
 				"virtual": true,
-				"valueUrl": "Prism"
+				"valueUrl": "Front of artwork"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
@@ -32,12 +32,7 @@
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
 				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300010879"
-			},
-			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P45_consists_of",
-				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300010797"
+				"valueUrl": "http://vocab.getty.edu/aat/300190703"
 			},
 			{
 				"suppressOutput": true,

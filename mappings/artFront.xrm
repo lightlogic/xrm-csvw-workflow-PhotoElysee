@@ -3,16 +3,16 @@
     // PARTS: https://linked.art/model/object/physical/#parts
 output csvw
 
-template artBackIri "https://pe.plateforme10.ch/Artwork/{0}/Portion/Back"
+template artFrontIri "https://pe.plateforme10.ch/Artwork/{0}/Portion/Front"
 
-map Back from Artworks {
-	subject template artPrismIri with arkID;
+map Front from Artworks {
+	subject template artFrontIri with arkID;
 
 	types
 		crm.E22_Human_Made_Object
 
 	properties
-		rdfs.label constant "Back of artworks";
+		rdfs.label constant "Front of artwork";
 		crm.P2_has_type constant "http://vocab.getty.edu/aat/300241582"; // [Concept] components (object parts) // distinguished as a part-type and not an object-type 
-		crm.P2_has_type constant "http://vocab.getty.edu/aat/300190692"; // [type] backs (object portions)
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300190703"; // [type] fronts (object portions)
 }

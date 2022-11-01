@@ -22,12 +22,22 @@
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
 				"virtual": true,
-				"valueUrl": "Glass Plate"
+				"valueUrl": "Photographic Plate"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
 				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300010822"
+				"valueUrl": "http://vocab.getty.edu/aat/300241582"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300127369"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P45_consists_of",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300010797"
 			},
 			{
 				"suppressOutput": true,

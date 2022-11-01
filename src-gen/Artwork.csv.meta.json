@@ -89,6 +89,11 @@
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
 				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Part/Prism"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
+				"titles": "arkID",
 				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Portion/Back"
 			},
 			{
