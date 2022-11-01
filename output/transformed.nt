@@ -31,35 +31,35 @@
 <https://pe.plateforme10.ch/Artwork/12345/002389315/AccessionNumber> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
 <https://pe.plateforme10.ch/Artwork/12345/002389315/AccessionNumber> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "RB047061" .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human_Made_Object> .
-<https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Backpart of artworks> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Part Back of artworks> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300241582> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300190692> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human_Made_Object> .
-<https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Backpart of artworks> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Part Back of artworks> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300241582> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300190692> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human_Made_Object> .
-<https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Backpart of artworks> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Part Back of artworks> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300241582> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300190692> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human_Made_Object> .
-<https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Backpart of artworks> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Part Back of artworks> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300241582> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300190692> .
 <https://pe.plateforme10.ch/Artwork/12345/002381254/Part/Prism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human_Made_Object> .
-<https://pe.plateforme10.ch/Artwork/12345/002381254/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Backpart of artworks> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Part Back of artworks> .
 <https://pe.plateforme10.ch/Artwork/12345/002381254/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300241582> .
 <https://pe.plateforme10.ch/Artwork/12345/002381254/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300190692> .
 <https://pe.plateforme10.ch/Artwork/12345/002381254/Part/Prism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human_Made_Object> .
-<https://pe.plateforme10.ch/Artwork/12345/002381254/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Backpart of artworks> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Part Back of artworks> .
 <https://pe.plateforme10.ch/Artwork/12345/002381254/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300241582> .
 <https://pe.plateforme10.ch/Artwork/12345/002381254/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300190692> .
 <https://pe.plateforme10.ch/Artwork/12345/002389321/Part/Prism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human_Made_Object> .
-<https://pe.plateforme10.ch/Artwork/12345/002389321/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Backpart of artworks> .
+<https://pe.plateforme10.ch/Artwork/12345/002389321/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Part Back of artworks> .
 <https://pe.plateforme10.ch/Artwork/12345/002389321/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300241582> .
 <https://pe.plateforme10.ch/Artwork/12345/002389321/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300190692> .
 <https://pe.plateforme10.ch/Artwork/12345/002389315/Part/Prism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human_Made_Object> .
-<https://pe.plateforme10.ch/Artwork/12345/002389315/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Backpart of artworks> .
+<https://pe.plateforme10.ch/Artwork/12345/002389315/Part/Prism> <http://www.w3.org/2000/01/rdf-schema#label> <Part Back of artworks> .
 <https://pe.plateforme10.ch/Artwork/12345/002389315/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300241582> .
 <https://pe.plateforme10.ch/Artwork/12345/002389315/Part/Prism> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300190692> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Portion/Front> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human_Made_Object> .
