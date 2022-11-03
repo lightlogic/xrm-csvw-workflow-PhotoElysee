@@ -3,7 +3,7 @@
     // PARTS: https://linked.art/model/object/physical/#parts
 output csvw
 
-template artPlateIri "https://pe.plateforme10.ch/Artwork/{0}/Part/Plate"
+template artPlateIri "https://pe.plateforme10.ch/Artwork/{0}/Plate"
 
 map Plate from Artworks {
 	subject template artPlateIri with arkID;
