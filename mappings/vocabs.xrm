@@ -64,7 +64,7 @@ vocabulary crm {
         E3_condition_state
 		E14_Condition_Assessment
         E21_Person
-        E22_Human_Made_Object
+        E22_Human_Made_Object "E22_Human-Made_Object"
         E35_Title
         E36_Visual_Item
         E41_Appellation
@@ -76,7 +76,7 @@ vocabulary crm {
     properties
         P1_is_identified_by
         P2_has_type
-        P4_has_time_span
+        P4_has_time_span "P4_has_time-span"
         P7_took_place_at
         P14_carried_out_by
         P102_has_title
@@ -85,6 +85,7 @@ vocabulary crm {
         P43_has_dimension
         P45_consists_of
         P46_is_composed_of
+        P52_has_current_owner
         P55_has_current_location
         P65_shows_visual_item
         P82a_begin_of_the_begin

@@ -17,7 +17,7 @@
 			{
 				"virtual": true,
 				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E22_Human_Made_Object"
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object"
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
@@ -53,13 +53,18 @@
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300133025"
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Type"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
 				"titles": "art_typeAAT",
 				"valueUrl": "http://vocab.getty.edu/aat/{art_typeAAT}"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300133025"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
@@ -72,12 +77,51 @@
 				"valueUrl": "https://pe.plateforme10.ch/Event/Production/{arkID}-{event_prod_start}/identifier"
 			},
 			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P52_has_current_owner",
+				"titles": "owner_instit_identif",
+				"valueUrl": "https://pe.plateforme10.ch/Organization/{owner_instit_identif}"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Plate"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Prism"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Emulsion"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Front"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Back"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Sides"
+			},
+			{
 				"suppressOutput": true,
 				"titles": "art_UK"
 			},
 			{
 				"suppressOutput": true,
 				"titles": "art_typeAAT"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "art_typeAAT_label"
 			},
 			{
 				"suppressOutput": true,
@@ -94,6 +138,10 @@
 			{
 				"suppressOutput": true,
 				"titles": "creator"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "owner_instit_identif"
 			},
 			{
 				"suppressOutput": true,

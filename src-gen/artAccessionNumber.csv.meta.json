@@ -46,6 +46,10 @@
 			},
 			{
 				"suppressOutput": true,
+				"titles": "art_typeAAT_label"
+			},
+			{
+				"suppressOutput": true,
 				"titles": "primaryName"
 			},
 			{
@@ -63,6 +67,10 @@
 			{
 				"suppressOutput": true,
 				"titles": "creator"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "owner_instit_identif"
 			},
 			{
 				"suppressOutput": true,

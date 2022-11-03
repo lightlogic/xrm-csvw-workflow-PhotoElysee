@@ -12,41 +12,32 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://pe.plateforme10.ch/Event/Production/{arkID}-{event_prod_start}/identifier",
+		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Plate",
 		"columns": [
 			{
 				"virtual": true,
 				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E12_Production"
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object"
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"titles": "event_prod_text"
+				"virtual": true,
+				"valueUrl": "PhotographicPlate"
 			},
 			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
-				"titles": "event_prod_text"
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300241583"
 			},
 			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
-				"titles": "creator",
-				"valueUrl": "https://pe.plateforme10.ch/Creator/{creator}"
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300127369"
 			},
 			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
-				"titles": "event_prod_start"
-			},
-			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P81a_end_of_the_begin",
-				"titles": "event_prod_start"
-			},
-			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P81b_begin_of_the_end",
-				"titles": "event_prod_end"
-			},
-			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
-				"titles": "event_prod_end"
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P45_consists_of",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300010797"
 			},
 			{
 				"suppressOutput": true,
@@ -91,6 +82,18 @@
 			{
 				"suppressOutput": true,
 				"titles": "owner_instit_identif"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "event_prod_text"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "event_prod_start"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "event_prod_end"
 			}
 		]
 	}
