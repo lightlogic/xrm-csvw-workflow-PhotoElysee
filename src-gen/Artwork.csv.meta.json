@@ -54,7 +54,7 @@
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
 				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300133025"
+				"valueUrl": "http://vocab.getty.edu/aat/300133464"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
@@ -94,7 +94,17 @@
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
 				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Front"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
+				"titles": "arkID",
 				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Back"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Sides"
 			},
 			{
 				"suppressOutput": true,
@@ -103,6 +113,10 @@
 			{
 				"suppressOutput": true,
 				"titles": "art_typeAAT"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "art_typeAAT_label"
 			},
 			{
 				"suppressOutput": true,

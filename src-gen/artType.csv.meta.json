@@ -12,27 +12,21 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Back",
+		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Type",
 		"columns": [
 			{
 				"virtual": true,
 				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object"
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"virtual": true,
-				"valueUrl": "BackOfArtworks"
+				"titles": "art_typeAAT_label"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
 				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300241582"
-			},
-			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300190692"
+				"valueUrl": "http://vocab.getty.edu/aat/300133025"
 			},
 			{
 				"suppressOutput": true,
@@ -49,10 +43,6 @@
 			{
 				"suppressOutput": true,
 				"titles": "art_typeAAT"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "art_typeAAT_label"
 			},
 			{
 				"suppressOutput": true,

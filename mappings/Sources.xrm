@@ -54,6 +54,7 @@ logical-source Artworks {
     arkID
     numInv
     art_typeAAT
+    art_typeAAT_label
     primaryName
     titre
     titreType_string

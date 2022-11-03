@@ -26,9 +26,9 @@ map Artwork from Artworks {
 		crm.P1_is_identified_by template art_PrimNameIri with arkID;
 		crm.P1_is_identified_by template art_AccessionNumberIri with arkID;
       
-	  //*types*//  
-		crm.P2_has_type constant "http://vocab.getty.edu/aat/300133025"; // [type] works of art
-		crm.P2_has_type template gettyArtArchThesIri with art_typeAAT;
+	  //*types*//
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300133464";
+		crm.P2_has_type template gettyArtArchThesIri with art_typeAAT; // ex. [type] Lippmann process or [type] black-and-white photography
       
 	  //*Title*//  
 		crm.P190_has_symbolic_content template art_TitleIri with arkID titreType_string;
@@ -48,5 +48,7 @@ map Artwork from Artworks {
 		crm.P46_is_composed_of template artPrismIri with arkID; // Prism
 		crm.P46_is_composed_of template artEmulsionIri with arkID; // Emulsion (image)
 		// PORTIONS:
+		crm.P46_is_composed_of template artFrontIri with arkID;  // Front
 		crm.P46_is_composed_of template artBackIri with arkID;  // Back
+		crm.P46_is_composed_of template artSidesIri with arkID;  // Sides (bordage)
 }

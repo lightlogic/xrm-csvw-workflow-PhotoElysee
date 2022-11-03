@@ -66,6 +66,10 @@
 			},
 			{
 				"suppressOutput": true,
+				"titles": "art_typeAAT_label"
+			},
+			{
+				"suppressOutput": true,
 				"titles": "primaryName"
 			},
 			{
