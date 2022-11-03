@@ -26,7 +26,12 @@
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
 				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300133025"
+				"valueUrl": "http://vocab.getty.edu/aat/300435443"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+				"lang": "en",
+				"titles": "art_typeAAT_label"
 			},
 			{
 				"suppressOutput": true,

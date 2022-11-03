@@ -27,7 +27,7 @@
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
 				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300241582"
+				"valueUrl": "http://vocab.getty.edu/aat/300241583"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",

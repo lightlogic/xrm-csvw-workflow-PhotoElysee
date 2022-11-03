@@ -3,7 +3,7 @@
     // PARTS: https://linked.art/model/object/physical/#parts
 output csvw
 
-template artEmulsionIri "https://pe.plateforme10.ch/Artwork/{0}/Part/Emulsion"
+template artEmulsionIri "https://pe.plateforme10.ch/Artwork/{0}/Emulsion"
 
 map Emulsion from Artworks {
 	subject template artEmulsionIri with arkID;

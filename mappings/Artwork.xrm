@@ -27,8 +27,10 @@ map Artwork from Artworks {
 		crm.P1_is_identified_by template art_AccessionNumberIri with arkID;
       
 	  //*types*//
-		crm.P2_has_type constant "http://vocab.getty.edu/aat/300133464";
-		crm.P2_has_type template gettyArtArchThesIri with art_typeAAT; // ex. [type] Lippmann process or [type] black-and-white photography
+		crm.P2_has_type template artTypeIri with arkID; 
+		crm.P2_has_type template gettyArtArchThesIri with art_typeAAT;
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300133025"; // [type] works of art
+
       
 	  //*Title*//  
 		crm.P190_has_symbolic_content template art_TitleIri with arkID titreType_string;

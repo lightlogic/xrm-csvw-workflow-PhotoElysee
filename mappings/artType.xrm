@@ -4,15 +4,16 @@
 
 output csvw
 
-template art_TypeIri "https://pe.plateforme10.ch/Artwork/{0}/Type" 
+template artTypeIri "https://pe.plateforme10.ch/Artwork/{0}/Type" 
 
 map Type from Artworks {
-	subject template art_TypeIri with arkID;
+	subject template artTypeIri with arkID;
 
 	types
 		crm.E55_Type
 
 	properties
-		rdfs.label from art_typeAAT_label;	// type label for documentation purpose
-		crm.P2_has_type constant "http://vocab.getty.edu/aat/300133025"; // [type] works of art
+		rdfs.label from art_typeAAT_label;	// label of AAT type of work
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300435443"; // [type] object/work type
+		crm.P190_has_symbolic_content from art_typeAAT_label with language-tag en;
 }

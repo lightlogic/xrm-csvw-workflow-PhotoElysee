@@ -13,6 +13,6 @@ map Front from Artworks {
 
 	properties
 		rdfs.label constant "FrontOfArtwork";
-		crm.P2_has_type constant "http://vocab.getty.edu/aat/300241582"; // [Concept] components (object parts) // distinguished as a part-type and not an object-type 
 		crm.P2_has_type constant "http://vocab.getty.edu/aat/300190703"; // [type] fronts (object portions)
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300241583"; // [Concept] components (object parts) // distinguished as a part-type and not an object-type 
 }

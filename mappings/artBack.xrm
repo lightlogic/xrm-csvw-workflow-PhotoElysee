@@ -13,6 +13,6 @@ map Back from Artworks {
 
 	properties
 		rdfs.label constant "BackOfArtworks";
-		crm.P2_has_type constant "http://vocab.getty.edu/aat/300241582"; // [Concept] components (object parts) // distinguished as a part-type and not an object-type 
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300241583"; // [Concept] components (object parts) // distinguished as a part-type and not an object-type 
 		crm.P2_has_type constant "http://vocab.getty.edu/aat/300190692"; // [type] backs (object portions)
 }

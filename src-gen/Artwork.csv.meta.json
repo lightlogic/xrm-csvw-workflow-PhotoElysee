@@ -53,13 +53,18 @@
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300133464"
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Type"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
 				"titles": "art_typeAAT",
 				"valueUrl": "http://vocab.getty.edu/aat/{art_typeAAT}"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300133025"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
@@ -89,7 +94,7 @@
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
 				"titles": "arkID",
-				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Part/Emulsion"
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Emulsion"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
