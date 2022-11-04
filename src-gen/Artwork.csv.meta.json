@@ -69,7 +69,7 @@
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
 				"titles": "arkID",
-				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Title#{titreType_label}"
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Title/{titreType_label}"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by",
@@ -80,6 +80,21 @@
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P52_has_current_owner",
 				"titles": "owner_instit_identif",
 				"valueUrl": "https://pe.plateforme10.ch/Organization/{owner_instit_identif}"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Front"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Back"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Sides"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
@@ -97,19 +112,9 @@
 				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Emulsion"
 			},
 			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
 				"titles": "arkID",
-				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Front"
-			},
-			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
-				"titles": "arkID",
-				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Back"
-			},
-			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of",
-				"titles": "arkID",
-				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Sides"
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Dimension/Text"
 			},
 			{
 				"suppressOutput": true,
@@ -154,6 +159,26 @@
 			{
 				"suppressOutput": true,
 				"titles": "event_prod_end"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_obj_statement"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_obj_height"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_obj_width"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_obj_thick_min"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_obj_thick_max"
 			}
 		]
 	}

@@ -6,7 +6,7 @@
 
 output csvw
 
-template art_TitleIri "https://pe.plateforme10.ch/Artwork/{0}/Title#{1}" 
+template art_TitleIri "https://pe.plateforme10.ch/Artwork/{0}/Title/{1}" 
 
 map Title from Artworks {
 	subject template art_TitleIri with arkID titreType_label;
@@ -15,6 +15,8 @@ map Title from Artworks {
 		crm.E35_Title
 
 	properties
+	  //*LABEL*//
+	  // See https://linked.art/model/base/#core-properties
 		rdfs.label from titre;	// type label for documentation purpose
 		crm.P190_has_symbolic_content from titre with language-tag fr;
 		crm.P2_has_type from titreType_label;

@@ -12,25 +12,30 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/AccessionNumber",
+		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Height",
 		"columns": [
 			{
 				"virtual": true,
 				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"titles": "numInv"
+				"titles": "dimensions_obj_height"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
+				"titles": "dimensions_obj_height"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
 				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300312355"
+				"valueUrl": "http://vocab.getty.edu/aat/300055644"
 			},
 			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
-				"titles": "numInv"
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P91_has_unit",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300379097"
 			},
 			{
 				"suppressOutput": true,
@@ -39,6 +44,10 @@
 			{
 				"suppressOutput": true,
 				"titles": "arkID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "numInv"
 			},
 			{
 				"suppressOutput": true,
@@ -87,10 +96,6 @@
 			{
 				"suppressOutput": true,
 				"titles": "dimensions_obj_statement"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "dimensions_obj_height"
 			},
 			{
 				"suppressOutput": true,

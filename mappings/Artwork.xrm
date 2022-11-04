@@ -38,22 +38,33 @@ map Artwork from Artworks {
 	  //*TITLE*//  
 		crm.P190_has_symbolic_content template art_TitleIri with arkID titreType_label;
 	  
-	  //*event when Artwork was produced*//
-	  // Link to the creator(s)
+	  //*EVENT*//
+	  //*The PRODUCTION EVENT is the link between Artwork and Creator(s)*//
 		crm.P108i_was_produced_by template artEventIri with arkID event_prod_start;
 	  
 	  //*institution owning Artwork*//
 	  // Link to Organization
 		crm.P52_has_current_owner template organizationIri with owner_instit_identif;
 
-	  //*artworks parts*//
+	  //*PARTS*//
 		// following Linked Art guidelines
-		// PARTS: https://linked.art/model/object/physical/#parts
-		crm.P46_is_composed_of template artPlateIri with arkID; // Plate
-		crm.P46_is_composed_of template artPrismIri with arkID; // Prism
-		crm.P46_is_composed_of template artEmulsionIri with arkID; // Emulsion (image)
-		// PORTIONS:
-		crm.P46_is_composed_of template artFrontIri with arkID;  // Front
-		crm.P46_is_composed_of template artBackIri with arkID;  // Back
-		crm.P46_is_composed_of template artSidesIri with arkID;  // Sides (bordage)
+		// ARTWORK PARTS: https://linked.art/model/object/physical/#parts
+
+		// --> Front of object
+		crm.P46_is_composed_of template artFrontIri with arkID;
+		// --> Back of object
+		crm.P46_is_composed_of template artBackIri with arkID;
+		// --> Side of object
+		crm.P46_is_composed_of template artSidesIri with arkID;
+		// --> Plate
+		crm.P46_is_composed_of template artPlateIri with arkID;
+		// --> Prism
+		crm.P46_is_composed_of template artPrismIri with arkID;
+		// --> Emulsion
+		crm.P46_is_composed_of template artEmulsionIri with arkID;
+
+	//*DIMENSIONS OF OBJECT*//
+		// Object dimensions statement
+		crm.P67i_is_referred_to_by template art_DimStatementIri with arkID;
 }
+		

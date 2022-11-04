@@ -1,0 +1,22 @@
+// ** Artwork Title ** //
+  // following Linked Art guidelines
+  // DIMENSION STATEMENT: https://linked.art/model/object/physical/#dimension-statement
+
+output csvw
+
+template art_HeightIri "https://pe.plateforme10.ch/Artwork/{0}/Height" 
+
+map artHeight from Artworks {
+	subject template art_HeightIri with arkID;
+
+	types
+		crm.E54_Dimension
+
+	properties
+	  //*LABEL*//
+	  // See https://linked.art/model/base/#core-properties
+		rdfs.label from dimensions_obj_height;	// type label for documentation purpose
+		crm.P90_has_value from dimensions_obj_height;
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300055644"; // [Concept] height
+		crm.P91_has_unit constant "http://vocab.getty.edu/aat/300379097"; // [Concept] millimeters
+}

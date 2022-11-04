@@ -1,0 +1,22 @@
+// ** Artwork Title ** //
+  // following Linked Art guidelines
+  // DIMENSION STATEMENT: https://linked.art/model/object/physical/#dimension-statement
+
+output csvw
+
+template art_DimStatementIri "https://pe.plateforme10.ch/Artwork/{0}/Dimension/Text" 
+
+map DimensionStatement from Artworks {
+	subject template art_DimStatementIri with arkID;
+
+	types
+		crm.E33_Linguistic_Object
+
+	properties
+	  //*LABEL*//
+	  // See https://linked.art/model/base/#core-properties
+		rdfs.label from dimensions_obj_statement;	// type label for documentation purpose
+		crm.P190_has_symbolic_content from dimensions_obj_statement;
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300435430"; // [Concept] dimensions description
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300418049"; // [Concept] brief texts
+}
