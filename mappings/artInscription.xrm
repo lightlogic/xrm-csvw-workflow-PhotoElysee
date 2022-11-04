@@ -1,0 +1,22 @@
+// ** Artwork Inscription ** //
+  // following Linked Art guidelines
+  // SIDES OF AN OBJECTS: https://linked.art/model/object/physical/#sides-of-an-object
+
+output csvw
+
+template art_InscriptionIri "https://pe.plateforme10.ch/Artwork/{0}/{1}/Inscription/{2}"
+template art_carringSideIri "https://pe.plateforme10.ch/Artwork/{0}/{1}"
+
+map inscription from Inscriptions {
+	subject template art_InscriptionIri with arkID carrying_part insc_order;
+
+	types
+		crm.E33_Linguistic_Object
+
+	properties
+		rdfs.label from inscr_text;	// intended as an internal documentation
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300028702"; // [Concept] inscriptions
+		crm.P190_has_symbolic_content from inscr_text with language-tag fr;
+	 //*Link to artwork object part carring the inscription*//
+		crm.P128i_is_carried_by template art_carringSideIri with arkID carrying_part;
+}

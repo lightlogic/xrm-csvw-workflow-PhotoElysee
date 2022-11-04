@@ -96,4 +96,19 @@ logical-source Artworks {
         // OBJECT DIMENSION in mm of the min thinckness of the object (side where the prism is the thinest)
     dimensions_obj_thick_max
          // OBJECT DIMENSION in mm of the max thinckness of the object (side where the prism is the thickest)
+    dimensions_pri_slope
+         // PRISM SLOPE computed based on max and min thickness
+}
+
+logical-source Inscriptions {
+    type csv
+    source "../input/inscriptions.csv"
+    dialect CommaPE
+    
+    referenceables
+    inscription_UK
+    arkID
+    insc_order
+    carrying_part
+    inscr_text
 }

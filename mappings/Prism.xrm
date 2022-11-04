@@ -12,8 +12,20 @@ map Prism from Artworks {
 		crm.E22_Human_Made_Object
 
 	properties
+	  //*LABEL*//
+	  // See https://linked.art/model/base/#core-properties
 		rdfs.label constant "Prism";
+
+	  //*TYPES*//
+	  // See Linked Art https://linked.art/model/base/#types-of-types
 		crm.P2_has_type constant "http://vocab.getty.edu/aat/300241583"; // [Concept] components (object parts) // distinguished as a part-type and not an object-type 
 		crm.P2_has_type constant "http://vocab.getty.edu/aat/300010879"; // [Concept] prismatic glass
+
+	  //*TYPES*//
+	  // See Linked Art https://linked.art/model/object/physical/#sides-of-an-object
 		crm.P45_consists_of constant "http://vocab.getty.edu/aat/300010797"; // [Concept] glass (material)
+		
+		//*DIMENSIONS OF PRIMS*//
+		// Prism slope (pente)
+		crm.P43_has_dimension template pri_SlopeIri with arkID;
 }

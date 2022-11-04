@@ -117,6 +117,26 @@
 				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Dimension/Text"
 			},
 			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Height"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Width"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Thickness/Maximum"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Thickness/Minimum"
+			},
+			{
 				"suppressOutput": true,
 				"titles": "art_UK"
 			},
@@ -179,6 +199,10 @@
 			{
 				"suppressOutput": true,
 				"titles": "dimensions_obj_thick_max"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_pri_slope"
 			}
 		]
 	}

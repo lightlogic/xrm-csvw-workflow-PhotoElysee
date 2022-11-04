@@ -1,0 +1,23 @@
+// ** Artwork Title ** //
+  // following Linked Art guidelines
+  // DIMENSION STATEMENT: https://linked.art/model/object/physical/#dimension-statement
+
+output csvw
+
+template art_ThicknessMinIri "https://pe.plateforme10.ch/Artwork/{0}/Thickness/Minimum" 
+
+map artThicknessMin from Artworks {
+	subject template art_ThicknessMinIri with arkID;
+
+	types
+		crm.E54_Dimension
+
+	properties
+	  //*LABEL*//
+	  // See https://linked.art/model/base/#core-properties
+		rdfs.label from dimensions_obj_thick_min;	// type label for documentation purpose
+		crm.P90_has_value from dimensions_obj_thick_min;
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300055646"; // [Concept] Thickness
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300443984"; // [Concept] Minimum
+		crm.P91_has_unit constant "http://vocab.getty.edu/aat/300379097"; // [Concept] millimeters
+}

@@ -66,5 +66,13 @@ map Artwork from Artworks {
 	//*DIMENSIONS OF OBJECT*//
 		// Object dimensions statement
 		crm.P67i_is_referred_to_by template art_DimStatementIri with arkID;
+		// Object dimensions height (vertical dimension in natural image orientation)
+		crm.P43_has_dimension template art_HeightIri with arkID;
+		// Object dimensions width (horizontal dimension in natural image orientation)
+		crm.P43_has_dimension template art_WidthIri with arkID;
+		// Object dimension maximum thickness
+		crm.P43_has_dimension template art_ThicknessMaxIri with arkID;
+		// Object dimension minimum thickness
+		crm.P43_has_dimension template art_ThicknessMinIri with arkID;
 }
 		

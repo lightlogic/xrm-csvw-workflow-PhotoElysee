@@ -1,0 +1,22 @@
+// ** Artwork Title ** //
+  // following Linked Art guidelines
+  // DIMENSION STATEMENT: https://linked.art/model/object/physical/#dimension-statement
+
+output csvw
+
+template pri_SlopeIri "https://pe.plateforme10.ch/Artwork/{0}/Prism/Slope" 
+
+map priSlope from Artworks {
+	subject template pri_SlopeIri with arkID;
+
+	types
+		crm.E25_Human_Made_Feature
+
+	properties
+	  //*LABEL*//
+	  // See https://linked.art/model/base/#core-properties
+		rdfs.label from dimensions_pri_slope;	// type label for documentation purpose
+		crm.P90_has_value from dimensions_pri_slope;
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300055644"; // [Concept] slopes (mathematics)
+		crm.P91_has_unit constant "http://www.ontology-of-units-of-measure.org/resource/om-2/degree"; // [Resource] degree (unit of angle)
+}
