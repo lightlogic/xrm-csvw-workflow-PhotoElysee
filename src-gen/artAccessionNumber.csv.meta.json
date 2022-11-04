@@ -58,11 +58,11 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "titreType_string"
+				"titles": "titreType_typeAAT"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "titreType_typeAAT"
+				"titles": "titreType_label"
 			},
 			{
 				"suppressOutput": true,

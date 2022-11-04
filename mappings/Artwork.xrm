@@ -1,6 +1,6 @@
 // ** Artwork ** //
   // following Linked Art guidelines
-  // BASELINE PATTERNS: https://linked.art/model/base/
+  // BASELINE PATTERNS: https://linked.art/model
 
 output csvw
 
@@ -15,25 +15,28 @@ map Artwork from Artworks {
 		crm.E22_Human_Made_Object
 
 	properties
-	  //*label*//
-		rdfs.label from primaryName;	// intended as an internal documentation
+	  //*LABEL*//
+	  // See https://linked.art/model/base/#core-properties
+		rdfs.label from primaryName;	// displays the primary name of the Artwork
 
-	  //*identifiers*//
-		crm.P1_is_identified_by template artIdentifierIri with arkID ;
-        crm.P1_is_identified_by template "http://mel.decalog.net/flora_mel/ark:/{0}" with arkID;
-		crm.P1_is_identified_by from arkID;
-        crm.P1_is_identified_by from numInv;
-		crm.P1_is_identified_by template art_PrimNameIri with arkID;
-		crm.P1_is_identified_by template art_AccessionNumberIri with arkID;
+	  //*IDENTIFIERS*//
+	  // See Linked Art https://linked.art/model/base/#names-and-identifiers-for-a-resource
+		crm.P1_is_identified_by template artIdentifierIri with arkID ;	// Artwork IRI published by Photo Elysée
+        crm.P1_is_identified_by template "http://mel.decalog.net/flora_mel/ark:/{0}" with arkID;	// ARK Id given by Collection Management System FLORA more here https://en.wikipedia.org/wiki/Archival_Resource_Key 
+		crm.P1_is_identified_by from arkID;	// Ark ID as value makes it easier to display
+		crm.P1_is_identified_by template art_PrimNameIri with arkID; // see: https://linked.art/model/base/#names
+		crm.P1_is_identified_by template art_AccessionNumberIri with arkID; // see https://linked.art/model/base/#identifiers
+        crm.P1_is_identified_by from numInv; // Accession number (Numéro d'inventaire) as properties of Artwoks makes it easier to display
       
-	  //*types*//
+	  //*TYPES*//
+	  // See Linked Art https://linked.art/model/base/#types-of-types
 		crm.P2_has_type template artTypeIri with arkID; 
 		crm.P2_has_type template gettyArtArchThesIri with art_typeAAT;
 		crm.P2_has_type constant "http://vocab.getty.edu/aat/300133025"; // [type] works of art
 
       
-	  //*Title*//  
-		crm.P190_has_symbolic_content template art_TitleIri with arkID titreType_string;
+	  //*TITLE*//  
+		crm.P190_has_symbolic_content template art_TitleIri with arkID titreType_label;
 	  
 	  //*event when Artwork was produced*//
 	  // Link to the creator(s)

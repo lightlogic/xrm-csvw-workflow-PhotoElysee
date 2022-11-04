@@ -21,12 +21,16 @@
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"titles": "primaryName_fr"
+				"titles": "primaryName"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+				"titles": "primaryName"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
 				"lang": "fr",
-				"titles": "primaryName_fr"
+				"titles": "institutionName_fr"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
@@ -47,10 +51,6 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "institutionName_fr"
-			},
-			{
-				"suppressOutput": true,
 				"titles": "addrStreet"
 			},
 			{
@@ -63,7 +63,7 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "addrCountry"
+				"titles": "addrCountry_fr"
 			}
 		]
 	}

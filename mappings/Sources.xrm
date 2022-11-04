@@ -16,12 +16,14 @@ logical-source Creators {
 
     referenceables
         creator_UK
-        primaryName_fr
+        primaryName
+            // Name of the creator in his native langage. Correspond to https://www.wikidata.org/wiki/Property:P1559
         givenName
         LastName
         birthName
         creatorQ
         WikipediaName
+            // Wikipedia URL wiki name. Ex. for https://en.wikipedia.org/wiki/Gabriel_Lippmann value will be "Gabriel_Lippmann"
         birthDate
         deathDate
 }
@@ -34,14 +36,20 @@ logical-source Organizations {
 
     referenceables
         institution_identifier
+            // INTEGER scope only inside input csv ex. 23, 192, 1921
         WikidataID
+            // Wikidata Q id serving as foreign key to input creators.csv file entry
         WikipediaName
-        primaryName_fr
+            // Wikipedia URL wiki name. Ex. for https://en.wikipedia.org/wiki/Gabriel_Lippmann value will be "Gabriel_Lippmann"
+        primaryName
+            // Name of the organisation in his native language. Correspond to https://www.wikidata.org/wiki/Property:P1559
         institutionName_fr
+            // Name of the organisation understandble in french.
         addrStreet
         addrZIP
         addrCity
-        addrCountry
+        addrCountry_fr
+            // Name of the country in french
 }
 
 logical-source Artworks {
@@ -51,17 +59,32 @@ logical-source Artworks {
 
     referenceables
     art_UK
+        // INTEGER scope only inside input csv ex. 23, 192, 1921
     arkID
+        // ARK ID set by Collection Management System Flora when creating a new Artwork entry ex. 12345/002386976
     numInv
+        // ACCESSION NUMBER (num. d'inventaire) with leading zeros or as it appears in collection management system
     art_typeAAT
+        // ARTWORK TYPE according to Getty Vocab AAT object/work type https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300435443
     art_typeAAT_label
+        // CONSTANT value from Getty Vocab AAT: http://vocab.getty.edu/aat/term/1000810112-en
     primaryName
+        // PRIMARY NAME value as appearing in collection management system "Title"
     titre
-    titreType_string
+        // TITLE value as appearing in collection management system "Title"
     titreType_typeAAT
+        // TYPE OF TITLE according to Getty Vocab AAT can be either "300417201" http://vocab.getty.edu/aat/300417201 (artist's titles) or "300417205" http://vocab.getty.edu/aat/300417205 (constructed titles)
+    titreType_label
+        // CONSTANT value from Getty Vocab AAT (label): can be either "original" (titre de l'artiste) or "constructed" (attribué)
     creator
+        // Wikidata Q id serving as foreign key to input creators.csv file entry
     owner_instit_identif
+        // Wikidata Q id serving as foreign key to input organizations.csv file entry
     event_prod_text
+        // STRING date of production textual statement
     event_prod_start
+        // DATE ISO datetime value of the start of production time interval. If year: 1903-01-01T00:00:00Z, if month: 1903-05-01T00:00:00Z, if day: 1903-07-19T00:00:00Z
     event_prod_end
+        // DATE ISO datetime value of the end of production time interval. If year: 1903-12-31T23:59:59Z, if month: 1903-05-01T23:59:59Z, if day: 1903-07-19T23:59:59Z
+
 }
