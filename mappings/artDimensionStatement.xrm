@@ -17,6 +17,6 @@ map DimensionStatement from Artworks {
 	  // See https://linked.art/model/base/#core-properties
 		rdfs.label from dimensions_obj_statement;	// type label for documentation purpose
 		crm.P190_has_symbolic_content from dimensions_obj_statement;
-		crm.P2_has_type constant "http://vocab.getty.edu/aat/300435430"; // [Concept] dimensions description
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300411780"; // [Concept] descriptions (documents)
 		crm.P2_has_type constant "http://vocab.getty.edu/aat/300418049"; // [Concept] brief texts
 }

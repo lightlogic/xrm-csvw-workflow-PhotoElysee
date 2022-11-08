@@ -90,6 +90,7 @@ vocabulary crm {
         P52_has_current_owner
         P55_has_current_location
         P65_shows_visual_item
+        P65i_is_shown_by
         P67i_is_referred_to_by
         P82a_begin_of_the_begin
         P81a_end_of_the_begin

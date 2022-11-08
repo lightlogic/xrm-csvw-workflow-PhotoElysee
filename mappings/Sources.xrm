@@ -107,8 +107,34 @@ logical-source Inscriptions {
     
     referenceables
     inscription_UK
+        // INTEGER scope only inside input csv ex. 23, 192, 1921
     arkID
+        // ARK ID set by Collection Management System Flora when creating a new Artwork entry ex. 12345/002386976
     insc_order
+        // order in which the inscriptions are listed. Current number starting from 1 for all artwork
     carrying_part
+        // Part of the artwork that carries the inscription. MUST BE EITHER "Sides", "Back" or "Front". Used to generate the link to part IRI.
     inscr_text
+        // Text of the inscription
 }
+
+logical-source VisualContents {
+    type csv
+    source "../input/visualcontents.csv"
+    dialect CommaPE
+    
+    referenceables
+    inscription_UK
+        // INTEGER scope only inside input csv ex. 23, 192, 1921
+    arkID
+        // ARK ID set by Collection Management System Flora when creating a new Artwork entry ex. 12345/002386976
+    descr_textuelle
+        // order in which the inscriptions are listed. Current number starting from 1 for all artwork
+    sujetsMotsClefs
+        // Keyword describing the subject of the picture (if several repeat line)
+    thesaurusTerm
+        // Expression du mot-cles par l'un des concepts du GETTY Vocablary AAT
+    orientation_descr
+        // Description of the orientation of the visual item. Can be either "Paysage", "Portrait" ou "Carré"
+    orientation_typeAAT
+}       // AAT expression of the orientation can be either "300311843" (landscape), "300343370" (portrait), "300263832" (square)

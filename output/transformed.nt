@@ -65,42 +65,42 @@
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 92x95x20mm" .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 92x95x20mm" .
-<https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435430> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 92x95x20mm" .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 92x95x20mm" .
-<https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435430> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 92x95x20mm" .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 92x95x20mm" .
-<https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435430> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 92x95x20mm" .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 92x95x20mm" .
-<https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435430> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
 <https://pe.plateforme10.ch/Artwork/12345/002381254/Dimension/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 <https://pe.plateforme10.ch/Artwork/12345/002381254/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 69x90x19mm" .
 <https://pe.plateforme10.ch/Artwork/12345/002381254/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 69x90x19mm" .
-<https://pe.plateforme10.ch/Artwork/12345/002381254/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435430> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
 <https://pe.plateforme10.ch/Artwork/12345/002381254/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
 <https://pe.plateforme10.ch/Artwork/12345/002381254/Dimension/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 <https://pe.plateforme10.ch/Artwork/12345/002381254/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 69x90x19mm" .
 <https://pe.plateforme10.ch/Artwork/12345/002381254/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 69x90x19mm" .
-<https://pe.plateforme10.ch/Artwork/12345/002381254/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435430> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
 <https://pe.plateforme10.ch/Artwork/12345/002381254/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
 <https://pe.plateforme10.ch/Artwork/12345/002389321/Dimension/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 <https://pe.plateforme10.ch/Artwork/12345/002389321/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 200x250mm" .
 <https://pe.plateforme10.ch/Artwork/12345/002389321/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 200x250mm" .
-<https://pe.plateforme10.ch/Artwork/12345/002389321/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435430> .
+<https://pe.plateforme10.ch/Artwork/12345/002389321/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
 <https://pe.plateforme10.ch/Artwork/12345/002389321/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
 <https://pe.plateforme10.ch/Artwork/12345/002389315/Dimension/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 <https://pe.plateforme10.ch/Artwork/12345/002389315/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 200x250mm" .
 <https://pe.plateforme10.ch/Artwork/12345/002389315/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 200x250mm" .
-<https://pe.plateforme10.ch/Artwork/12345/002389315/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435430> .
+<https://pe.plateforme10.ch/Artwork/12345/002389315/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
 <https://pe.plateforme10.ch/Artwork/12345/002389315/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Front> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Front> <http://www.w3.org/2000/01/rdf-schema#label> <FrontOfArtwork> .
@@ -426,6 +426,91 @@
 <https://pe.plateforme10.ch/Artwork/12345/002389315/Type> <http://www.w3.org/2000/01/rdf-schema#label> "color photography" .
 <https://pe.plateforme10.ch/Artwork/12345/002389315/Type> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435443> .
 <https://pe.plateforme10.ch/Artwork/12345/002389315/Type> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "color photography"@en .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.w3.org/2000/01/rdf-schema#label> <visualContent> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Artwork/12345/002386976/PrimaryName> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P65i_is_shown_by> <https://pe.plateforme10.ch/Artwork/12345/002386976/Front> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> <https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Vue urbaine"@fr .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P138_represents> <http://vocab.getty.edu/aat/300000873> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.w3.org/2000/01/rdf-schema#label> <visualContent> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Artwork/12345/002386976/PrimaryName> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P65i_is_shown_by> <https://pe.plateforme10.ch/Artwork/12345/002386976/Front> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> <https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "enfant"@fr .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P138_represents> <http://vocab.getty.edu/aat/300025945> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.w3.org/2000/01/rdf-schema#label> <visualContent> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Artwork/12345/002386976/PrimaryName> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P65i_is_shown_by> <https://pe.plateforme10.ch/Artwork/12345/002386976/Front> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> <https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "personne"@fr .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P138_represents> <http://vocab.getty.edu/aat/300024979> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.w3.org/2000/01/rdf-schema#label> <visualContent> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Artwork/12345/002386976/PrimaryName> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P65i_is_shown_by> <https://pe.plateforme10.ch/Artwork/12345/002386976/Front> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> <https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "monument"@fr .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P138_represents> <http://vocab.getty.edu/aat/300006958> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent> <http://www.w3.org/2000/01/rdf-schema#label> <visualContent> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Artwork/12345/002381254/PrimaryName> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent/Orientation> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P65i_is_shown_by> <https://pe.plateforme10.ch/Artwork/12345/002381254/Front> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> <https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent/Description> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "paysage"@fr .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent> <http://www.cidoc-crm.org/cidoc-crm/P138_represents> <http://vocab.getty.edu/aat/300008626> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.w3.org/2000/01/rdf-schema#label> "Venise X" .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Venise X" .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.w3.org/2000/01/rdf-schema#label> "Venise X" .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Venise X" .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.w3.org/2000/01/rdf-schema#label> "Venise X" .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Venise X" .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.w3.org/2000/01/rdf-schema#label> "Venise X" .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Description> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Venise X" .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent/Description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent/Description> <http://www.w3.org/2000/01/rdf-schema#label> "Vue panoramique en plongée sur le Lac Léman, Montreux et Clarens avec une terrasse au premier plan. On distingue de la végétation et des maisons en contrebas." .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent/Description> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent/Description> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent/Description> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Vue panoramique en plongée sur le Lac Léman, Montreux et Clarens avec une terrasse au premier plan. On distingue de la végétation et des maisons en contrebas." .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.w3.org/2000/01/rdf-schema#label> "paysage"@fr .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435451> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300311843> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.w3.org/2000/01/rdf-schema#label> "paysage"@fr .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435451> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300311843> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.w3.org/2000/01/rdf-schema#label> "paysage"@fr .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435451> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300311843> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.w3.org/2000/01/rdf-schema#label> "paysage"@fr .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435451> .
+<https://pe.plateforme10.ch/Artwork/12345/002386976/VisualContent/Orientation> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300311843> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent/Orientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent/Orientation> <http://www.w3.org/2000/01/rdf-schema#label> "portrait"@fr .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent/Orientation> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435451> .
+<https://pe.plateforme10.ch/Artwork/12345/002381254/VisualContent/Orientation> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300343370> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Width> <http://www.w3.org/2000/01/rdf-schema#label> "95" .
 <https://pe.plateforme10.ch/Artwork/12345/002386976/Width> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "95" .
