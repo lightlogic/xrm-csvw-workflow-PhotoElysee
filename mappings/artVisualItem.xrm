@@ -21,6 +21,11 @@ map visualContent from VisualContents {
 	  // See Linked Art https://linked.art/model/base/#types-of-types		
 		crm.P2_has_type template art_VisualItemOrientationIri with arkID;
 
+	  //*DIGITAL SURROGATE*//
+	  // See Linked Art https://linked.art/model/digital/#digital-surrogates
+		la.digitally_shown_by template art_DigitalSurrogateIri with arkID;
+	  
+
 	 //*Link to artwork front part carring the visual item*//
 		crm.P65i_is_shown_by template art_carringVisualItemIri with arkID;
 		crm.P67i_is_referred_to_by template art_VisualItemDescriptionIri with arkID;

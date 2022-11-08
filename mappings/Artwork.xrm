@@ -74,5 +74,6 @@ map Artwork from Artworks {
 		crm.P43_has_dimension template art_ThicknessMaxIri with arkID;
 		// Object dimension minimum thickness
 		crm.P43_has_dimension template art_ThicknessMinIri with arkID;
+
 }
 		

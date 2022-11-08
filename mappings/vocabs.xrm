@@ -16,6 +16,8 @@ vocabulary schema {
         Person
         PostalAddress
         QuantitativeValue
+        ImageObject
+        DigitalDocument
     
     properties
         address
@@ -55,6 +57,15 @@ vocabulary rdfs {
 
 }
 
+vocabulary la {
+    prefix "la" "https://linked.art/ns/terms/"
+
+    properties
+        digitally_shows
+        digitally_shown_by
+        access_point
+}
+
 vocabulary crm {
 
 	prefix "crm" "http://www.cidoc-crm.org/cidoc-crm/"
@@ -92,6 +103,7 @@ vocabulary crm {
         P65_shows_visual_item
         P65i_is_shown_by
         P67i_is_referred_to_by
+        P70i_is_documented_in
         P82a_begin_of_the_begin
         P81a_end_of_the_begin
         P81b_begin_of_the_end

@@ -12,27 +12,16 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualContent/Orientation",
+		"aboutUrl": "{IIIFlink}",
 		"columns": [
 			{
 				"virtual": true,
 				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+				"valueUrl": "http://schema.org/ImageObject"
 			},
 			{
-				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"lang": "fr",
-				"titles": "orientation_descr"
-			},
-			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300435451"
-			},
-			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-				"titles": "orientation_typeAAT",
-				"valueUrl": "http://vocab.getty.edu/aat/{orientation_typeAAT}"
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+				"titles": "IIIFlink"
 			},
 			{
 				"suppressOutput": true,
@@ -56,15 +45,15 @@
 			},
 			{
 				"suppressOutput": true,
+				"titles": "orientation_descr"
+			},
+			{
+				"suppressOutput": true,
 				"titles": "orientation_typeAAT"
 			},
 			{
 				"suppressOutput": true,
 				"titles": "IIIFmanifest"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "IIIFlink"
 			}
 		]
 	}

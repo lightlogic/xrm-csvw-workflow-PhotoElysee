@@ -1,0 +1,18 @@
+// ** Artwork Visual Digital Surrogate ** //
+  // following partially Linked Art guidelines
+  // DIGITAL SURROGATE: https://linked.art/model/#digital-surrogates
+
+output csvw
+
+// template art_DigitalSurrogateLinkIri "https://pe.plateforme10.ch/Artwork/{0}/VisualContent/DigitalSurrogates/Link"
+template art_DigitalSurrogateLinkIri "{0}"
+
+map SurrogateLink from VisualContents {
+	subject template art_DigitalSurrogateLinkIri with IIIFlink;
+
+	types
+		schema.ImageObject
+
+	properties
+		crm.P1_is_identified_by from IIIFlink;
+}

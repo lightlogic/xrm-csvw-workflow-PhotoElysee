@@ -1,0 +1,17 @@
+// ** Artwork Visual Digital Surrogate ** //
+  // following partially Linked Art guidelines
+  // DIGITAL SURROGATE: https://linked.art/model/#digital-surrogates
+
+output csvw
+
+template art_DigitalSurrogateManifestIri "{0}"
+
+map SurrogateManifest from VisualContents {
+	subject template art_DigitalSurrogateManifestIri with IIIFmanifest;
+
+	types
+		schema.DigitalDocument
+
+	properties
+		crm.P1_is_identified_by from IIIFmanifest;
+}

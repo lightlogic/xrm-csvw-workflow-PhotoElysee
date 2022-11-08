@@ -60,6 +60,14 @@
 			{
 				"suppressOutput": true,
 				"titles": "orientation_typeAAT"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "IIIFmanifest"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "IIIFlink"
 			}
 		]
 	}
