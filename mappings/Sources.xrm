@@ -137,4 +137,9 @@ logical-source VisualContents {
     orientation_descr
         // Description of the orientation of the visual item. Can be either "Paysage", "Portrait" ou "Carré"
     orientation_typeAAT
-}       // AAT expression of the orientation can be either "300311843" (landscape), "300343370" (portrait), "300263832" (square)
+        // AAT expression of the orientation can be either "300311843" (landscape), "300343370" (portrait), "300263832" (square)
+    IIIFmanifest
+        // IIIF manifest of the digital surrogate
+    IIIFlink
+        // IIIF link or access point to the digital image
+}

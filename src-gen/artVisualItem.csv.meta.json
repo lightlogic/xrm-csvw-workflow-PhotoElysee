@@ -35,6 +35,11 @@
 				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualContent/Orientation"
 			},
 			{
+				"propertyUrl": "https://linked.art/ns/terms/digitally_shown_by",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualContent/DigitalSurrogates"
+			},
+			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P65i_is_shown_by",
 				"titles": "arkID",
 				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Front"
@@ -77,6 +82,14 @@
 			{
 				"suppressOutput": true,
 				"titles": "orientation_typeAAT"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "IIIFmanifest"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "IIIFlink"
 			}
 		]
 	}
