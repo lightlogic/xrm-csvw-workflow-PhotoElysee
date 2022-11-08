@@ -28,11 +28,6 @@
 				"titles": "event_prod_text"
 			},
 			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
-				"titles": "creator",
-				"valueUrl": "https://pe.plateforme10.ch/Creator/{creator}"
-			},
-			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
 				"titles": "event_prod_start"
 			},
@@ -47,6 +42,11 @@
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
 				"titles": "event_prod_end"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
+				"titles": "creator",
+				"valueUrl": "https://pe.plateforme10.ch/Creator/{creator}"
 			},
 			{
 				"suppressOutput": true,
@@ -78,11 +78,11 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "titreType_string"
+				"titles": "titreType_typeAAT"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "titreType_typeAAT"
+				"titles": "titreType_label"
 			},
 			{
 				"suppressOutput": true,
@@ -91,6 +91,30 @@
 			{
 				"suppressOutput": true,
 				"titles": "owner_instit_identif"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_obj_statement"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_obj_height"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_obj_width"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_obj_thick_min"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_obj_thick_max"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_pri_slope"
 			}
 		]
 	}

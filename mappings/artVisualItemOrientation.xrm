@@ -1,0 +1,21 @@
+// ** Artwork Visual Content carried by front (image) ** //
+  // following Linked Art guidelines
+  // ABOUTNESS: https://linked.art/model/object/aboutness/#physical-object-and-visual-work
+
+output csvw
+
+template art_VisualItemOrientationIri "https://pe.plateforme10.ch/Artwork/{0}/VisualContent/Orientation"
+
+map Orientation from VisualContents {
+	subject template art_VisualItemOrientationIri with arkID;
+
+	types
+		crm.E55_Type
+
+	properties
+		rdfs.label from orientation_descr with language-tag fr;	// intended as an internal documentation
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300435451"; // [Concept] orientation/arrangement description
+		crm.P2_has_type template gettyArtArchThesIri with orientation_typeAAT;
+
+		
+}

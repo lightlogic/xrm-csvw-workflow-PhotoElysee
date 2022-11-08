@@ -14,5 +14,5 @@ types
 		schema.streetAddress from addrStreet;
 		schema.postalCode from addrZIP;
 		schema.addressLocality from addrZIP;
-		schema.addressCountry from addrCountry;
+		schema.addressCountry from addrCountry_fr;
 }

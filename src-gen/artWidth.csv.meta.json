@@ -12,32 +12,30 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Plate",
+		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Width",
 		"columns": [
 			{
 				"virtual": true,
 				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object"
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"virtual": true,
-				"valueUrl": "PhotographicPlate"
+				"titles": "dimensions_obj_width"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
+				"titles": "dimensions_obj_width"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
 				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300241583"
+				"valueUrl": "http://vocab.getty.edu/aat/300055647"
 			},
 			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P91_has_unit",
 				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300127369"
-			},
-			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P45_consists_of",
-				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300010797"
+				"valueUrl": "http://vocab.getty.edu/aat/300379097"
 			},
 			{
 				"suppressOutput": true,
@@ -102,10 +100,6 @@
 			{
 				"suppressOutput": true,
 				"titles": "dimensions_obj_height"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "dimensions_obj_width"
 			},
 			{
 				"suppressOutput": true,

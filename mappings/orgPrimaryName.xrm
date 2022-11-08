@@ -13,7 +13,8 @@ map orgPrimaryName from Organizations {
 		crm.E41_Appellation
 
 	properties
-		rdfs.label from primaryName_fr;	// type label for documentation purpose
-		crm.P190_has_symbolic_content from primaryName_fr with language-tag fr;
+		rdfs.label from primaryName;	// type label for documentation purpose
+		crm.P190_has_symbolic_content from primaryName;
+		crm.P190_has_symbolic_content from institutionName_fr with language-tag fr;
 		crm.P2_has_type constant "http://vocab.getty.edu/aat/300404670"; // [type] preferred terms
 }

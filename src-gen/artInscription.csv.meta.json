@@ -1,0 +1,59 @@
+{
+	"@context": "http://www.w3.org/ns/csvw",
+	"url": "../input/inscriptions.csv",
+	"dialect": {
+		"delimiter": ",",
+		"doubleQuote": true,
+		"encoding": "utf-8",
+		"header": true,
+		"headerRowCount": "1",
+		"lineTerminators": "\r\n",
+		"quoteChar": "\"",
+		"trim": false
+	},
+	"tableSchema": {
+		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/{carrying_part}/Inscription/{insc_order}",
+		"columns": [
+			{
+				"virtual": true,
+				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"
+			},
+			{
+				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
+				"titles": "inscr_text"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300028702"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+				"lang": "fr",
+				"titles": "inscr_text"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P128i_is_carried_by",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/{carrying_part}"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "inscription_UK"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "arkID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "insc_order"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "carrying_part"
+			}
+		]
+	}
+}

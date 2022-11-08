@@ -33,7 +33,7 @@
 			},
 			{
 				"propertyUrl": "http://schema.org/addressCountry",
-				"titles": "addrCountry"
+				"titles": "addrCountry_fr"
 			},
 			{
 				"suppressOutput": true,
@@ -49,7 +49,7 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "primaryName_fr"
+				"titles": "primaryName"
 			},
 			{
 				"suppressOutput": true,

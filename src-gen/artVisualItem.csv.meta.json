@@ -1,0 +1,83 @@
+{
+	"@context": "http://www.w3.org/ns/csvw",
+	"url": "../input/visualcontents.csv",
+	"dialect": {
+		"delimiter": ",",
+		"doubleQuote": true,
+		"encoding": "utf-8",
+		"header": true,
+		"headerRowCount": "1",
+		"lineTerminators": "\r\n",
+		"quoteChar": "\"",
+		"trim": false
+	},
+	"tableSchema": {
+		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualContent",
+		"columns": [
+			{
+				"virtual": true,
+				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"
+			},
+			{
+				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
+				"virtual": true,
+				"valueUrl": "visualContent"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/PrimaryName"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualContent/Orientation"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P65i_is_shown_by",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Front"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualContent/Description"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+				"lang": "fr",
+				"titles": "sujetsMotsClefs"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P138_represents",
+				"titles": "thesaurusTerm",
+				"valueUrl": "http://vocab.getty.edu/aat/{thesaurusTerm}"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "inscription_UK"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "arkID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "descr_textuelle"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "thesaurusTerm"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "orientation_descr"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "orientation_typeAAT"
+			}
+		]
+	}
+}

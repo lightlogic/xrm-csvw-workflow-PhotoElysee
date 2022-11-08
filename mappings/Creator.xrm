@@ -12,7 +12,7 @@ map Creator from Creators {
 		crm.E21_Person
 
 	properties
-		rdfs.label from primaryName_fr;	// intended as an internal documentation
+		rdfs.label from primaryName;	// intended as an internal documentation
 		crm.P1_is_identified_by from creatorQ;
 		schema.sameAs template "http://www.wikidata.org/entity/{0}" with creatorQ; 
 		rdfs.seeAlso template "https://fr.wikipedia.org/wiki/{0}" with WikipediaName;

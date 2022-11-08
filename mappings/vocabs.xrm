@@ -65,6 +65,8 @@ vocabulary crm {
 		E14_Condition_Assessment
         E21_Person
         E22_Human_Made_Object "E22_Human-Made_Object"
+        E25_Human_Made_Feature "E25_Human-Made_Feature"
+        E33_Linguistic_Object
         E35_Title
         E36_Visual_Item
         E41_Appellation
@@ -88,12 +90,17 @@ vocabulary crm {
         P52_has_current_owner
         P55_has_current_location
         P65_shows_visual_item
+        P65i_is_shown_by
+        P67i_is_referred_to_by
         P82a_begin_of_the_begin
         P81a_end_of_the_begin
         P81b_begin_of_the_end
         P82b_end_of_the_end
+        P90_has_value
+        P91_has_unit
         P94_has_created
         P108i_was_produced_by
+        P128i_is_carried_by
         P190_has_symbolic_content
         P138_represents
 }
