@@ -1,6 +1,6 @@
 {
 	"@context": "http://www.w3.org/ns/csvw",
-	"url": "../input/visualcontents.csv",
+	"url": "../input/visualcontents_stage.csv",
 	"dialect": {
 		"delimiter": ",",
 		"doubleQuote": true,
@@ -53,6 +53,10 @@
 			{
 				"suppressOutput": true,
 				"titles": "thesaurusTerm"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "thesaurusGeo"
 			},
 			{
 				"suppressOutput": true,

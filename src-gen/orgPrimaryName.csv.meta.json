@@ -1,6 +1,6 @@
 {
 	"@context": "http://www.w3.org/ns/csvw",
-	"url": "../input/organizations.csv",
+	"url": "../input/organizations_stage.csv",
 	"dialect": {
 		"delimiter": ",",
 		"doubleQuote": true,
