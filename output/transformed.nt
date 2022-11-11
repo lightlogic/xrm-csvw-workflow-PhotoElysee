@@ -185,13 +185,13 @@
 <https://api.nationalmuseum.se/api/objects/19029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DigitalDocument> .
 <https://api.nationalmuseum.se/api/objects/19029> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "https://api.nationalmuseum.se/api/objects/19029" .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Dimension/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-<https://pe.plateforme10.ch/Artwork/12345/001543457/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 92x95x20mm" .
-<https://pe.plateforme10.ch/Artwork/12345/001543457/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 92x95x20mm" .
+<https://pe.plateforme10.ch/Artwork/12345/001543457/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 90x95x20mm" .
+<https://pe.plateforme10.ch/Artwork/12345/001543457/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 90x95x20mm" .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Dimension/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-<https://pe.plateforme10.ch/Artwork/12345/002386745/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 69x90x19mm" .
-<https://pe.plateforme10.ch/Artwork/12345/002386745/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 69x90x19mm" .
+<https://pe.plateforme10.ch/Artwork/12345/002386745/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 68x90x19mm" .
+<https://pe.plateforme10.ch/Artwork/12345/002386745/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 68x90x19mm" .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
 <https://pe.plateforme10.ch/Artwork/12345/009358693/Dimension/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
@@ -210,13 +210,13 @@
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Dimension/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 95x65x17mm" .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 95x65x17mm" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 88x89x19mm" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 88x89x19mm" .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Dimension/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 95x65x17mm" .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 95x65x17mm" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Dimension/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensions: 88x89x19mm" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Dimensions: 88x89x19mm" .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300411780> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Dimension/Text> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300418049> .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Front> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object> .
@@ -255,38 +255,38 @@
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Front> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300241583> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Front> <http://www.cidoc-crm.org/cidoc-crm/P65_shows_visual_item> <https://pe.plateforme10.ch/Artwork/12345/001267886/VisualContent> .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/001543457/Height> <http://www.w3.org/2000/01/rdf-schema#label> "92" .
-<https://pe.plateforme10.ch/Artwork/12345/001543457/Height> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "92" .
+<https://pe.plateforme10.ch/Artwork/12345/001543457/Height> <http://www.w3.org/2000/01/rdf-schema#label> "90" .
+<https://pe.plateforme10.ch/Artwork/12345/001543457/Height> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "90" .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Height> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055644> .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Height> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/002386745/Height> <http://www.w3.org/2000/01/rdf-schema#label> "92" .
-<https://pe.plateforme10.ch/Artwork/12345/002386745/Height> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "92" .
+<https://pe.plateforme10.ch/Artwork/12345/002386745/Height> <http://www.w3.org/2000/01/rdf-schema#label> "68" .
+<https://pe.plateforme10.ch/Artwork/12345/002386745/Height> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "68" .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Height> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055644> .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Height> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/009358693/Height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/009358693/Height> <http://www.w3.org/2000/01/rdf-schema#label> "92" .
-<https://pe.plateforme10.ch/Artwork/12345/009358693/Height> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "92" .
+<https://pe.plateforme10.ch/Artwork/12345/009358693/Height> <http://www.w3.org/2000/01/rdf-schema#label> "85" .
+<https://pe.plateforme10.ch/Artwork/12345/009358693/Height> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "85" .
 <https://pe.plateforme10.ch/Artwork/12345/009358693/Height> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055644> .
 <https://pe.plateforme10.ch/Artwork/12345/009358693/Height> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/005347698/Height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/005347698/Height> <http://www.w3.org/2000/01/rdf-schema#label> "92" .
-<https://pe.plateforme10.ch/Artwork/12345/005347698/Height> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "92" .
+<https://pe.plateforme10.ch/Artwork/12345/005347698/Height> <http://www.w3.org/2000/01/rdf-schema#label> "84" .
+<https://pe.plateforme10.ch/Artwork/12345/005347698/Height> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "84" .
 <https://pe.plateforme10.ch/Artwork/12345/005347698/Height> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055644> .
 <https://pe.plateforme10.ch/Artwork/12345/005347698/Height> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/15053/000000001/Height> <http://www.w3.org/2000/01/rdf-schema#label> "92" .
-<https://pe.plateforme10.ch/Artwork/15053/000000001/Height> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "92" .
+<https://pe.plateforme10.ch/Artwork/15053/000000001/Height> <http://www.w3.org/2000/01/rdf-schema#label> "95" .
+<https://pe.plateforme10.ch/Artwork/15053/000000001/Height> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "95" .
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Height> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055644> .
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Height> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Height> <http://www.w3.org/2000/01/rdf-schema#label> "92" .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Height> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "92" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Height> <http://www.w3.org/2000/01/rdf-schema#label> "88" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Height> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "88" .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Height> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055644> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Height> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Height> <http://www.w3.org/2000/01/rdf-schema#label> "92" .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Height> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "92" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Height> <http://www.w3.org/2000/01/rdf-schema#label> "88" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Height> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "88" .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Height> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055644> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Height> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Back/Inscription/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
@@ -397,14 +397,14 @@
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300443983> .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Maximum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Maximum> <http://www.w3.org/2000/01/rdf-schema#label> "20" .
-<https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "20" .
+<https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Maximum> <http://www.w3.org/2000/01/rdf-schema#label> "19" .
+<https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "19" .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055646> .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300443983> .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Maximum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Maximum> <http://www.w3.org/2000/01/rdf-schema#label> "20" .
-<https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "20" .
+<https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Maximum> <http://www.w3.org/2000/01/rdf-schema#label> "18" .
+<https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "18" .
 <https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055646> .
 <https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300443983> .
 <https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
@@ -415,38 +415,38 @@
 <https://pe.plateforme10.ch/Artwork/12345/005347698/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300443983> .
 <https://pe.plateforme10.ch/Artwork/12345/005347698/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Maximum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Maximum> <http://www.w3.org/2000/01/rdf-schema#label> "20" .
-<https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "20" .
+<https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Maximum> <http://www.w3.org/2000/01/rdf-schema#label> "17" .
+<https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "17" .
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055646> .
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300443983> .
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.w3.org/2000/01/rdf-schema#label> "20" .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "20" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.w3.org/2000/01/rdf-schema#label> "19" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "19" .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055646> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300443983> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.w3.org/2000/01/rdf-schema#label> "20" .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "20" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.w3.org/2000/01/rdf-schema#label> "19" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "19" .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055646> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300443983> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Maximum> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Thickness/Minimum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/001543457/Thickness/Minimum> <http://www.w3.org/2000/01/rdf-schema#label> "8" .
-<https://pe.plateforme10.ch/Artwork/12345/001543457/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" .
+<https://pe.plateforme10.ch/Artwork/12345/001543457/Thickness/Minimum> <http://www.w3.org/2000/01/rdf-schema#label> "4" .
+<https://pe.plateforme10.ch/Artwork/12345/001543457/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "4" .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055646> .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300443984> .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Minimum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Minimum> <http://www.w3.org/2000/01/rdf-schema#label> "8" .
-<https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" .
+<https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Minimum> <http://www.w3.org/2000/01/rdf-schema#label> "7" .
+<https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "7" .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055646> .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300443984> .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Minimum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Minimum> <http://www.w3.org/2000/01/rdf-schema#label> "8" .
-<https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" .
+<https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Minimum> <http://www.w3.org/2000/01/rdf-schema#label> "4" .
+<https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "4" .
 <https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055646> .
 <https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300443984> .
 <https://pe.plateforme10.ch/Artwork/12345/009358693/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
@@ -457,20 +457,20 @@
 <https://pe.plateforme10.ch/Artwork/12345/005347698/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300443984> .
 <https://pe.plateforme10.ch/Artwork/12345/005347698/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Minimum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Minimum> <http://www.w3.org/2000/01/rdf-schema#label> "8" .
-<https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" .
+<https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Minimum> <http://www.w3.org/2000/01/rdf-schema#label> "4" .
+<https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "4" .
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055646> .
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300443984> .
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.w3.org/2000/01/rdf-schema#label> "8" .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.w3.org/2000/01/rdf-schema#label> "4" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "4" .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055646> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300443984> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.w3.org/2000/01/rdf-schema#label> "8" .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "8" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.w3.org/2000/01/rdf-schema#label> "4" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "4" .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055646> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300443984> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Thickness/Minimum> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
@@ -777,33 +777,33 @@
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Width> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055647> .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Width> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/002386745/Width> <http://www.w3.org/2000/01/rdf-schema#label> "95" .
-<https://pe.plateforme10.ch/Artwork/12345/002386745/Width> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "95" .
+<https://pe.plateforme10.ch/Artwork/12345/002386745/Width> <http://www.w3.org/2000/01/rdf-schema#label> "90" .
+<https://pe.plateforme10.ch/Artwork/12345/002386745/Width> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "90" .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Width> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055647> .
 <https://pe.plateforme10.ch/Artwork/12345/002386745/Width> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/009358693/Width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/009358693/Width> <http://www.w3.org/2000/01/rdf-schema#label> "95" .
-<https://pe.plateforme10.ch/Artwork/12345/009358693/Width> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "95" .
+<https://pe.plateforme10.ch/Artwork/12345/009358693/Width> <http://www.w3.org/2000/01/rdf-schema#label> "85" .
+<https://pe.plateforme10.ch/Artwork/12345/009358693/Width> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "85" .
 <https://pe.plateforme10.ch/Artwork/12345/009358693/Width> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055647> .
 <https://pe.plateforme10.ch/Artwork/12345/009358693/Width> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/005347698/Width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/005347698/Width> <http://www.w3.org/2000/01/rdf-schema#label> "95" .
-<https://pe.plateforme10.ch/Artwork/12345/005347698/Width> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "95" .
+<https://pe.plateforme10.ch/Artwork/12345/005347698/Width> <http://www.w3.org/2000/01/rdf-schema#label> "65" .
+<https://pe.plateforme10.ch/Artwork/12345/005347698/Width> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "65" .
 <https://pe.plateforme10.ch/Artwork/12345/005347698/Width> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055647> .
 <https://pe.plateforme10.ch/Artwork/12345/005347698/Width> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/15053/000000001/Width> <http://www.w3.org/2000/01/rdf-schema#label> "95" .
-<https://pe.plateforme10.ch/Artwork/15053/000000001/Width> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "95" .
+<https://pe.plateforme10.ch/Artwork/15053/000000001/Width> <http://www.w3.org/2000/01/rdf-schema#label> "65" .
+<https://pe.plateforme10.ch/Artwork/15053/000000001/Width> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "65" .
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Width> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055647> .
 <https://pe.plateforme10.ch/Artwork/15053/000000001/Width> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Width> <http://www.w3.org/2000/01/rdf-schema#label> "95" .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Width> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "95" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Width> <http://www.w3.org/2000/01/rdf-schema#label> "89" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Width> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "89" .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Width> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055647> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Width> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Width> <http://www.w3.org/2000/01/rdf-schema#label> "95" .
-<https://pe.plateforme10.ch/Artwork/12345/001267886/Width> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "95" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Width> <http://www.w3.org/2000/01/rdf-schema#label> "89" .
+<https://pe.plateforme10.ch/Artwork/12345/001267886/Width> <http://www.cidoc-crm.org/cidoc-crm/P90_has_value> "89" .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Width> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055647> .
 <https://pe.plateforme10.ch/Artwork/12345/001267886/Width> <http://www.cidoc-crm.org/cidoc-crm/P91_has_unit> <http://vocab.getty.edu/aat/300379097> .
 <https://pe.plateforme10.ch/Artwork/12345/001543457> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object> .
@@ -1092,42 +1092,42 @@
 <https://pe.plateforme10.ch/Event/Production/12345/001267886-1900-01-01T00:00:00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P81b_begin_of_the_end> "1921-12-31T23:59:59Z" .
 <https://pe.plateforme10.ch/Event/Production/12345/001267886-1900-01-01T00:00:00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "1921-12-31T23:59:59Z" .
 <https://pe.plateforme10.ch/Event/Production/12345/001267886-1900-01-01T00:00:00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://pe.plateforme10.ch/Creator/Q108933616> .
-<https://pe.plateforme10.ch/Organization/11/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
-<https://pe.plateforme10.ch/Organization/11/address> <http://schema.org/streetAddress> "Place de la Gare 17" .
-<https://pe.plateforme10.ch/Organization/11/address> <http://schema.org/postalCode> "1003" .
-<https://pe.plateforme10.ch/Organization/11/address> <http://schema.org/addressLocality> "1003" .
-<https://pe.plateforme10.ch/Organization/11/address> <http://schema.org/addressCountry> "Suisse" .
-<https://pe.plateforme10.ch/Organization/16/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
-<https://pe.plateforme10.ch/Organization/16/address> <http://schema.org/streetAddress> "21, Rue de l'école de médecine" .
-<https://pe.plateforme10.ch/Organization/16/address> <http://schema.org/postalCode> "75006" .
-<https://pe.plateforme10.ch/Organization/16/address> <http://schema.org/addressLocality> "75006" .
-<https://pe.plateforme10.ch/Organization/16/address> <http://schema.org/addressCountry> "France" .
-<https://pe.plateforme10.ch/Organization/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<https://pe.plateforme10.ch/Organization/11> <http://www.w3.org/2000/01/rdf-schema#label> "Photo Elysée, Plateforme 10" .
-<https://pe.plateforme10.ch/Organization/11> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Organization/11/PrimaryName> .
-<https://pe.plateforme10.ch/Organization/11> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "11" .
-<https://pe.plateforme10.ch/Organization/11> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312281> .
-<https://pe.plateforme10.ch/Organization/11> <http://schema.org/sameAs> <http://www.wikidata.org/entity/Q675261> .
-<https://pe.plateforme10.ch/Organization/11> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fr.wikipedia.org/wiki/Photo_Elysée> .
-<https://pe.plateforme10.ch/Organization/11> <http://schema.org/address> <https://pe.plateforme10.ch/Organization/11/address> .
-<https://pe.plateforme10.ch/Organization/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
-<https://pe.plateforme10.ch/Organization/16> <http://www.w3.org/2000/01/rdf-schema#label> "Sorbonne Université" .
-<https://pe.plateforme10.ch/Organization/16> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Organization/16/PrimaryName> .
-<https://pe.plateforme10.ch/Organization/16> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "16" .
-<https://pe.plateforme10.ch/Organization/16> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312281> .
-<https://pe.plateforme10.ch/Organization/16> <http://schema.org/sameAs> <http://www.wikidata.org/entity/Q41497113> .
-<https://pe.plateforme10.ch/Organization/16> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fr.wikipedia.org/wiki/Sorbonne_Université> .
-<https://pe.plateforme10.ch/Organization/16> <http://schema.org/address> <https://pe.plateforme10.ch/Organization/16/address> .
-<https://pe.plateforme10.ch/Organization/11/PrimaryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> .
-<https://pe.plateforme10.ch/Organization/11/PrimaryName> <http://www.w3.org/2000/01/rdf-schema#label> "Photo Elysée, Plateforme 10" .
-<https://pe.plateforme10.ch/Organization/11/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Photo Elysée, Plateforme 10" .
-<https://pe.plateforme10.ch/Organization/11/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Photo Elysée"@fr .
-<https://pe.plateforme10.ch/Organization/11/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
-<https://pe.plateforme10.ch/Organization/16/PrimaryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> .
-<https://pe.plateforme10.ch/Organization/16/PrimaryName> <http://www.w3.org/2000/01/rdf-schema#label> "Sorbonne Université" .
-<https://pe.plateforme10.ch/Organization/16/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sorbonne Université" .
-<https://pe.plateforme10.ch/Organization/16/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sorbonne Université"@fr .
-<https://pe.plateforme10.ch/Organization/16/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
+<https://pe.plateforme10.ch/Organization/Q675261/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
+<https://pe.plateforme10.ch/Organization/Q675261/address> <http://schema.org/streetAddress> "Place de la Gare 17" .
+<https://pe.plateforme10.ch/Organization/Q675261/address> <http://schema.org/postalCode> "1003" .
+<https://pe.plateforme10.ch/Organization/Q675261/address> <http://schema.org/addressLocality> "1003" .
+<https://pe.plateforme10.ch/Organization/Q675261/address> <http://schema.org/addressCountry> "Suisse" .
+<https://pe.plateforme10.ch/Organization/Q41497113/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
+<https://pe.plateforme10.ch/Organization/Q41497113/address> <http://schema.org/streetAddress> "21, Rue de l'école de médecine" .
+<https://pe.plateforme10.ch/Organization/Q41497113/address> <http://schema.org/postalCode> "75006" .
+<https://pe.plateforme10.ch/Organization/Q41497113/address> <http://schema.org/addressLocality> "75006" .
+<https://pe.plateforme10.ch/Organization/Q41497113/address> <http://schema.org/addressCountry> "France" .
+<https://pe.plateforme10.ch/Organization/Q675261> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://pe.plateforme10.ch/Organization/Q675261> <http://www.w3.org/2000/01/rdf-schema#label> "Photo Elysée, Plateforme 10" .
+<https://pe.plateforme10.ch/Organization/Q675261> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Organization/Q675261/PrimaryName> .
+<https://pe.plateforme10.ch/Organization/Q675261> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Q675261" .
+<https://pe.plateforme10.ch/Organization/Q675261> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312281> .
+<https://pe.plateforme10.ch/Organization/Q675261> <http://schema.org/sameAs> <http://www.wikidata.org/entity/Q675261> .
+<https://pe.plateforme10.ch/Organization/Q675261> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fr.wikipedia.org/wiki/Photo_Elysée> .
+<https://pe.plateforme10.ch/Organization/Q675261> <http://schema.org/address> <https://pe.plateforme10.ch/Organization/Q675261/address> .
+<https://pe.plateforme10.ch/Organization/Q41497113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://pe.plateforme10.ch/Organization/Q41497113> <http://www.w3.org/2000/01/rdf-schema#label> "Sorbonne Université" .
+<https://pe.plateforme10.ch/Organization/Q41497113> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Organization/Q41497113/PrimaryName> .
+<https://pe.plateforme10.ch/Organization/Q41497113> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Q41497113" .
+<https://pe.plateforme10.ch/Organization/Q41497113> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312281> .
+<https://pe.plateforme10.ch/Organization/Q41497113> <http://schema.org/sameAs> <http://www.wikidata.org/entity/Q41497113> .
+<https://pe.plateforme10.ch/Organization/Q41497113> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://fr.wikipedia.org/wiki/Sorbonne_Université> .
+<https://pe.plateforme10.ch/Organization/Q41497113> <http://schema.org/address> <https://pe.plateforme10.ch/Organization/Q41497113/address> .
+<https://pe.plateforme10.ch/Organization/Q675261/PrimaryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> .
+<https://pe.plateforme10.ch/Organization/Q675261/PrimaryName> <http://www.w3.org/2000/01/rdf-schema#label> "Photo Elysée, Plateforme 10" .
+<https://pe.plateforme10.ch/Organization/Q675261/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Photo Elysée, Plateforme 10" .
+<https://pe.plateforme10.ch/Organization/Q675261/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Photo Elysée"@fr .
+<https://pe.plateforme10.ch/Organization/Q675261/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
+<https://pe.plateforme10.ch/Organization/Q41497113/PrimaryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> .
+<https://pe.plateforme10.ch/Organization/Q41497113/PrimaryName> <http://www.w3.org/2000/01/rdf-schema#label> "Sorbonne Université" .
+<https://pe.plateforme10.ch/Organization/Q41497113/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sorbonne Université" .
+<https://pe.plateforme10.ch/Organization/Q41497113/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sorbonne Université"@fr .
+<https://pe.plateforme10.ch/Organization/Q41497113/PrimaryName> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Plate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object> .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Plate> <http://www.w3.org/2000/01/rdf-schema#label> <PhotographicPlate> .
 <https://pe.plateforme10.ch/Artwork/12345/001543457/Plate> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300241583> .

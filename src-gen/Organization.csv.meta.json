@@ -12,7 +12,7 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://pe.plateforme10.ch/Organization/{institution_identifier}",
+		"aboutUrl": "https://pe.plateforme10.ch/Organization/{WikidataID}",
 		"columns": [
 			{
 				"virtual": true,
@@ -25,12 +25,12 @@
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-				"titles": "institution_identifier",
-				"valueUrl": "https://pe.plateforme10.ch/Organization/{institution_identifier}/PrimaryName"
+				"titles": "WikidataID",
+				"valueUrl": "https://pe.plateforme10.ch/Organization/{WikidataID}/PrimaryName"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-				"titles": "institution_identifier"
+				"titles": "WikidataID"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
@@ -49,12 +49,12 @@
 			},
 			{
 				"propertyUrl": "http://schema.org/address",
-				"titles": "institution_identifier",
-				"valueUrl": "https://pe.plateforme10.ch/Organization/{institution_identifier}/address"
+				"titles": "WikidataID",
+				"valueUrl": "https://pe.plateforme10.ch/Organization/{WikidataID}/address"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "WikidataID"
+				"titles": "institution_identifier"
 			},
 			{
 				"suppressOutput": true,

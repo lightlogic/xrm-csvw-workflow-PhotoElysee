@@ -12,7 +12,7 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://pe.plateforme10.ch/Organization/{institution_identifier}/address",
+		"aboutUrl": "https://pe.plateforme10.ch/Organization/{WikidataID}/address",
 		"columns": [
 			{
 				"virtual": true,

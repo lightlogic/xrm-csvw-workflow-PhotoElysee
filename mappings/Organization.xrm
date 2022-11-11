@@ -5,17 +5,17 @@ output csvw
 template organizationIri "https://pe.plateforme10.ch/Organization/{0}"
 
 map Organization from Organizations {
-	subject template organizationIri with institution_identifier;
+	subject template organizationIri with WikidataID;
 
 	types
 		schema.Organization
 
 	properties
 		rdfs.label from primaryName;	// type label for documentation purpose
-		crm.P1_is_identified_by template org_PrimeNameIri with institution_identifier;
-		crm.P1_is_identified_by from institution_identifier;
+		crm.P1_is_identified_by template org_PrimeNameIri with WikidataID;
+		crm.P1_is_identified_by from WikidataID;
         crm.P2_has_type constant "http://vocab.getty.edu/aat/300312281"; // [type] museums (institutions) 
 		schema.sameAs template "http://www.wikidata.org/entity/{0}" with WikidataID; 
 		rdfs.seeAlso template "https://fr.wikipedia.org/wiki/{0}" with WikipediaName;
-		schema.address template org_AddressIri with institution_identifier;
+		schema.address template org_AddressIri with WikidataID;
 }

@@ -26,7 +26,7 @@ map visualContent from VisualContents {
 		la.digitally_shown_by template art_DigitalSurrogateIri with arkID;
 	  
 
-	 //*Link to artwork front part carring the visual item*//
+	 //*Link to front part carring the visual item*//
 		crm.P65i_is_shown_by template art_carringVisualItemIri with arkID;
 		crm.P67i_is_referred_to_by template art_VisualItemDescriptionIri with arkID;
 	
