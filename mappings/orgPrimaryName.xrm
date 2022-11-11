@@ -7,7 +7,7 @@ output csvw
 template org_PrimeNameIri "https://pe.plateforme10.ch/Organization/{0}/PrimaryName"
 
 map orgPrimaryName from Organizations {
-	subject template org_PrimeNameIri with institution_identifier;
+	subject template org_PrimeNameIri with WikidataID;
 
 	types
 		crm.E41_Appellation

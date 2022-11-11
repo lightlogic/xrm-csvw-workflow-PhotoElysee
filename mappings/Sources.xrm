@@ -11,7 +11,7 @@ dialect CommaPE {
 
 logical-source Creators {
     type csv
-    source "../input/creators.csv"
+    source "../input/creators_stage.csv"
     dialect CommaPE
 
     referenceables
@@ -31,7 +31,7 @@ logical-source Creators {
 
 logical-source Organizations {
     type csv
-    source "../input/organizations.csv"
+    source "../input/organizations_stage.csv"
     dialect CommaPE
 
     referenceables
@@ -54,7 +54,7 @@ logical-source Organizations {
 
 logical-source Artworks {
     type csv
-    source "../input/artworks.csv"
+    source "../input/artworks_stage.csv"
     dialect CommaPE
 
     referenceables
@@ -102,7 +102,7 @@ logical-source Artworks {
 
 logical-source Inscriptions {
     type csv
-    source "../input/inscriptions.csv"
+    source "../input/inscriptions_stage.csv"
     dialect CommaPE
     
     referenceables
@@ -120,7 +120,7 @@ logical-source Inscriptions {
 
 logical-source VisualContents {
     type csv
-    source "../input/visualcontents.csv"
+    source "../input/visualcontents_stage.csv"
     dialect CommaPE
     
     referenceables
@@ -134,6 +134,8 @@ logical-source VisualContents {
         // Keyword describing the subject of the picture (if several repeat line)
     thesaurusTerm
         // Expression du mot-cles par l'un des concepts du GETTY Vocablary AAT
+    thesaurusGeo
+        // Lien vers le lieu dans le Getty Thesaurus of Geographic Names (TGN) 
     orientation_descr
         // Description of the orientation of the visual item. Can be either "Paysage", "Portrait" ou "Carré"
     orientation_typeAAT

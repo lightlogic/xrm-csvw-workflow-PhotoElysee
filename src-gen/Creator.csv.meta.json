@@ -1,6 +1,6 @@
 {
 	"@context": "http://www.w3.org/ns/csvw",
-	"url": "../input/creators.csv",
+	"url": "../input/creators_stage.csv",
 	"dialect": {
 		"delimiter": ",",
 		"doubleQuote": true,

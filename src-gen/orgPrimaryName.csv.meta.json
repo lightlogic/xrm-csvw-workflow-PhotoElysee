@@ -1,6 +1,6 @@
 {
 	"@context": "http://www.w3.org/ns/csvw",
-	"url": "../input/organizations.csv",
+	"url": "../input/organizations_stage.csv",
 	"dialect": {
 		"delimiter": ",",
 		"doubleQuote": true,
@@ -12,7 +12,7 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://pe.plateforme10.ch/Organization/{institution_identifier}/PrimaryName",
+		"aboutUrl": "https://pe.plateforme10.ch/Organization/{WikidataID}/PrimaryName",
 		"columns": [
 			{
 				"virtual": true,
