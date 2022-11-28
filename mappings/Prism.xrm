@@ -4,6 +4,8 @@
 output csvw
 
 template artPrismIri "https://pe.plateforme10.ch/Artwork/{0}/Prism"
+template pri_DimStatementIri "https://pe.plateforme10.ch/Artwork/{0}/Prism/Dimension/Text" 
+
 
 map Prism from Artworks {
 	subject template artPrismIri with arkID;
@@ -26,6 +28,16 @@ map Prism from Artworks {
 		crm.P45_consists_of constant "http://vocab.getty.edu/aat/300010797"; // [Concept] glass (material)
 		
 		//*DIMENSIONS OF PRIMS*//
+		// Object dimensions statement
+		crm.P67i_is_referred_to_by template pri_DimStatementIri with arkID;
+		// // Object dimensions height (vertical dimension in natural image orientation)
+		// crm.P43_has_dimension template pri_HeightIri with arkID;
+		// // Object dimensions width (horizontal dimension in natural image orientation)
+		// crm.P43_has_dimension template pri_WidthIri with arkID;
+		// // Object dimension maximum thickness
+		// crm.P43_has_dimension template pri_ThicknessMaxIri with arkID;
+		// // Object dimension minimum thickness
+		// crm.P43_has_dimension template pri_ThicknessMinIri with arkID;
 		// Prism slope (pente)
 		crm.P43_has_dimension template pri_SlopeIri with arkID;
 }
