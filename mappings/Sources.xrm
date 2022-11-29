@@ -95,9 +95,11 @@ logical-source Artworks {
     dimensions_obj_thick_min
         // OBJECT DIMENSION in mm of the min thinckness of the object (side where the prism is the thinest)
     dimensions_obj_thick_max
-         // OBJECT DIMENSION in mm of the max thinckness of the object (side where the prism is the thickest)
+        // OBJECT DIMENSION in mm of the max thinckness of the object (side where the prism is the thickest)
     dimensions_pri_statement
-        // PRISM DIMENSION STATEMENT brief text that summarize the dimension of the whole object that is the artwork
+        // PRISM DIMENSION STATEMENT brief text that summarize the dimension of the prism
+    dimensions_pla_statement
+        // PLATE DIMENSION STATEMENT brief text that summarize the dimension of the plate
     dimensions_pri_slope
          // PRISM SLOPE computed based on max and min thickness
 }
