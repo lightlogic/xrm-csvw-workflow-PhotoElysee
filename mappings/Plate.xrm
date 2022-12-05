@@ -21,12 +21,10 @@ map Plate from Artworks {
 		//*DIMENSIONS OF PLATE*//
 		// Plate dimensions statement
 		crm.P67i_is_referred_to_by template pla_DimStatementIri with arkID;
-		// // Plate dimensions height (vertical dimension in natural image orientation)
-		// crm.P43_has_dimension template pla_HeightIri with arkID;
-		// // Plate dimensions width (horizontal dimension in natural image orientation)
-		// crm.P43_has_dimension template pla_WidthIri with arkID;
-		// // Plate dimension maximum thickness
-		// crm.P43_has_dimension template pla_ThicknessMaxIri with arkID;
-		// // Plate dimension minimum thickness
-		// crm.P43_has_dimension template pla_ThicknessMinIri with arkID;
+		// Plate dimensions height (vertical dimension in natural image orientation)
+		crm.P43_has_dimension template pla_HeightIri with arkID;
+		// Plate dimensions width (horizontal dimension in natural image orientation)
+		crm.P43_has_dimension template pla_WidthIri with arkID;
+		// Plate dimension thickness
+		crm.P43_has_dimension template pla_ThicknessIri with arkID;
 }

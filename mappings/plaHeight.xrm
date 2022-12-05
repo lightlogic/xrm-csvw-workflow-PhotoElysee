@@ -1,13 +1,13 @@
-// ** Artwork Height ** //
+// ** Plate Height ** //
   // following Linked Art guidelines
   // DIMENSION STATEMENT: https://linked.art/model/object/physical/#dimension-statement
 
 output csvw
 
-template art_HeightIri "https://pe.plateforme10.ch/Artwork/{0}/Height" 
+template pla_HeightIri "https://pe.plateforme10.ch/Artwork/{0}/Plate/Height" 
 
-map artHeight from Artworks {
-	subject template art_HeightIri with arkID;
+map plaHeight from Artworks {
+	subject template pla_HeightIri with arkID;
 
 	types
 		crm.E54_Dimension
@@ -15,8 +15,8 @@ map artHeight from Artworks {
 	properties
 	  //*LABEL*//
 	  // See https://linked.art/model/base/#core-properties
-		rdfs.label from dimensions_obj_height;	// type label for documentation purpose
-		crm.P90_has_value from dimensions_obj_height;
+		rdfs.label from dimensions_pla_height;	// type label for documentation purpose
+		crm.P90_has_value from dimensions_pla_height;
 		crm.P2_has_type constant "http://vocab.getty.edu/aat/300055644"; // [Concept] Height
 		crm.P91_has_unit constant "http://vocab.getty.edu/aat/300379097"; // [Concept] millimeters
 }

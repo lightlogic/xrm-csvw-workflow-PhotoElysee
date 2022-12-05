@@ -116,11 +116,23 @@
 			},
 			{
 				"suppressOutput": true,
+				"titles": "dimensions_pri_slope"
+			},
+			{
+				"suppressOutput": true,
 				"titles": "dimensions_pla_statement"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "dimensions_pri_slope"
+				"titles": "dimensions_pla_height"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_pla_width"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_pla_thick"
 			}
 		]
 	}
