@@ -113,6 +113,8 @@ vocabulary crm {
         P94_has_created
         P108i_was_produced_by
         P128i_is_carried_by
+        P129_is_about
+        P129i_is_subject_of
         P190_has_symbolic_content
         P138_represents
 }

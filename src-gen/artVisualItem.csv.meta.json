@@ -30,6 +30,21 @@
 				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/PrimaryName"
 			},
 			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+				"lang": "fr",
+				"titles": "sujetsMotsClefs"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P129_is_about",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualContent/Subject/{thesaurusTermOntology}-{thesaurusTermType}"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P138_represents",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualContent/Subject/{thesaurusTermOntology}-{thesaurusTermType}"
+			},
+			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
 				"titles": "arkID",
 				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualContent/Orientation"
@@ -50,16 +65,6 @@
 				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualContent/Description"
 			},
 			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
-				"lang": "fr",
-				"titles": "sujetsMotsClefs"
-			},
-			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P138_represents",
-				"titles": "thesaurusTerm",
-				"valueUrl": "http://vocab.getty.edu/aat/{thesaurusTerm}"
-			},
-			{
 				"suppressOutput": true,
 				"titles": "inscription_UK"
 			},
@@ -73,7 +78,15 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "thesaurusTerm"
+				"titles": "thesaurusTermOntology"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "thesaurusTermType"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "thesaurusTermIRI"
 			},
 			{
 				"suppressOutput": true,

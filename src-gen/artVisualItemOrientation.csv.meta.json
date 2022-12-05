@@ -52,7 +52,15 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "thesaurusTerm"
+				"titles": "thesaurusTermOntology"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "thesaurusTermType"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "thesaurusTermIRI"
 			},
 			{
 				"suppressOutput": true,

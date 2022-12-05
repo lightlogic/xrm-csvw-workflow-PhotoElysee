@@ -142,8 +142,16 @@ logical-source VisualContents {
         // order in which the inscriptions are listed. Current number starting from 1 for all artwork
     sujetsMotsClefs
         // Keyword describing the subject of the picture (if several repeat line)
-    thesaurusTerm
-        // Expression du mot-cles par l'un des concepts du GETTY Vocablary AAT
+        // Ex: parrot
+    thesaurusTermOntology
+        // Adequate Ontology to describe the meaning of sujetsMotsClefs
+        // Ex: VTO (for "Vertebrate Taxonomy Ontology")
+    thesaurusTermType
+        // UID of keyword in the ontologie described by the subject sujectsMotsClef in the ontology referenced in thesaurusTermOntonlogy
+        // Ex. 0023229
+    thesaurusTermIRI
+        // IRI of the concept corresponding to sujetMotsClefs
+        // Ex: http://purl.obolibrary.org/obo/VTO_0023229
     thesaurusGeo
         // Lien vers le lieu dans le Getty Thesaurus of Geographic Names (TGN) 
     orientation_descr
