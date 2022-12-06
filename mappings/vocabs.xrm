@@ -82,6 +82,7 @@ vocabulary crm {
         E36_Visual_Item
         E41_Appellation
         E42_Identifier
+        E53_Place
         E54_Dimension
         E55_Type
         E57_Material

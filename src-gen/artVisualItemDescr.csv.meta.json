@@ -1,6 +1,6 @@
 {
 	"@context": "http://www.w3.org/ns/csvw",
-	"url": "../input/visualcontents_stage.csv",
+	"url": "../input/visualitems_stage.csv",
 	"dialect": {
 		"delimiter": ",",
 		"doubleQuote": true,
@@ -47,26 +47,6 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "sujetsMotsClefs"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "thesaurusTermOntology"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "thesaurusTermType"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "thesaurusTermIRI"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "thesaurusGeo"
-			},
-			{
-				"suppressOutput": true,
 				"titles": "orientation_descr"
 			},
 			{
@@ -80,6 +60,26 @@
 			{
 				"suppressOutput": true,
 				"titles": "IIIFlink"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "subjectLabel"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "subjectVocabulary"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "subjectID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "subjectIRI"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "aboutnessType"
 			}
 		]
 	}

@@ -6,7 +6,7 @@ output csvw
 
 template art_VisualItemDescriptionIri "https://pe.plateforme10.ch/Artwork/{0}/VisualContent/Description"
 
-map Description from VisualContents {
+map Description from VisualItems {
 	subject template art_VisualItemDescriptionIri with arkID;
 
 	types

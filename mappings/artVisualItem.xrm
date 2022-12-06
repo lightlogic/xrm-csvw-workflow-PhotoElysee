@@ -7,23 +7,24 @@ output csvw
 template art_VisualItemIri "https://pe.plateforme10.ch/Artwork/{0}/VisualContent"
 template art_carringVisualItemIri "https://pe.plateforme10.ch/Artwork/{0}/Front"
 
-map visualContent from VisualContents {
+map VisualItem from VisualItems {
 	subject template art_VisualItemIri with arkID;
 
 	types
 		crm.E36_Visual_Item
 
 	properties
-		rdfs.label constant "visualContent";	// intended as an internal documentation
+		rdfs.label constant "visualItem";	// intended as an internal documentation
 		crm.P1_is_identified_by template art_PrimNameIri with arkID; // see: https://linked.art/model/base/#names
 	
-	  //*SUBJECT*//
-	  // See Linked Art https://linked.art/model/object/aboutness/#subject
-		crm.P190_has_symbolic_content from sujetsMotsClefs with language-tag fr; // literal of the keyword
-		crm.P129_is_about template art_VisualContentSubjectIri with arkID thesaurusTermOntology thesaurusTermType;
-		crm.P138_represents template art_VisualContentSubjectIri with arkID thesaurusTermOntology thesaurusTermType; // concept corresponding to the keyword
+	  //*ABOUTNESS*//
+	  	//*SUBJECT KEYWORDS*//
+	  	// See Linked Art https://linked.art/model/object/aboutness/#subject
+		crm.P190_has_symbolic_content from subjectLabel with language-tag fr; // literal of the keyword
+		crm.P129_is_about template art_VisualItemSubjectIri with arkID aboutnessType subjectVocabulary subjectID;
+		crm.P138_represents template art_VisualItemSubjectIri with arkID aboutnessType subjectVocabulary subjectID; // concept corresponding to the keyword
 
-	  //*TYPES*//
+	  //*TYPES*// 
 	  // See Linked Art https://linked.art/model/base/#types-of-types		
 		crm.P2_has_type template art_VisualItemOrientationIri with arkID;
 

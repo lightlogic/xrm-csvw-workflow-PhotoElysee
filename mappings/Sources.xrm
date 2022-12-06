@@ -128,9 +128,9 @@ logical-source Inscriptions {
         // Text of the inscription
 }
 
-logical-source VisualContents {
+logical-source VisualItems {
     type csv
-    source "../input/visualcontents_stage.csv"
+    source "../input/visualitems_stage.csv"
     dialect CommaPE
     
     referenceables
@@ -140,20 +140,6 @@ logical-source VisualContents {
         // ARK ID set by Collection Management System Flora when creating a new Artwork entry ex. 12345/002386976
     descr_textuelle
         // order in which the inscriptions are listed. Current number starting from 1 for all artwork
-    sujetsMotsClefs
-        // Keyword describing the subject of the picture (if several repeat line)
-        // Ex: parrot
-    thesaurusTermOntology
-        // Adequate Ontology to describe the meaning of sujetsMotsClefs
-        // Ex: VTO (for "Vertebrate Taxonomy Ontology")
-    thesaurusTermType
-        // UID of keyword in the ontologie described by the subject sujectsMotsClef in the ontology referenced in thesaurusTermOntonlogy
-        // Ex. 0023229
-    thesaurusTermIRI
-        // IRI of the concept corresponding to sujetMotsClefs
-        // Ex: http://purl.obolibrary.org/obo/VTO_0023229
-    thesaurusGeo
-        // Lien vers le lieu dans le Getty Thesaurus of Geographic Names (TGN) 
     orientation_descr
         // Description of the orientation of the visual item. Can be either "Paysage", "Portrait" ou "Carré"
     orientation_typeAAT
@@ -162,4 +148,20 @@ logical-source VisualContents {
         // IIIF manifest of the digital surrogate
     IIIFlink
         // IIIF link or access point to the digital image
+    subjectLabel
+        // Keyword describing the subject of the picture (if several repeat line)
+        // Ex: parrot
+    subjectVocabulary
+        // Adequate Ontology to describe the meaning of subjectLabel
+        // Ex: VTO (for "Vertebrate Taxonomy Ontology")
+    subjectID
+        // UID of keyword in the ontologie described by the subject sujectsMotsClef in the ontology referenced in thesaurusTermOntonlogy
+        // Ex. 0023229
+    subjectIRI
+        // IRI of the concept corresponding to sujetMotsClefs
+        // Ex: http://purl.obolibrary.org/obo/VTO_0023229
+    aboutnessType
+        // type of aboutness information
+        // can be either subject or place
+        // used in the visualItemIRI in order to qualify it as conceptual or geographic
 }

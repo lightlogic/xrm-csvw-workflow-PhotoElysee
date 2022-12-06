@@ -1,6 +1,6 @@
 {
 	"@context": "http://www.w3.org/ns/csvw",
-	"url": "../input/visualcontents_stage.csv",
+	"url": "../input/visualitems_stage.csv",
 	"dialect": {
 		"delimiter": ",",
 		"doubleQuote": true,
@@ -12,7 +12,7 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualContent/Subject/{thesaurusTermOntology}-{thesaurusTermType}",
+		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualItem/{aboutnessType}/{subjectVocabulary}{subjectID}",
 		"columns": [
 			{
 				"virtual": true,
@@ -22,11 +22,11 @@
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
 				"lang": "fr",
-				"titles": "sujetsMotsClefs"
+				"titles": "subjectLabel"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-				"titles": "thesaurusTermIRI"
+				"titles": "subjectIRI"
 			},
 			{
 				"suppressOutput": true,
@@ -39,18 +39,6 @@
 			{
 				"suppressOutput": true,
 				"titles": "descr_textuelle"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "thesaurusTermOntology"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "thesaurusTermType"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "thesaurusGeo"
 			},
 			{
 				"suppressOutput": true,
@@ -67,6 +55,18 @@
 			{
 				"suppressOutput": true,
 				"titles": "IIIFlink"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "subjectVocabulary"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "subjectID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "aboutnessType"
 			}
 		]
 	}

@@ -1,6 +1,6 @@
 {
 	"@context": "http://www.w3.org/ns/csvw",
-	"url": "../input/visualcontents_stage.csv",
+	"url": "../input/visualitems_stage.csv",
 	"dialect": {
 		"delimiter": ",",
 		"doubleQuote": true,
@@ -22,7 +22,7 @@
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
 				"virtual": true,
-				"valueUrl": "visualContent"
+				"valueUrl": "visualItem"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
@@ -32,17 +32,17 @@
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
 				"lang": "fr",
-				"titles": "sujetsMotsClefs"
+				"titles": "subjectLabel"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P129_is_about",
 				"titles": "arkID",
-				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualContent/Subject/{thesaurusTermOntology}-{thesaurusTermType}"
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualItem/{aboutnessType}/{subjectVocabulary}{subjectID}"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P138_represents",
 				"titles": "arkID",
-				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualContent/Subject/{thesaurusTermOntology}-{thesaurusTermType}"
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualItem/{aboutnessType}/{subjectVocabulary}{subjectID}"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
@@ -78,22 +78,6 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "thesaurusTermOntology"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "thesaurusTermType"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "thesaurusTermIRI"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "thesaurusGeo"
-			},
-			{
-				"suppressOutput": true,
 				"titles": "orientation_descr"
 			},
 			{
@@ -107,6 +91,22 @@
 			{
 				"suppressOutput": true,
 				"titles": "IIIFlink"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "subjectVocabulary"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "subjectID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "subjectIRI"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "aboutnessType"
 			}
 		]
 	}
