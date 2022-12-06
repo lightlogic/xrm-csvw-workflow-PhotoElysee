@@ -1,0 +1,64 @@
+{
+	"@context": "http://www.w3.org/ns/csvw",
+	"url": "../input/exhibitions_stage.csv",
+	"dialect": {
+		"delimiter": ",",
+		"doubleQuote": true,
+		"encoding": "utf-8",
+		"header": true,
+		"headerRowCount": "1",
+		"lineTerminators": "\r\n",
+		"quoteChar": "\"",
+		"trim": false
+	},
+	"tableSchema": {
+		"aboutUrl": "https://pe.plateforme10.ch/Exhibition/{exhibID}/curator/",
+		"columns": [
+			{
+				"virtual": true,
+				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E21_Person"
+			},
+			{
+				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
+				"titles": "exhibition_curator_statement"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+				"titles": "exhibition_curator_statement"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhibition_UK"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "arkID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhibID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "timeSpan_text"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhibition_start"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhibition_end"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhibition_title"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhibition_organisation"
+			}
+		]
+	}
+}

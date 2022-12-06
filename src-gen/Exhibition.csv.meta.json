@@ -1,0 +1,84 @@
+{
+	"@context": "http://www.w3.org/ns/csvw",
+	"url": "../input/exhibitions_stage.csv",
+	"dialect": {
+		"delimiter": ",",
+		"doubleQuote": true,
+		"encoding": "utf-8",
+		"header": true,
+		"headerRowCount": "1",
+		"lineTerminators": "\r\n",
+		"quoteChar": "\"",
+		"trim": false
+	},
+	"tableSchema": {
+		"aboutUrl": "https://pe.plateforme10.ch/Exhibition/{exhibID}/identifier",
+		"columns": [
+			{
+				"virtual": true,
+				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"
+			},
+			{
+				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
+				"titles": "exhibition_title"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+				"titles": "arkID",
+				"valueUrl": "http://mel.decalog.net/flora_mel/ark:/{arkID}"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+				"titles": "exhibID"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+				"titles": "arkID"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300417531"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+				"titles": "timeSpan_text"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+				"titles": "exhibition_start"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+				"titles": "exhibition_end"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P102_has_title",
+				"titles": "exhibition_title"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+				"titles": "exhibID",
+				"valueUrl": "https://pe.plateforme10.ch/Exhibition/{exhibID}/venue/"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by",
+				"titles": "exhibID",
+				"valueUrl": "https://pe.plateforme10.ch/Exhibition/{exhibID}/curator/"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhibition_UK"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhibition_organisation"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhibition_curator_statement"
+			}
+		]
+	}
+}

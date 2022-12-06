@@ -1208,6 +1208,27 @@
 <https://pe.plateforme10.ch/Event/Production/12345/001267886-1900-01-01T00:00:00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P81b_begin_of_the_end> "1921-12-31T23:59:59Z" .
 <https://pe.plateforme10.ch/Event/Production/12345/001267886-1900-01-01T00:00:00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "1921-12-31T23:59:59Z" .
 <https://pe.plateforme10.ch/Event/Production/12345/001267886-1900-01-01T00:00:00Z/identifier> <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://pe.plateforme10.ch/Creator/Q108933616> .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/curator/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E21_Person> .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/curator/> <http://www.w3.org/2000/01/rdf-schema#label> "Daniel Girardin" .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/curator/> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Daniel Girardin" .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object> .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Sans limite. Photographies de montagne" .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/identifier> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://mel.decalog.net/flora_mel/ark:/12345/001543457> .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/identifier> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "2017-E0011" .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/identifier> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "12345/001543457" .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/identifier> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300417531> .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/identifier> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> "25 janvier 2017 au 30 mars 2017" .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/identifier> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2017-01-25T00:00:00Z" .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/identifier> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2017-04-30T23:59:59Z" .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/identifier> <http://www.cidoc-crm.org/cidoc-crm/P102_has_title> "Sans limite. Photographies de montagne" .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/identifier> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <https://pe.plateforme10.ch/Exhibition/2017-E0011/venue/> .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/identifier> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> <https://pe.plateforme10.ch/Exhibition/2017-E0011/curator/> .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/venue/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/venue/> <http://www.w3.org/2000/01/rdf-schema#label> "Q675261" .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/venue/> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <https://pe.plateforme10.ch/Organization/Q675261/PrimaryName> .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/venue/> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> "Q675261" .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/venue/> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312281> .
+<https://pe.plateforme10.ch/Exhibition/2017-E0011/venue/> <http://schema.org/sameAs> <http://www.wikidata.org/entity/Q675261> .
 <https://pe.plateforme10.ch/Organization/Q675261/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PostalAddress> .
 <https://pe.plateforme10.ch/Organization/Q675261/address> <http://schema.org/streetAddress> "Place de la Gare 17" .
 <https://pe.plateforme10.ch/Organization/Q675261/address> <http://schema.org/postalCode> "1003" .

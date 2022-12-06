@@ -1,0 +1,39 @@
+// ** Exhibition ** //
+  // following Linked Art guidelines
+  // BASELINE PATTERNS: https://linked.art/model/exhibition
+
+output csvw
+
+template ExhibitionIri "https://pe.plateforme10.ch/Exhibition/{0}/identifier"
+
+map Exhibition from Exhibitions {
+// IRI of the production event is based on the Artwork ARKid and the production start time
+	subject template ExhibitionIri with exhibID;
+
+	types
+		crm.E89_Propositional_Object
+
+	properties
+	  //*Exhibitions*//  
+	  // See https://linked.art/model/exhibition
+		rdfs.label from exhibition_title;
+
+      //*IDENTIFIERS*//
+	  // See Linked Art https://linked.art/model/base/#names-and-identifiers-for-a-resource
+        crm.P1_is_identified_by template "http://mel.decalog.net/flora_mel/ark:/{0}" with arkID;	// ARK Id given by Collection Management System FLORA more here https://en.wikipedia.org/wiki/Archival_Resource_Key 
+        crm.P1_is_identified_by from exhibID; // Exhibition identifier (Numéro d'inventaire) as properties of Exhibition makes it easier to display
+		crm.P1_is_identified_by from arkID;	// Ark ID as value makes it easier to display
+
+	  //*TYPES*//
+	  // See Linked Art https://linked.art/model/base/#types-of-types
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300417531"; // [type] exhibition
+
+		crm.P7_took_place_at from timeSpan_text;
+		crm.P82a_begin_of_the_begin from exhibition_start;
+		crm.P82b_end_of_the_end from exhibition_end;
+		crm.P102_has_title from exhibition_title;
+	  // Link to the organisation
+		crm.P7_took_place_at template ExhibitionVenueIri with exhibID;
+	  // Link to the organisation
+		crm.P94i_was_created_by template ExhibitionCuratorIri with exhibID;
+}

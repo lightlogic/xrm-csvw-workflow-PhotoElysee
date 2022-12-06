@@ -71,6 +71,7 @@ vocabulary crm {
 	prefix "crm" "http://www.cidoc-crm.org/cidoc-crm/"
 
 	classes
+        E5_Event
         E12_Production
         E3_condition_state
 		E14_Condition_Assessment
@@ -86,6 +87,7 @@ vocabulary crm {
         E54_Dimension
         E55_Type
         E57_Material
+        E89_Propositional_Object
     
     properties
         P1_is_identified_by
@@ -112,6 +114,7 @@ vocabulary crm {
         P90_has_value
         P91_has_unit
         P94_has_created
+        P94i_was_created_by
         P108i_was_produced_by
         P128i_is_carried_by
         P129_is_about

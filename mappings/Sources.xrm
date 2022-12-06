@@ -165,3 +165,29 @@ logical-source VisualItems {
         // can be either subject or place
         // used in the visualItemIRI in order to qualify it as conceptual or geographic
 }
+
+logical-source Exhibitions {
+    type csv
+    source "../input/exhibitions_stage.csv"
+    dialect CommaPE
+    
+    referenceables
+    exhibition_UK
+        // INTEGER scope only inside input csv ex. 23, 192, 1921
+    arkID
+        // ARK ID set by Collection Management System Flora when creating a new Exhibition entry ex. 12345/002386976
+    exhibID
+        // Exhibition Number (code d'exposition) as it appears in collection management system
+    timeSpan_text
+        // STRING date of exhibition textual statement
+    exhibition_start
+        // DATE ISO datetime value of the start of production time interval. If year: 1903-01-01T00:00:00Z, if month: 1903-05-01T00:00:00Z, if day: 1903-07-19T00:00:00Z
+    exhibition_end
+        // DATE ISO datetime value of the end of production time interval. If year: 1903-12-31T23:59:59Z, if month: 1903-05-01T23:59:59Z, if day: 1903-07-19T23:59:59Z
+    exhibition_title
+        // TITLE
+    exhibition_organisation
+        // Wikidata Q id serving as foreign key to exhibiting organization file entry
+    exhibition_curator_statement
+        // String of the curator name
+}
