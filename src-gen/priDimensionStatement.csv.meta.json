@@ -1,6 +1,6 @@
 {
 	"@context": "http://www.w3.org/ns/csvw",
-	"url": "../input/artworks_MASTER.csv",
+	"url": "../input/artworks_stage.csv",
 	"dialect": {
 		"delimiter": ",",
 		"doubleQuote": true,
@@ -12,26 +12,30 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Type",
+		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Prism/Dimension/Text",
 		"columns": [
 			{
 				"virtual": true,
 				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"titles": "art_typeAAT_label"
+				"titles": "dimensions_pri_statement"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
+				"titles": "dimensions_pri_statement"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
 				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300435443"
+				"valueUrl": "http://vocab.getty.edu/aat/300411780"
 			},
 			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
-				"lang": "en",
-				"titles": "art_typeAAT_label"
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300418049"
 			},
 			{
 				"suppressOutput": true,
@@ -48,6 +52,10 @@
 			{
 				"suppressOutput": true,
 				"titles": "art_typeAAT"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "art_typeAAT_label"
 			},
 			{
 				"suppressOutput": true,
@@ -104,10 +112,6 @@
 			{
 				"suppressOutput": true,
 				"titles": "dimensions_obj_thick_max"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "dimensions_pri_statement"
 			},
 			{
 				"suppressOutput": true,

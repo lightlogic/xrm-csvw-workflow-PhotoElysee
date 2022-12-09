@@ -12,30 +12,21 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualContent/Description",
+		"aboutUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/VisualItem/{aboutnessType}/{subjectVocabulary}{subjectID}",
 		"columns": [
 			{
 				"virtual": true,
 				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E55_Type"
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"titles": "descr_textuelle"
+				"lang": "fr",
+				"titles": "subjectLabel"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300411780"
-			},
-			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-				"virtual": true,
-				"valueUrl": "http://vocab.getty.edu/aat/300418049"
-			},
-			{
-				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
-				"titles": "descr_textuelle"
+				"titles": "subjectIRI"
 			},
 			{
 				"suppressOutput": true,
@@ -44,6 +35,10 @@
 			{
 				"suppressOutput": true,
 				"titles": "arkID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "descr_textuelle"
 			},
 			{
 				"suppressOutput": true,
@@ -63,19 +58,11 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "subjectLabel"
-			},
-			{
-				"suppressOutput": true,
 				"titles": "subjectVocabulary"
 			},
 			{
 				"suppressOutput": true,
 				"titles": "subjectID"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "subjectIRI"
 			},
 			{
 				"suppressOutput": true,

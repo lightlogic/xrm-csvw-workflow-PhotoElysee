@@ -17,7 +17,7 @@
 			{
 				"virtual": true,
 				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-				"valueUrl": "http://schema.org/Organization"
+				"valueUrl": "https://www.ica.org/standards/RiC/ontology#CorporateBody"
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
@@ -39,6 +39,11 @@
 			},
 			{
 				"propertyUrl": "http://schema.org/sameAs",
+				"titles": "WikidataID",
+				"valueUrl": "http://www.wikidata.org/entity/{WikidataID}"
+			},
+			{
+				"propertyUrl": "https://www.ica.org/standards/RiC/ontology#isOrWasDescribedBy",
 				"titles": "WikidataID",
 				"valueUrl": "http://www.wikidata.org/entity/{WikidataID}"
 			},

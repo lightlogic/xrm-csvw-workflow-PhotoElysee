@@ -1,6 +1,6 @@
 {
 	"@context": "http://www.w3.org/ns/csvw",
-	"url": "../input/visualitems_stage.csv",
+	"url": "../input/exhibitions_stage.csv",
 	"dialect": {
 		"delimiter": ",",
 		"doubleQuote": true,
@@ -12,20 +12,24 @@
 		"trim": false
 	},
 	"tableSchema": {
-		"aboutUrl": "{IIIFmanifest}",
+		"aboutUrl": "https://pe.plateforme10.ch/Exhibition/{exhibID}/curator/",
 		"columns": [
 			{
 				"virtual": true,
 				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-				"valueUrl": "http://schema.org/DigitalDocument"
+				"valueUrl": "http://www.cidoc-crm.org/cidoc-crm/E21_Person"
+			},
+			{
+				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
+				"titles": "exhibition_curator_statement"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-				"titles": "IIIFmanifest"
+				"titles": "exhibition_curator_statement"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "inscription_UK"
+				"titles": "exhibition_UK"
 			},
 			{
 				"suppressOutput": true,
@@ -33,39 +37,27 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "descr_textuelle"
+				"titles": "exhibID"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "orientation_descr"
+				"titles": "timeSpan_text"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "orientation_typeAAT"
+				"titles": "exhibition_start"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "IIIFlink"
+				"titles": "exhibition_end"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "subjectLabel"
+				"titles": "exhibition_title"
 			},
 			{
 				"suppressOutput": true,
-				"titles": "subjectVocabulary"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "subjectID"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "subjectIRI"
-			},
-			{
-				"suppressOutput": true,
-				"titles": "aboutnessType"
+				"titles": "exhibition_organisation"
 			}
 		]
 	}

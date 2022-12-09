@@ -1,0 +1,79 @@
+{
+	"@context": "http://www.w3.org/ns/csvw",
+	"url": "../input/exhibitions_stage.csv",
+	"dialect": {
+		"delimiter": ",",
+		"doubleQuote": true,
+		"encoding": "utf-8",
+		"header": true,
+		"headerRowCount": "1",
+		"lineTerminators": "\r\n",
+		"quoteChar": "\"",
+		"trim": false
+	},
+	"tableSchema": {
+		"aboutUrl": "https://pe.plateforme10.ch/Exhibition/{exhibID}/venue/",
+		"columns": [
+			{
+				"virtual": true,
+				"propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+				"valueUrl": "http://schema.org/Organization"
+			},
+			{
+				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
+				"titles": "exhibition_organisation"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+				"titles": "exhibition_organisation",
+				"valueUrl": "https://pe.plateforme10.ch/Organization/{exhibition_organisation}/PrimaryName"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+				"titles": "exhibition_organisation"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+				"virtual": true,
+				"valueUrl": "http://vocab.getty.edu/aat/300312281"
+			},
+			{
+				"propertyUrl": "http://schema.org/sameAs",
+				"titles": "exhibition_organisation",
+				"valueUrl": "http://www.wikidata.org/entity/{exhibition_organisation}"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhibition_UK"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "arkID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhibID"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "timeSpan_text"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhibition_start"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhibition_end"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhibition_title"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhibition_curator_statement"
+			}
+		]
+	}
+}

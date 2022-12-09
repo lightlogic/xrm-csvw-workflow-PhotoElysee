@@ -1,0 +1,18 @@
+// ** Exhibition Curator ** //
+
+output csvw
+
+template ExhibitionCuratorIri "https://pe.plateforme10.ch/Exhibition/{0}/curator/"
+
+map Curator from Exhibitions {
+	subject template ExhibitionCuratorIri with exhibID;
+
+	types
+	crm.E21_Person
+
+	properties
+	  //*LABEL*//
+	  // See https://linked.art/model/base/#core-properties
+		rdfs.label from exhibition_curator_statement;	// type label for documentation purpose
+		crm.P1_is_identified_by from exhibition_curator_statement;
+}

@@ -34,13 +34,15 @@ map Artwork from Artworks {
 		crm.P2_has_type template gettyArtArchThesIri with art_typeAAT;
 		crm.P2_has_type constant "http://vocab.getty.edu/aat/300133025"; // [type] works of art
 
-      
 	  //*TITLE*//  
 		crm.P190_has_symbolic_content template art_TitleIri with arkID titreType_label;
 	  
 	  //*EVENT*//
 	  //*The PRODUCTION EVENT is the link between Artwork and Creator(s)*//
 		crm.P108i_was_produced_by template artEventIri with arkID event_prod_start;
+
+	  //*One or more EXHIBITION EVENTS are the link between Artwork and Exhibitions*//
+	  	crm.P16_was_used_for template ExhibitionIri with exhib_UK;
 	  
 	  //*institution owning Artwork*//
 	  // Link to Organization
@@ -74,6 +76,5 @@ map Artwork from Artworks {
 		crm.P43_has_dimension template art_ThicknessMaxIri with arkID;
 		// Object dimension minimum thickness
 		crm.P43_has_dimension template art_ThicknessMinIri with arkID;
-
 }
 		

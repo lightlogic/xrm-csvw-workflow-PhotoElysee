@@ -6,7 +6,7 @@ output csvw
 
 template art_DigitalSurrogateManifestIri "{0}"
 
-map SurrogateManifest from VisualContents {
+map SurrogateManifest from VisualItems {
 	subject template art_DigitalSurrogateManifestIri with IIIFmanifest;
 
 	types

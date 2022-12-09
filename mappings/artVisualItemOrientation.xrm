@@ -6,7 +6,7 @@ output csvw
 
 template art_VisualItemOrientationIri "https://pe.plateforme10.ch/Artwork/{0}/VisualContent/Orientation"
 
-map Orientation from VisualContents {
+map Orientation from VisualItems {
 	subject template art_VisualItemOrientationIri with arkID;
 
 	types

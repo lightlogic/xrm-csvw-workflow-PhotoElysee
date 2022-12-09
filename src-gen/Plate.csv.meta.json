@@ -40,6 +40,26 @@
 				"valueUrl": "http://vocab.getty.edu/aat/300010797"
 			},
 			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Plate/Dimension/Text"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Plate/Height"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Plate/Width"
+			},
+			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension",
+				"titles": "arkID",
+				"valueUrl": "https://pe.plateforme10.ch/Artwork/{arkID}/Thickness"
+			},
+			{
 				"suppressOutput": true,
 				"titles": "art_UK"
 			},
@@ -117,7 +137,35 @@
 			},
 			{
 				"suppressOutput": true,
+				"titles": "dimensions_pri_statement"
+			},
+			{
+				"suppressOutput": true,
 				"titles": "dimensions_pri_slope"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_pla_statement"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_pla_height"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_pla_width"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "dimensions_pla_thick"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "RapportHPrismeLH"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhib_UK"
 			}
 		]
 	}
