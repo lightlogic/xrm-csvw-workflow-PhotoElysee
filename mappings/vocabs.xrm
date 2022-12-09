@@ -128,7 +128,7 @@ vocabulary rico {
 	prefix "rico" "https://www.ica.org/standards/RiC/ontology/"
 
 	classes
-        CorporateBody
+        CorporateBody "Corporate Body"
         Event
         Place
 
