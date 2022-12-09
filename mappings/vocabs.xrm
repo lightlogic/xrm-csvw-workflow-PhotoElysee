@@ -123,6 +123,19 @@ vocabulary crm {
         P138_represents
 }
 
+vocabulary rico {
+
+	prefix "rico" "https://www.ica.org/standards/RiC/ontology/"
+
+	classes
+        CorporateBody
+        Event
+        Place
+
+    properties
+        isOrWasDescribedBy
+}
+
 language-tags {
 	en
 	fr
