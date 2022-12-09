@@ -4,7 +4,7 @@
 
 output csvw
 
-template ExhibitionIri "https://pe.plateforme10.ch/Exhibition/{0}/identifier"
+template ExhibitionIri "https://pe.plateforme10.ch/Exhibition/{0}"
 
 map Exhibition from Exhibitions {
 // IRI of the production event is based on the Artwork ARKid and the production start time
@@ -20,9 +20,7 @@ map Exhibition from Exhibitions {
 
       //*IDENTIFIERS*//
 	  // See Linked Art https://linked.art/model/base/#names-and-identifiers-for-a-resource
-        crm.P1_is_identified_by template "http://mel.decalog.net/flora_mel/ark:/{0}" with arkID;	// ARK Id given by Collection Management System FLORA more here https://en.wikipedia.org/wiki/Archival_Resource_Key 
         crm.P1_is_identified_by from exhibID; // Exhibition identifier (Numéro d'inventaire) as properties of Exhibition makes it easier to display
-		crm.P1_is_identified_by from arkID;	// Ark ID as value makes it easier to display
 
 	  //*TYPES*//
 	  // See Linked Art https://linked.art/model/base/#types-of-types

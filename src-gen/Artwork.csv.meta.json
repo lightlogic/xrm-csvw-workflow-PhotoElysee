@@ -77,6 +77,11 @@
 				"valueUrl": "https://pe.plateforme10.ch/Event/Production/{arkID}-{event_prod_start}/identifier"
 			},
 			{
+				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P16_was_used_for",
+				"titles": "exhib_UK",
+				"valueUrl": "https://pe.plateforme10.ch/Exhibition/{exhib_UK}"
+			},
+			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P52_has_current_owner",
 				"titles": "owner_instit_identif",
 				"valueUrl": "https://pe.plateforme10.ch/Organization/{owner_instit_identif}"
@@ -223,6 +228,14 @@
 			{
 				"suppressOutput": true,
 				"titles": "dimensions_pla_thick"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "RapportHPrismeLH"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhib_UK"
 			}
 		]
 	}

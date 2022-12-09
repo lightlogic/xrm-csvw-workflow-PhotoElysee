@@ -95,6 +95,7 @@ vocabulary crm {
         P4_has_time_span "P4_has_time-span"
         P7_took_place_at
         P14_carried_out_by
+        P16_was_used_for
         P102_has_title
         P34_concerned
         P35_has_identified
@@ -125,10 +126,10 @@ vocabulary crm {
 
 vocabulary rico {
 
-	prefix "rico" "https://www.ica.org/standards/RiC/ontology/"
+	prefix "rico" "https://www.ica.org/standards/RiC/ontology#"
 
 	classes
-        CorporateBody "Corporate Body"
+        CorporateBody
         Event
         Place
 

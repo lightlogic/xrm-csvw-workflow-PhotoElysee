@@ -132,6 +132,14 @@
 			{
 				"suppressOutput": true,
 				"titles": "dimensions_pla_thick"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "RapportHPrismeLH"
+			},
+			{
+				"suppressOutput": true,
+				"titles": "exhib_UK"
 			}
 		]
 	}

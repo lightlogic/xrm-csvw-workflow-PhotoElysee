@@ -10,7 +10,6 @@ map Curator from Exhibitions {
 	types
 	crm.E21_Person
 
-
 	properties
 	  //*LABEL*//
 	  // See https://linked.art/model/base/#core-properties

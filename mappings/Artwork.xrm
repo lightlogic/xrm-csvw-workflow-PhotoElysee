@@ -40,6 +40,9 @@ map Artwork from Artworks {
 	  //*EVENT*//
 	  //*The PRODUCTION EVENT is the link between Artwork and Creator(s)*//
 		crm.P108i_was_produced_by template artEventIri with arkID event_prod_start;
+
+	  //*One or more EXHIBITION EVENTS are the link between Artwork and Exhibitions*//
+	  	crm.P16_was_used_for template ExhibitionIri with exhib_UK;
 	  
 	  //*institution owning Artwork*//
 	  // Link to Organization

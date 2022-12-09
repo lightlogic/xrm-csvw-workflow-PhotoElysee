@@ -38,7 +38,7 @@
 				"valueUrl": "https://fr.wikipedia.org/wiki/{WikipediaName}"
 			},
 			{
-				"propertyUrl": "https://www.ica.org/standards/RiC/ontology/isOrWasDescribedBy",
+				"propertyUrl": "https://www.ica.org/standards/RiC/ontology#isOrWasDescribedBy",
 				"titles": "creatorQ",
 				"valueUrl": "http://www.wikidata.org/entity/{creatorQ}"
 			},

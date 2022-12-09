@@ -108,6 +108,10 @@ logical-source Artworks {
         // PLATE DIMENSION in mm of the width (max value)
     dimensions_pla_thick
         // PLATE DIMENSION in mm of the thinckness of the plate (max value)
+    RapportHPrismeLH // computation value only
+        // Computation value used to calculate the slope of the prisme (not to be published in LD)
+    exhib_UK
+        // UK of one exhibition for which the artwork was used
 }
 
 logical-source Inscriptions {
@@ -174,6 +178,8 @@ logical-source Exhibitions {
     referenceables
     exhibition_UK
         // INTEGER scope only inside input csv ex. 23, 192, 1921
+        // TODO:Flora does not assign arkID to events. Which make sense. We need another UK as the arkID.
+        // We need to be sure that every Exhibition has the correct ID in field exhibID below.
     arkID
         // ARK ID set by Collection Management System Flora when creating a new Exhibition entry ex. 12345/002386976
     exhibID
