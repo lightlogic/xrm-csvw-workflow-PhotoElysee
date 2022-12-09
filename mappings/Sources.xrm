@@ -11,7 +11,7 @@ dialect CommaPE {
 
 logical-source Creators {
     type csv
-    source "../input/creators_stage.csv"
+    source "../input/creators_MASTER.csv"
     dialect CommaPE
 
     referenceables
@@ -31,7 +31,7 @@ logical-source Creators {
 
 logical-source Organizations {
     type csv
-    source "../input/organizations_stage.csv"
+    source "../input/organizations_MASTER.csv"
     dialect CommaPE
 
     referenceables
@@ -54,7 +54,7 @@ logical-source Organizations {
 
 logical-source Artworks {
     type csv
-    source "../input/artworks_stage.csv"
+    source "../input/artworks_MASTER.csv"
     dialect CommaPE
 
     referenceables
@@ -116,7 +116,7 @@ logical-source Artworks {
 
 logical-source Inscriptions {
     type csv
-    source "../input/inscriptions_stage.csv"
+    source "../input/inscriptions_MASTER.csv"
     dialect CommaPE
     
     referenceables
