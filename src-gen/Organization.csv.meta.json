@@ -43,11 +43,6 @@
 				"valueUrl": "http://www.wikidata.org/entity/{WikidataID}"
 			},
 			{
-				"propertyUrl": "https://www.ica.org/standards/RiC/ontology#isOrWasDescribedBy",
-				"titles": "WikidataID",
-				"valueUrl": "http://www.wikidata.org/entity/{WikidataID}"
-			},
-			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
 				"titles": "WikipediaName",
 				"valueUrl": "https://fr.wikipedia.org/wiki/{WikipediaName}"

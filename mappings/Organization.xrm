@@ -16,7 +16,6 @@ map Organization from Organizations {
 		crm.P1_is_identified_by from WikidataID;
         crm.P2_has_type constant "http://vocab.getty.edu/aat/300312281"; // [type] museums (institutions) 
 		schema.sameAs template "http://www.wikidata.org/entity/{0}" with WikidataID; 
-		rico.isOrWasDescribedBy template "http://www.wikidata.org/entity/{0}" with WikidataID;
 		rdfs.seeAlso template "https://fr.wikipedia.org/wiki/{0}" with WikipediaName;
 		schema.address template org_AddressIri with WikidataID;
 }
