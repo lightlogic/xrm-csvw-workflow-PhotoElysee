@@ -142,7 +142,7 @@ logical-source VisualItems {
         // INTEGER scope only inside input csv ex. 23, 192, 1921
     arkID
         // ARK ID set by Collection Management System Flora when creating a new Artwork entry ex. 12345/002386976
-    descr_textuelle
+    descrTextuelle
         // order in which the inscriptions are listed. Current number starting from 1 for all artwork
     orientation_descr
         // Description of the orientation of the visual item. Can be either "Paysage", "Portrait" ou "Carré"
