@@ -15,5 +15,6 @@ map Type from Artworks {
 	properties
 		rdfs.label from art_typeAAT_label;	// label of AAT type of work
 		crm.P2_has_type constant "http://vocab.getty.edu/aat/300435443"; // [type] object/work type
+		crm.P2_has_type constant "http://vocab.getty.edu/aat/300133464"; // Lippmann process
 		crm.P190_has_symbolic_content from art_typeAAT_label with language-tag en;
 }
