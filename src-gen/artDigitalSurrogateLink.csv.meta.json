@@ -1,7 +1,6 @@
 {
 	"@context": "http://www.w3.org/ns/csvw",
-
-	"url": "../input/visualitems_stage.csv"
+	"url": "../input/visualitems_stage.csv",
 	"dialect": {
 		"delimiter": ",",
 		"doubleQuote": true,
@@ -34,7 +33,7 @@
 			},
 			{
 				"suppressOutput": true,
-				"titles": "descr_textuelle"
+				"titles": "descrTextuelle"
 			},
 			{
 				"suppressOutput": true,

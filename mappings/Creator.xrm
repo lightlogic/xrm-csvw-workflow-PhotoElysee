@@ -16,7 +16,6 @@ map Creator from Creators {
 		crm.P1_is_identified_by from creatorQ;
 		schema.sameAs template "http://www.wikidata.org/entity/{0}" with creatorQ; 
 		rdfs.seeAlso template "https://fr.wikipedia.org/wiki/{0}" with WikipediaName;
-		rico.isOrWasDescribedBy template "http://www.wikidata.org/entity/{0}" with creatorQ;
         schema.givenName from givenName;
         schema.familyName from LastName;
         schema.birthDate from birthDate;

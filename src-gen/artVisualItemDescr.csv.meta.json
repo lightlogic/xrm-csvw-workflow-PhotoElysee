@@ -21,7 +21,7 @@
 			},
 			{
 				"propertyUrl": "http://www.w3.org/2000/01/rdf-schema#label",
-				"titles": "descr_textuelle"
+				"titles": "descrTextuelle"
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
@@ -35,7 +35,7 @@
 			},
 			{
 				"propertyUrl": "http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content",
-				"titles": "descr_textuelle"
+				"titles": "descrTextuelle"
 			},
 			{
 				"suppressOutput": true,
