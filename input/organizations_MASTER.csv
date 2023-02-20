@@ -1,3 +1,4 @@
-"institution_identifier","WikidataID","WikipediaName","primaryName","institutionName_fr","addrStreet","addrZIP","addrCity","addrCountry_fr"
-"11","Q675261","Photo_Elysée","Photo Elysée, Plateforme 10","Photo Elysée","Place de la Gare 17","1003","Lausanne","Suisse"
-"16","Q41497113","Sorbonne_Université","Sorbonne Université","Sorbonne Université","21, Rue de l'école de médecine","75006","Paris","France"
+institution_identifier,WikidataID,WikipediaName,primaryName,institutionName_fr,addrStreet,addrZIP,addrCity,addrCountry_fr
+11,Q675261,Photo_Elysée,"Photo Elysée, Plateforme 10",Photo Elysée,Place de la Gare 17,1003,Lausanne,Suisse
+16,Q41497113,Sorbonne_Université,Sorbonne Université,Sorbonne Université,"21, Rue de l'école de médecine",75006,Paris,France
+18,Q1507284,George_Eastman_Museum,George Eastman Museum,George Eastman House,"900, East Avenue",NY 14607,Rochester,États-Unis
