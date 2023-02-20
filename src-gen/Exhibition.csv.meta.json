@@ -1,6 +1,6 @@
 {
 	"@context": "http://www.w3.org/ns/csvw",
-	"url": "../input/exhibitions_stage.csv",
+	"url": "../input/exhibitions_MASTER.csv",
 	"dialect": {
 		"delimiter": ",",
 		"doubleQuote": true,

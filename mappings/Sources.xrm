@@ -134,7 +134,7 @@ logical-source Inscriptions {
 
 logical-source VisualItems {
     type csv
-    source "../input/visualitems_stage.csv"
+    source "../input/visualitems_MASTER.csv"
     dialect CommaPE
     
     referenceables
@@ -172,7 +172,7 @@ logical-source VisualItems {
 
 logical-source Exhibitions {
     type csv
-    source "../input/exhibitions_stage.csv"
+    source "../input/exhibitions_MASTER.csv"
     dialect CommaPE
     
     referenceables
