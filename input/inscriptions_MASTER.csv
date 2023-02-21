@@ -1,10 +1,29 @@
-"inscription_UK","arkID","insc_order","carrying_part","inscr_text"
-"1","22918/002190775","1","Back","LIPPMANN 94/278/9079"
-"2","22918/002190785","1","Back","LIPPMANN 90/278/9089"
-"3","22918/002191645","1","Sides","Lippmann 90/278/9986"
-"4","22918/002191645","2","Sides","A Mont Cervin Fontainebleau"
-"5","22918/002190780","1","Back","Farben Lippmann's Verfahren von Dr. R. Neuhauss Berlin W[exposant souligné]62 1899."
-"6","22918/002190780","2","Sides","Neuhauss 90/278/009084"
-"7","15053/000000008","1","Sides","dépôt 07.07.88 n°3"
-"8","22918/002190780","1","Sides","A Clarens"
-"9","22918/002190780","2","Sides","Lippmann 91/278/9955"
+inscription_UK,arkID,insc_order,carrying_part,inscr_text
+1,132694857,1,Back,"""Etiquette octogonale blanche avec lignes bleues autour, inscription manuscrite à l'encre noire """"1900 à ?  son dévoué collègue Gabriel Lippmann""""; étiquette Museum of Modern Art avec numéro manuscrit caché; étiquette avec numéro 7 imprimé et 44.40 manuscrit au crayon.; étiquette avec numéro d'inventaire GEM 81:3016:1"""
+2,15053/000000001,1,Front,40682n°1
+3,15053/000000002,1,Front,02
+4,15053/000000003,1,Sides,406823
+5,15053/000000003,2,Back,1 ; 02/02/07
+6,15053/000000004,1,Front,"«château», «arc»"
+7,15053/000000005,1,Back,«Arcades»
+8,15053/000000006,1,Front,«Ecluse à Moret (Sne et Marne)»
+9,15053/000000007,1,Front,"«07», «88/6710»"
+10,15053/000000008,1,Sides,dépôt 07.07.88 n°3
+11,15053/000000008,1,Front,«dépôt 07.07.88 n°3»
+12,15053/000000009,1,Front,«château + personnage»
+13,15053/000000010,1,Front,«puits de l’abbaye de Talloire près Annecy»
+14,22918/002190123,1,Sides,LIPPMANN 31/278/10014
+15,22918/002190378,1,Back,2 [encerclé] Pivoines 13 Mai - 97 - soleil. 10H
+16,22918/002190378,2,Sides,LIPPMANN 91/278/9903
+17,22918/002190775,1,Back,LIPPMANN 94/278/9079
+18,22918/002190780,1,Back,Farben Lippmann's Verfahren von Dr. R. Neuhauss Berlin W[exposant souligné]62 1899.
+19,22918/002190780,2,Sides,Neuhauss 90/278/009084
+20,22918/002190785,1,Back,LIPPMANN 90/278/9089
+21,22918/002191614,1,Sides,A Clarens
+22,22918/002191614,2,Sides,Lippmann 91/278/9955
+23,22918/002191645,1,Sides,Lippmann 90/278/9986
+24,22918/002191645,2,Sides,A Mont Cervin Fontainebleau
+25,22918/002193978,1,Sides,LIPPMANN 31/278/9907
+26,22918/002194630,1,Sides,LIPPMANN 90/278/9087
+27,22918/002195769,1,Sides,Venise X
+28,22918/002195769,2,Sides,LIPPMANN 94/278/10004
